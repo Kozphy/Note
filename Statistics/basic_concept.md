@@ -34,11 +34,15 @@ This would be a sample of the population, `The more people I get the more indica
 ### formula of pupulation mean and sample mean 
 In statistics speak, the `pupulation mean` is 🟥 $\mu$
 $$
+\begin{equation}
 	\mu = \frac{\sum\limits_{i=1}^N x_i}{N}
+\end{equation}
 $$ 
 ,and 🟥 "$\bar{x}$" is equal to `sample mean` = 
 $$
+\begin{equation}
 	\frac{\sum\limits_{i=1}^n x_i}{n}
+\end{equation}
 $$.
 
 > Note that:\
@@ -46,8 +50,19 @@ In formula, big "N" is used in poluation mean, and small "n" is used in sample m
 
 ## Dispersion
 ### population dataset
-1. [2,2,3,3]
-2. [0,0,5,5]
+#### frist dataset
+$$
+\begin{array}{cc}
+	2 & 2 & 3 & 3	
+\end{array}
+$$
+#### second dataset
+$$
+\begin{array}{cc}
+	0 & 0 & 5 & 5
+\end{array}
+$$
+
 ### $\mu$ of dataset
 1. (2+2+3+3)/4 = 2.5
 2. (0+0+5+5)/4 = 2.5
@@ -60,7 +75,9 @@ You can view them that're more `dispersed`, It's not quite as indicative of all 
 ###  population variance formula
 In this case, You can measure that with a `variance` which is 🟥 $\sigma^2$ in math notation, formula is 
 $$
+\begin{equation}
 	\frac{\sum\limits_{i=1}^N (x_i-\mu)^2}{N}
+\end{equation}
 $$, because of you square it which become a `positive number`.
 
 ### $\sigma$ of dataset
@@ -79,25 +96,70 @@ Figuring out descriptive statistics about the sample, and making inferences abou
 ### 👉 inferential notion
 `Let's me try this drug on 100 people, and if it seems to have statistically significant results, this drug will probably work on the population as a whole.`
 
-### sample variance formula
+### sample variance formula (bias)
 So your natural reaction is, Ok, I have this sample, if I want to estimate the variance of the population, why don't I just apply this same formula?
 
-So I could say this $S^2$ is `sample variance` which formula is: 
+So I could say this $s^2$ is `sample variance` which formula is: 
 $$
+\begin{equation}
 	s_n^2 = \frac{\sum\limits_{i=1}^n(x_i-\bar{x})^2}{n}
+\end{equation}
 $$
-
 
 
 > Note bias_variance:
-> when you take a sample, there has some chance that your sample mean is pretty close to the population mean, but there's a reasonable chance that your sample mean is always outside of your population mean. 
+> when you take a sample, there has some chance that your sample mean is pretty close to the population mean, but there's a reasonable chance that your population mean is always outside of your sample mean. 
 > In other word, your sample variance has chance to underestimate or overestimate, but more often than underestimating.
 
 
+#### intuitive bias variance
+Each dot is data all of which represent population dataset more on the right side more larger, you may get all data of sample on the left side or right side of population data. 
+
+As a result you will get bias sample variance. 
+
 ![bias_variance](./bias_variance.drawio.svg)
 
+### unbiased sample variance
+Because sample variance often be underestimated, we usually substract 1 in denominator to get bigger result , using unbiased sample variance instead.
+
+$$
+\begin{equation}
+	s_{n-1}^2 = \frac{\sum\limits_{i=1}^n({x_i}-\bar{x})^2}{n-1}
+\end{equation}
+$$
+
+## conclude and standerd deviation
+|         Concept         |                       Population                        |                             Sample                             |
+| :---------------------: | :-----------------------------------------------------: | :------------------------------------------------------------: |
+|          mean           |       $\mu = \frac{\sum\limits_{i=1}^N{x_i}}{N}$        |         $\bar{x} = \frac{\sum\limits_{i=1}^n{x_i}}{n}$         |
+|        variance         | $\sigma^2 = \frac{\sum\limits_{i=1}^N({x_i}-\mu)^2}{N}$ | $s_{n-1}^2 = \frac{\sum\limits_{i=1}^n({x_i}-\bar{x})^2}{n-1}$ |
+| standerd deviation (SD) |               $\sigma = \sqrt{\sigma^2}$                |                  $s_{n-1} = \sqrt{s_{n-1}^2}$                  |
+
+### why even talk about the standerd deviation?
+- the units work out a little better. 
+  - If let's say all of our data points, we're measured in meters. if we are taking a bunch of measurements of length, than `the units of the variance would be meter squared`, right? And that's kind of a strange concept if you say the average dispersion from the center has been meter squared. 
+  - So well, first when you take the square root of it, getting `SD` then, saying the standard deviation is x or y meters.
+
+### standerd deviation caculate
+#### dataset
+$$
+\begin{array}{cc}
+	1 & 2 & 3 & 8 & 7
+\end{array}
+$$
+
+#### calculation process
+##### if it is population
+$\mu = \frac{21}{5} = 4.2$
+$\sigma^2 = \frac{\sum\limits_{i=1}^{N}({(1-\mu)^2 \dotsc (7-\mu)^2)}}{5} = 7.76 $
+$\sigma = \sqrt{7.76} = 2.79$
+##### if it is sample
+$\bar{x} = \frac{21}{5} = 4.2$
+$s^2 = \frac{\sum\limits_{i=1}^{n}({(1-\bar{x})^2 \dotsc (7-\bar{x})^2)}}{4} = 9.7$
+$s = \sqrt{9.7}=3.11$
 
 -----
+
 ## Experiment preview code chunk with Markdown Preview Enhanced or vscode-markdown-run-snippet
 
 ```python {cmd=true}

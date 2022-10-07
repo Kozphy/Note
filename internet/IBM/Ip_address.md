@@ -1,9 +1,9 @@
 [source](https://www.ibm.com/docs/en/cics-ts/6.1?topic=concepts-ip-addresses)
 
 # IP addresses
-Each server or client on a TCP/IP internet is identified by a numeric IP (Internet Protocol) address. The two types of IP address are the `IPv4` (IP version 4) address and the `IPv6` (IP version 6) address.
+`Each server or client on a TCP/IP internet is identified by a numeric IP (Internet Protocol) address`. The two types of IP address are the `IPv4` (IP version 4) address and the `IPv6` (IP version 6) address.
 
-# IPV6 addresses
+## IPV6 addresses
 ```
 IP address in hexadecimal notation :   '000100220333444400000000abc0def0'x
 Halfword 0:  0001 hexadecimal
@@ -36,7 +36,7 @@ The address consists of eight halfword fields. `Zeros are treated in the followi
 
 The `:: substitution is used once only in an address`, to avoid confusion in calculating how many fields were substituted.
 
-# IPV4
+## IPV4
 IPv4 addresses are 32-bit addresses, usually expressed in dotted `decimal` notation:
 ```
 IP address in hexadecimal notation :   '817EB263'x

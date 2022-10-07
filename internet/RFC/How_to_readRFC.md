@@ -1,6 +1,7 @@
 # [source](https://www.ietf.org/blog/how-read-rfc/)
-
-# Where to start?
+# How to read RFC
+> Last updated: 2022/10/7
+## Where to start?
 you can use following tool to search or read RFC:
 - [tools.ietf.org](https://authors.ietf.org/)
 - [rfc.fyi](https://rfc.fyi/): put together to allow searching RFCs by their titles and keywords, and exploration by tags.
@@ -8,7 +9,7 @@ you can use following tool to search or read RFC:
 - [greenbytes](https://greenbytes.de/tech/webdav/): keeps a list of WebDAV-related RFCs
 - [HTTP working Group](https://httpwg.org/specs/): maintains a selection of those related to HTTP.
 
-# What kind of RFC is it?
+## What kind of RFC is it?
 ![kind of rfc](./kind_of_rfc.drawio.svg)
 
 At the top left, this one says “Internet Engineering Task Force (IETF)”. That indicates that this is a product of the IETF.
@@ -19,7 +20,7 @@ Under that is the `“Request for Comments” number`. `If it says “Internet-D
 
 `Category` is one of “Standards Track”, “Informational”, “Experimental”, or “Best Current Practice”. The distinctions between these are sometimes fuzzy, but if it’s produced by the IETF (see above), it’s had a reasonable amount of review. However, `note that Informational and Experimental are not standards`, even if there’s IETF consensus to publish.
 
-# Is it current?
+## Is it current?
 RFCs are an archival series of documents; they can’t change.
 
 As a result, `it’s important to know that you’re looking at the right document`. The header contains a couple of bits of metadata that help here:
@@ -36,4 +37,15 @@ Even the most current RFC often has issues. `In the tools banner, you’ll also 
 
 **Errata** are corrections and clarifications to the document `that aren’t worthy of publishing a new RFC`. Sometimes they can have a substantial impact on how the RFC is implemented (for example, if a bug in the spec led to a significant misinterpretation), so they’re worth going through.
 
-# Understanding context
+## Understanding context
+`It’s more common than you might think for a developer to look at a statement in an RFC, implement what they see, and do the opposite of what the authors intended.`
+
+This is because `it’s extremely difficult to write a specification in a manner that can’t be misinterpreted when reading it selectively` (as is the case with any holy text).
+
+As a result, it’s necessary to read not only the directly relevant text but also (at a minimum) anything that it references, whether that’s in the same spec or a different one. In a pinch, `reading any potentially related sections will help immensely, if you can’t read the whole document`.
+
+For example, `HTTP message headers` are [defined](https://httpwg.org/specs/rfc7230.html#http.message) to `be separated by CRLF`, but if you skip down [here](https://httpwg.org/specs/rfc7230.html#message.robustness), `you’ll see that “a recipient MAY recognize a single LF as a line terminator and ignore any preceding CR.”` Obvious, right?
+
+It’s also important to `keep in mind` that `many protocols set up` [IANA registries](https://www.iana.org/protocols) to `manage their extension points`; these, not the specifications, are the [sources of truth](https://en.wikipedia.org/wiki/Single_source_of_truth). For example, the canonical list of HTTP methods is in [this registry](https://www.iana.org/assignments/http-methods/http-methods.xhtml), not any of the HTTP specifications.
+
+## Interpreting requirements
