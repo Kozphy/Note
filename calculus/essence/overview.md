@@ -26,9 +26,11 @@ $$
 $$
 
 You try to figure out its area, and after going through a lot, may be you try out the idea of slicing up the circle into many concentric rings. This should seem promising because it respects the symmetry of the circle and math has a tendency to reward you when you respect it's symmetries.
+
 ![concentric_rings](./asset/essense/overview/concentric_rings.drawio.svg)
 
 Let's take one of those rings which has some inner radius r that's between 0 and 3.
+
 ![inner_radius](./asset/essense/overview/inner_radius_r.drawio.svg)
 
 if we can find a nice expression for the area of each ring like this one, and if we have a nice way to add them all up, it might lead us to an understanding of the full circle's area.
@@ -36,6 +38,7 @@ if we can find a nice expression for the area of each ring like this one, and if
 May be you start by imagining `straightening out this ring`.
 
 For simplicity let's just approximate it as rectange, the `width` of which is the circumference of the original ring, which is $2\pi{}r$. It `thickness` is depend on how finely you chopped up the circle in the first place, which was kind of arbitrary. In the spirit of using what will come to be standard calculus notation, let's call that thickness `dr`, for a tiny difference in the radius from one ring to the next.
+
 ![straight_out_ring](./asset/essense/overview/straight_out_ring.drawio.svg)
 
 So the inner ring approximate area is
@@ -49,6 +52,7 @@ $$
 ## Move forward with the approximation
 
 So just to sum up where we are, you've broken up the area of the circle into all of these rings
+
 ![breaken_up_ring](./asset/essense/overview/breaken_up_area.drawio.svg)
 
 each of this area is
@@ -57,6 +61,7 @@ Area \approx{} 2\pi{}rdr
 $$
 
 where the specific value for that inner radius ranges from 0 ,for the smallest ring up to just under 3, for the biggest ring, spread out by whatever the thickness is that you choose for dr-something like 0.1.
+
 ![all_inner_ring_spread](./asset/essense/overview/all_inner_ring_spread.drawio.svg)
 
 ![all_inner_ring_spread_with_y](./asset/essense/overview/all_inner_ring_speard_with_y.drawio.svg)
