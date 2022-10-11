@@ -11,7 +11,7 @@ we use it to measure continuous Random Variable.
 ### example of measurement continuous Randowm Variable
 
 Y = exact amount of rain tomorrow
-![probo_rain_tomorrow](./proba_rain_tomorrow.drawio.svg)
+![probo_rain_tomorrow](./assets/proba_rain_tomorrow.drawio.svg)
 
 Question is what exactly 2 inches of rain in tomorrow? we don't have ruler which can say what is exactly about that.
 

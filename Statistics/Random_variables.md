@@ -43,7 +43,7 @@ $$
 
 X = number facing up on a fair dice.
 
-![dice_probability](./dice_probability.drawio.svg)
+![dice_probability](./assets/dice_probability.drawio.svg)
 
 #### dice Random Variable
 
@@ -53,11 +53,11 @@ X = \begin{cases}
     0 & \text{if tail}
 \end{cases}
 $$
-![dice_random_var_probability](./dice_random_var_probability.drawio.svg)
+![dice_random_var_probability](./assets/dice_random_var_probability.drawio.svg)
 
 ### if dice is not uniform distribution
 
-![not unitform distribution](./not_uniform_distribution.drawio.svg)
+![not unitform distribution](./assets/not_uniform_distribution.drawio.svg)
 
 In this situation, the X is 6 or greater than and equal to 5, the probability is:
 $$

@@ -65,7 +65,7 @@ So the best way I can get a sense of this, because I'm interested in what the av
 
 This would be a sample of the population, `The more people I get the more indicative it is`.
 
-![sample_population](./sample_population.drawio.svg)
+![sample_population](./assets/sample_population.drawio.svg)
 
 ### 1.3.4. formula of pupulation mean and sample mean
 
@@ -166,7 +166,7 @@ Each dot is data all of which represent population dataset more on the right sid
 
 As a result you will get bias sample variance.
 
-![bias_variance](./bias_variance.drawio.svg)
+![bias_variance](./assets/bias_variance.drawio.svg)
 
 ### 1.5.3. unbiased sample variance
 

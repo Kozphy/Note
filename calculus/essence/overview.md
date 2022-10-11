@@ -16,16 +16,19 @@
 ![circle](./asset/essense/overview/circle.drawio.svg)
 
 we know that area is
+
 $$
 Area = \pi{R}^2
 $$
 
 contemplating this problem and leaving yourself open to exploring the interesting thoughts that come about can actually lead you to a glimpse of three big ideas in calculus: `integrals`, `derivatives`, and the fact that they're `opposites`.
+
 $$
 \int_{0}^{R}\frac{dA}{dr}{dr} = A(R)
 $$
 
 You try to figure out its area, and after going through a lot, may be you try out the idea of slicing up the circle into many concentric rings. This should seem promising because it respects the symmetry of the circle and math has a tendency to reward you when you respect it's symmetries.
+
 ![concentric_rings](./asset/essense/overview/concentric_rings.drawio.svg)
 
 Let's take one of those rings which has some inner radius r that's between 0 and 3.
@@ -39,6 +42,7 @@ For simplicity let's just approximate it as rectange, the `width` of which is th
 ![straight_out_ring](./asset/essense/overview/straight_out_ring.drawio.svg)
 
 So the inner ring approximate area is
+
 $$
 Area \approx{} 2\pi{}rdr
 $$
@@ -52,6 +56,7 @@ So just to sum up where we are, you've broken up the area of the circle into all
 ![breaken_up_ring](./asset/essense/overview/breaken_up_area.drawio.svg)
 
 each of this area is
+
 $$
 Area \approx{} 2\pi{}rdr
 $$
@@ -70,6 +75,7 @@ slope = \frac{\Delta{y}}{\Delta{x}} = \frac{rise}{run} = \frac{y_2-y_1}{x_2-x_1}
 $$
 
 Pythagorean Theorem or Distance Formula:
+
 $$
 Distance = \sqrt{(\Delta{x})^2 + (\Delta{y})^2} = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}
 $$
@@ -108,11 +114,13 @@ When you slightly increase x by some tiny nudge `dx` look at the resulting chang
 > The smaller size of that nudge **dx** the more that sliver actually looks like a rectangle.
 
 Now this gives us an interesting way to think about **how $A(x)$ is related to $x^2$**. **A** change to the output of **A** this little `dA` is about equal to **$x^2$**, where **x** is whatever input you stated at, times `dx`, the little nudge to the input that caused **A** to change.
+
 $$
 dA \approx{} x^2dx
 $$
 
 Or rearrange `dA` divided by `dx`, the ratio of a tiny change in A to the tiny change in x that caused it, is approximately whatever $x^2$ is at that point.
+
 $$
 \frac{dA}{dx} \approx{} x^2
 $$
@@ -120,6 +128,7 @@ $$
 In other words, we don't know what $A(x)$ is; that remains a mystery, but we do know a preperty that this mystery must have. When you look at two nearby point for ex 3 and 3.001 consider the change to the output of A between those two points.
 
 The difference between the mystery function evaluated at 3.001 and evaluated at 3. That change devided by the input values, which in this case is 0.001 should be about equal to the value of $x^2$ for the starting input.
+
 $$
 \frac{A(3.001) - A(3)}{0.001} \approx{} 3^2
 $$
@@ -133,6 +142,7 @@ Here we're stumbling into another big idea from calculus: `"Derivatives"`.
 ![stubling question](./asset/essense/overview/stubling_question.drawio.svg)
 
 This ratio `dA` divided by `dx` is called the `derivative of A`, or more technically the derivative is whatever `this ratio approaches` as `dx` gets smaller and smaller $dx \rightarrow 0$.
+
 $$
 \frac{dA}{dx} \approx f(x)
 $$
