@@ -1,27 +1,31 @@
-# Probability explained Independent and dependent events
+# Probability
 
-- [Probability explained Independent and dependent events](#probability-explained-independent-and-dependent-events)
+> Last updated: 2022/10/13
+
+- [Probability](#probability)
   - [probability independent event](#probability-independent-event)
     - [Source](#source)
   - [Mutually-Exclusive Events](#mutually-exclusive-events)
-  - [probability dependent event example](#probability-dependent-event-example)
-    - [Source](#source-1)
   - [Compound probability of independent events](#compound-probability-of-independent-events)
-    - [Source](#source-2)
+    - [Source](#source-1)
   - [Addition rule for probability (overlap)](#addition-rule-for-probability-overlap)
-    - [Source](#source-3)
+    - [Source](#source-2)
     - [study with example](#study-with-example)
   - [Coin flipping probability](#coin-flipping-probability)
-    - [Source](#source-4)
+    - [Source](#source-3)
       - [In flipping coin three time condition](#in-flipping-coin-three-time-condition)
   - [Probability without equally likely events](#probability-without-equally-likely-events)
-    - [Source](#source-5)
+    - [Source](#source-4)
   - [Getting exactly two heads (combinatorics)](#getting-exactly-two-heads-combinatorics)
-    - [Source](#source-6)
+    - [Source](#source-5)
     - [Fair Coin: Flip 4 times](#fair-coin-flip-4-times)
   - [Exactly three heads in five flips](#exactly-three-heads-in-five-flips)
-    - [Source](#source-7)
+    - [Source](#source-6)
     - [Fiar Coin: Flip 5 times](#fiar-coin-flip-5-times)
+  - [Generalizing with binomial coefficients (bit advanced)](#generalizing-with-binomial-coefficients-bit-advanced)
+    - [Source](#source-7)
+  - [probability dependent event example](#probability-dependent-event-example)
+    - [Source](#source-8)
 
 ## probability independent event
 
@@ -29,7 +33,7 @@
 
 we don't know whether it's heads or tails, but we can start to `describe the chances of it`.
 
-![](./assets/probability/flip_coin.drawio.svg)
+![flip_coin](./assets/probability/flip_coin.drawio.svg)
 
 $$
 P(H) = ? = \frac{\text{number of possibilities that meet by condition}}{\text{number of equally likely possibilities}} = \frac{1}{2}
@@ -47,44 +51,6 @@ $$
 ![mutually_exclusive](./assets/probability/mutually_exclusive.drawio.svg)
 
 `this mean both cannot happen at  the same time`.
-
-## probability dependent event example
-
-### [Source](https://www.youtube.com/watch?v=xPUm5SUVzTE&list=PLSQl0a2vh4HB3WvDaHYcqbfgw7cBNx8DO&index=27&ab_channel=KhanAcademy)
-
-You have 8 coins in a bag. 3 of them are unfair in that they have a 60% chance of coming up heads when flipped (the rest are fair coins). you randomly choose on coin from the bag and flip it 2 times. What is the percent probability of getting 2 heads?
-
-- $\frac{5}{8}$ chance we get Fair coin in a beg
-  - what the probability we get twice of head if coin is fair?
-
-$$
-P(HH|Fair) = 0.5 * 0.5 = 0.25
-$$
-
-  - probability of that we get fair coin in a bag then getting heads through flipping it twice.
-
-$$
-P(\text{Fair and HH}) = P(\text{Fair}) *P(HH|\text{Fair}) = \frac{5}{8}* 0.25 = 0.15625
-$$
-  
-- $\frac{3}{8}$ chance we get Unfair coin in a beg
-  - what the probability we get twice of head if coin is unfair?
-
-$$
-P(HH|UnFair) = 0.6*0.6 = 0.36
-$$
-
-  - probability of that we get unfair coin in a beg then getting heads through flipping it twice.
-
-$$
-P(\text{UnFair and HH}) = P(UnFair) *P(HH|UnFair) = \frac{3}{8}* 0.36 = 0.135
-$$
-
-answer:
-
-$$
-0.15625 + 0.135 = 0.29125
-$$
 
 ## Compound probability of independent events
 
@@ -150,7 +116,7 @@ $$
 ### [Source](https://www.youtube.com/watch?v=RI874OSJp1U&list=PLC58778F28211FA19&index=7&ab_channel=KhanAcademy)
 
 If we get a unfair coin, which have 60% chance to get head.
-In this situation, in order to visualize the probaility, we have to kind of take what's called a `frequentist approach` be known as `frequency probability`. You have 100% chance of getting a heads or a tails, and these are `mutually exclusive event`.
+In this situation, in order to visualize the probaility, we have to kind of taking what's called a `frequentist approach` ,which is known as `frequency probability`. You have 100% chance of getting a heads or a tails, and these are `mutually exclusive event`.
 
 $$
 P(H)=60\% \\
@@ -173,16 +139,16 @@ $$
 
 ### Fair Coin: Flip 4 times
 
-what the probability of getting `exaclty 1 heads`.
+what the probability of getting `exaclty 1 heads`?
 we can `add` them together because they are `mutually exclusive`, which meaning each event will not occur at same time.
 
 $$
 P(\text{exactly 1 heads}) = P(HTTT) + P(THTT) + P(TTHT) + P(TTTH) = \frac{4}{16}
 $$
 
-what the probability of getting `exaclty 2 heads`. we don't want to count $P(H_1H_2TT)$ and $P(H_2H_1TT)$ for our purposes, these are exact same outcomes.
+what the probability of getting `exaclty 2 heads`? we don't want to count $P(H_1H_2TT)$ and $P(H_2H_1TT)$ for our purposes, these are exact same outcomes.
 
-Thinking of following, we have four flip position, having 4 place to show up head in first flip, having 3 place to show up head in second flip, multiplying all the differenct ways that you could `get all of the different scenarios`, but there have overlap on all scenarios, so we `divide it by all the different ways that you can swap two different things`.
+Thinking of following, we have four flip position, having 4 place to show up head in first flip, having 3 place to show up head in second flip, `multiplying all the differenct ways` that you could `get all of the different scenarios`, but there `have overlap` on all scenarios, so we `divide it by all the different ways that you can swap two different things`.
 
 ![flip_position](./assets/probability/flip_position.drawio.svg)
 
@@ -200,4 +166,74 @@ what the probability of getting `exaclty 3 heads`
 
 $$
 P(\text{exactly 3 heads}) = \frac{5*4*3}{3*2} * \frac{1}{32} = \frac{10}{32}
+$$
+
+## Generalizing with binomial coefficients (bit advanced)
+
+### [Source](https://www.youtube.com/watch?v=AOsWph2FNLw&list=PLC58778F28211FA19&index=11&ab_channel=KhanAcademy)
+
+Figure out the probability of getting exactly k heads in n flips of the fair coin.
+
+$$
+P(\text{k heads in n flips of the fair coin})
+$$
+
+- it's `n flips` of buckets, equalling all posibility is $(\frac{1}{2})^n$
+- having $n * (n-1) \dotso (n-(k-1))$ ways to get all different scenarios, but there have overlap, so we divide by $k!$
+- abstract: you have `n` bucket and you want to choose `k` of them to be heads, don't wanting to overlap.
+$$
+\begin{equation}
+\begin{split}
+\text{all scenarious in no overlap} =  \frac{n*(n-1) \dotso (n-(k-1))}{k!} = \frac{n!}{k!(n-k)} \\
+= _nC_k ={n \choose k}
+\end{split}
+\end{equation}
+$$
+
+$$
+\tag{1.*}
+\begin{equation}
+n * (n-1) \dotso (n-(k-1)) = \frac{n!}{(n-k)!} = \frac{n * (n-1) \dotso 1}{(n-k) * (n-k-1) \dotso 1}
+\end{equation}
+$$
+> Note:
+> $n-(k-1) = n-k+1$ is the interger that's one larger than $(n-k)$.
+> $\frac{n!}{k!(n-k)}$ is actually a generalized formula for binomial coefficients.
+
+## probability dependent event example
+
+### [Source](https://www.youtube.com/watch?v=xPUm5SUVzTE&list=PLC58778F28211FA19&index=17&ab_channel=KhanAcademy)
+
+You have 8 coins in a bag. 3 of them are unfair in that they have a 60% chance of coming up heads when flipped (the rest are fair coins). you randomly choose on coin from the bag and flip it 2 times. What is the percent probability of getting 2 heads?
+
+- $\frac{5}{8}$ chance we get Fair coin in a beg
+  - what the probability we get twice of head if coin is fair?
+
+$$
+P(HH|Fair) = 0.5 * 0.5 = 0.25
+$$
+
+  - probability of that we get fair coin in a bag then getting heads through flipping it twice.
+
+$$
+P(\text{Fair and HH}) = P(\text{Fair}) *P(HH|\text{Fair}) = \frac{5}{8}* 0.25 = 0.15625
+$$
+  
+- $\frac{3}{8}$ chance we get Unfair coin in a beg
+  - what the probability we get twice of head if coin is unfair?
+
+$$
+P(HH|UnFair) = 0.6*0.6 = 0.36
+$$
+
+  - probability of that we get unfair coin in a beg then getting heads through flipping it twice.
+
+$$
+P(\text{UnFair and HH}) = P(UnFair) *P(HH|UnFair) = \frac{3}{8}* 0.36 = 0.135
+$$
+
+answer:
+
+$$
+0.15625 + 0.135 = 0.29125
 $$

@@ -189,7 +189,7 @@ $$
 ### 1.6.1. why even talk about the standerd deviation?
 
 - the units work out a little better.
-    - If let's say all of our data points, we're measured in meters. if we are taking a bunch of measurements of length, than `the units of the variance would be meter squared`, right? And that's kind of a strange concept if you say the average dispersion from the center has been meter squared.
+    - If let's say all of our data points, we're measured in meters. if we are taking a bunch of measurements of length, than `the units of the variance would be meter squared`, right? And `that's kind of a strange concept if you say the average dispersion from the center has been meter squared`.
     - So well, first when you take the square root of it, getting `SD` then, saying the standard deviation is x or y meters.
 
 ### 1.6.2. standerd deviation caculate
@@ -239,7 +239,7 @@ $$
 	\frac{\sum\limits_{i=1}^N{x_i}^2}{N} - \frac{2\mu\sum\limits_{i=1}^N{x_i}}{N} + \frac{\mu^2{N}}{N}
 $$
 
-then get `raw score method`, which is often times a fater way of calculating.
+then get `raw score method`, which is often times a `faster way of calculating`.
 
 $$
 	\tag{6.*.3}
