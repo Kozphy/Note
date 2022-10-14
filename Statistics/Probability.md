@@ -24,8 +24,22 @@
     - [Fiar Coin: Flip 5 times](#fiar-coin-flip-5-times)
   - [Generalizing with binomial coefficients (bit advanced)](#generalizing-with-binomial-coefficients-bit-advanced)
     - [Source](#source-7)
-  - [probability dependent event example](#probability-dependent-event-example)
+  - [Probability tree](#probability-tree)
     - [Source](#source-8)
+    - [set theory](#set-theory)
+  - [Prabability of throwing two dice](#prabability-of-throwing-two-dice)
+    - [Source](#source-9)
+  - [probability dependent event example](#probability-dependent-event-example)
+    - [Source](#source-10)
+  - [Dependent probability example 2](#dependent-probability-example-2)
+    - [Source](#source-11)
+  - [Probability using combinations](#probability-using-combinations)
+    - [Source](#source-12)
+  - [Probability and combinations 2](#probability-and-combinations-2)
+    - [Source](#source-13)
+  - [Conditional probability and combinations](#conditional-probability-and-combinations)
+    - [Source](#source-14)
+      - [Bayes' Theorem](#bayes-theorem)
 
 ## probability independent event
 
@@ -128,7 +142,7 @@ $$
 P(H_1H_2) = P(H_1) * P(H_2) = 0.36
 $$
 
-Another example, flipping coin three time
+Another example, flipping coin three time what the probability of $P(THT)$
 $$
 P(T_1H_2T_3) = P(T_1)P(H_2)P(T_3) = 0.096
 $$
@@ -140,7 +154,7 @@ $$
 ### Fair Coin: Flip 4 times
 
 what the probability of getting `exaclty 1 heads`?
-we can `add` them together because they are `mutually exclusive`, which meaning each event will not occur at same time.
+we can `add` them together because they are `mutually exclusive`, which meaning `each event will not occur at same time`.
 
 $$
 P(\text{exactly 1 heads}) = P(HTTT) + P(THTT) + P(TTHT) + P(TTTH) = \frac{4}{16}
@@ -200,6 +214,34 @@ $$
 > $n-(k-1) = n-k+1$ is the interger that's one larger than $(n-k)$.
 > $\frac{n!}{k!(n-k)}$ is actually a generalized formula for binomial coefficients.
 
+## Probability tree
+
+### [Source](https://www.youtube.com/watch?v=6E_NVnboMB8&list=PLC58778F28211FA19&index=12&ab_channel=KhanAcademy)
+
+![probability tree](./assets/probability/probability_tree.drawio.svg)
+
+### set theory
+
+$$
+P(\text{1 head, 1 tail}) = P(TH) + P(HT) = P(TH \bigcup HT) = \frac{2}{4}
+$$
+
+## Prabability of throwing two dice
+
+### [Source](https://www.youtube.com/watch?v=2XToWi9j0Tk&list=PLC58778F28211FA19&index=15&ab_channel=KhanAcademy)
+
+![throw two time dice](./assets/probability/throw_two_dice.drawio.svg)
+what the probability of getting 7 when I add up two rolls of dice?
+$$
+P(7) = \frac{6}{36}
+$$
+
+or
+getting 5 or 9.
+$$
+P(5 \bigcup 9) = P(5) + P(9) = \frac{4}{36} + \frac{4}{36} = \frac{2}{9}
+$$
+
 ## probability dependent event example
 
 ### [Source](https://www.youtube.com/watch?v=xPUm5SUVzTE&list=PLC58778F28211FA19&index=17&ab_channel=KhanAcademy)
@@ -237,3 +279,61 @@ answer:
 $$
 0.15625 + 0.135 = 0.29125
 $$
+
+## Dependent probability example 2
+
+### [Source](https://www.youtube.com/watch?v=7BkcNLOf56w&list=PLC58778F28211FA19&index=18&ab_channel=KhanAcademy)
+
+You have 4 coins in a bag. 3 of them are unfair in that they have 45% chance of coming up tails when flipped (the rest are fair coin). You randomly choose one coin from the bag and flip it 4 times. What is the percent probability of getting 4 heads?
+
+- unfair: 45% tails | 55% heads, $\frac{3}{4}$ chance get unfair coin
+$$
+  0.55*0.55*0.55*0.55 = \frac{3}{4}* (0.55)^4 = 0.0686297
+$$
+
+- fair: 50 tails | 50% heads
+$$
+  0.5*0.5*0.5*0.5 = \frac{1}{4}* (0.5)^4 = 0.015625
+$$
+answer: 0.08425
+
+## Probability using combinations
+
+### [Source](https://www.youtube.com/watch?v=Xqfcy1rqMbI&list=PLC58778F28211FA19&index=23&ab_channel=KhanAcademy)
+
+we want to flip the coin 8 times and I want to figure out the probability of getting exactly 3 out of 8 heads.
+
+$$
+P(\frac{3}{8}H) = \frac{3H}{\text{total outcome}} = {8 \choose 3} = \frac{1}{2^n} * \frac{n!}{k!(n-k)!} =  \frac{8!}{3!(8-3)!} * (\frac{1}{2^8}) = 0.21875
+$$
+
+> Note:
+> $\frac{n!}{(n-k)}$, it is just essentially just saying, how many ways can I pick 3 things out of 8, which is essentially the number of permutations and $k!$ is be used for elimination overlap.
+
+## Probability and combinations 2
+
+### [Source](https://www.youtube.com/watch?v=Xqfcy1rqMbI&list=PLC58778F28211FA19&index=23&ab_channel=KhanAcademy)
+
+I'm shooting free throws, having free throw percentage of 80%. But 20% of time I will miss it.
+
+if 5 free throws, what is the probability that I make 3 of the 5 free throws?
+$$
+  P(\frac{3}{5}) = {5 \choose 3} = (0.8)^3*(0.2)^2* \frac{5!}{3!(5-3)!} = 20.48\%
+$$
+
+if 5 free throws, what is the probability that I make at least 3 of the 5 free throws?
+$$
+  P(\frac{3}{5} + \frac{4}{5} + \frac{5}{5}) = 94.21\%
+$$
+
+## Conditional probability and combinations
+
+### [Source](https://www.youtube.com/watch?v=xw6utjoyMi4&list=PLC58778F28211FA19&index=25&ab_channel=KhanAcademy)
+
+if we have bag that have 5 fair coin and 10 unfiar coin, fair coin is  50:50 chance of getting heads or tails, and the unfair coin has 80% chance of getting heads for any one of those coins, 20% chance of getting tails.
+
+Question is what happends is I put my hand in bag, picking out one coin, flipping it six times , getting four heads out of six times. $P(Fair | \frac{4}{6}heads)$
+
+#### Bayes' Theorem
+
+It tells us the probability of both a and b happening $A \bigcap B$, which is essentially saying, it's a set of events in which both a and b occur. That's equal to the probability of a occurring given b times the probability of b which is $P(A | B) *P(B) = P(B|A)* P(A)$
