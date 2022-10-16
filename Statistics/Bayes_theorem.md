@@ -71,9 +71,9 @@ Example:
 Assumption have 200 farmers and 10 librarians. Then when you hear the meek and tidy soul descriptionm let's say your got instinct is that 40% of librarians would fit that description and that 10% of farmers would.
 
 ![bayes_farmer_lib_1](./assets//probability/bayes_farmer_lib_1.drawio.svg)
-If those was your estimate, that would mean that from your sample, you'd expect that about 4 librarians fit this description, and 20 famers fit that description.
+If those was your estimate, that would mean that from your sample, you would expect about 4 librarians to fit this description, and about 20 famers fit that description.
 
-So the probability that a random person who fits this description is a librarian
+So the probability that a random person among those who fits this description is a librarian is
 
 $$
 (\text{Librarian given description}) = \frac{4}{(20+4)} \approx{} 16.7\%
