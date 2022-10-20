@@ -219,4 +219,8 @@ What do web browsers do `if they don’t find any Content-Type`, either `in the 
 
 Because the `various old 8 bit code pages` tended to `put their national letters in different ranges between 128 and 255`, and because `every human language has a different characteristic histogram of letter usage`, this actually has a chance of working.
 
-It’s truly weird, but it does seem to work often enough that naïve web-page writers who never knew they needed a Content-Type header look at their page in a web browser and it looks ok, until one day, they write something that doesn’t exactly conform to the letter-frequency-distribution of their native language, and Internet Explorer decides it’s Korean and displays it thusly, proving, I think, the point that Postel’s Law about being “conservative in what you emit and liberal in what you accept” is quite frankly not a good engineering principle.
+It’s truly weird, but it does seem to work often enough that naïve web-page writers who never knew they needed a Content-Type header look at their page in a web browser and it looks ok, until one day, they write something that doesn’t exactly conform to the letter-frequency-distribution of their native language, and Internet Explorer decides it’s Korean and displays it thusly, proving, I think, the point that Postel’s Law about being `“conservative in what you emit and liberal in what you accept” is quite frankly not a good engineering principle`.
+
+Anyway, what does the poor reader of this website, which was written in Bulgarian but appears to be Korean (and not even cohesive Korean), do? He uses the View | Encoding menu and tries a bunch of different encodings (there are at least a dozen for Eastern European languages) until the picture comes in clearer. If he knew to do that, which most people don’t.
+
+To create a literal UCS-2 string in C code you just put an L before it as so: **L"Hello"**
