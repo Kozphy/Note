@@ -8,6 +8,8 @@
 
 [ip](https://www.computerhope.com/unix/ip.htm)
 
+[how to use ip cmd](https://linuxize.com/post/linux-ip-command/)
+
 - eth0
 - HWaddr
 - MAC
@@ -16,3 +18,7 @@
 - Mask
 - lo
 - wlan0
+
+## using iwconfig
+
+On Linux operating systems, the iwconfig command configures a **wireless** network interface.
