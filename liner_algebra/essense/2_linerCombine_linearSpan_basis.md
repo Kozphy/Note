@@ -8,7 +8,7 @@
 
 - the `one pointing to the straight up with length 1` which is commonly called "j-hat" or the unit vector in the y-direction
 
-- $\hat{i}$ and  $\hat{j}$ are the "basis vectors" of the xy coordinate system
+- $\hat{i}$ and  $\hat{j}$ are the **"basis vectors" of the xy coordinate system**
 
 $$
 \text{i-hat or unit vector of x-direction} = \hat{i} \newline
