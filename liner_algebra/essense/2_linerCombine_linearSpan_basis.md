@@ -51,7 +51,7 @@ The point at the tip of vector, where I want you thinking about that vector with
 - just `line`.
 ![line_up_span](../asset/line_up_vector.drawio.svg)
 
-## What does the span of two 3d vectors look like?
+## What does the span of different vectors look like in 3d space?
 
 ### if you take two vectors in 3d space
 
