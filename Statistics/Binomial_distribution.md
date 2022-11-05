@@ -28,11 +28,25 @@ conclude:
 `n` is all data
 `k` is position each of which you having maximum chance of data could put into.
 
-The caculate result represents all scenarios in not overlap.
+**This caculate result represents all scenarios in not overlap.**
 $$
-\text{binomial coefficients}  = \frac{n*(n-1) \dotso (n-k+1)}{k!}= \frac{n!}{k!(n-k)!} = {n \choose k}
+\bold{binomial \space{} coefficients}  = \frac{n*(n-1) \dotso (n-k+1)}{k!}= \frac{n!}{k!(n-k)!} = {n \choose k}
 $$
 
 ### Binomial Distribution 2
 
 ### [Source](https://www.youtube.com/watch?v=FI8xtVaI068&list=PL1328115D3D8A2566&index=10&ab_channel=KhanAcademy)
+
+flip coin 5 times.
+
+$$
+P(X=0) = \frac{1}{32} \\
+P(X=1) = \frac{5}{32} \\
+P(X=2) = \frac{10}{32} \\
+P(X=3) = \frac{10}{32} \\
+P(X=4) = \frac{5}{32} \\
+P(X=5) = \frac{1}{32} \\
+$$
+
+then you will get particular instance of **binomial probaility Distribution**.
+![flip_5_binomial_distri](./assets/probability/flip_5_binomial_distri.drawio.svg)
