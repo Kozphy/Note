@@ -33,7 +33,7 @@ $$
 \bold{binomial \space{} coefficients}  = \frac{n*(n-1) \dotso (n-k+1)}{k!}= \frac{n!}{k!(n-k)!} = {n \choose k}
 $$
 
-### Binomial Distribution 2
+## Binomial Distribution 2
 
 ### [Source](https://www.youtube.com/watch?v=FI8xtVaI068&list=PL1328115D3D8A2566&index=10&ab_channel=KhanAcademy)
 
@@ -48,5 +48,26 @@ P(X=4) = \frac{5}{32} \\
 P(X=5) = \frac{1}{32} \\
 $$
 
-then you will get particular instance of **binomial probaility Distribution**.
+Then you will get particular instance of **binomial probaility Distribution**.
+
+if you get kind of **infinite number of binomial coefficients value**, you will get like a **bell curve**.
+
 ![flip_5_binomial_distri](./assets/probability/flip_5_binomial_distri.drawio.svg)
+
+$$
+P(X=n) = \frac{5!}{n!(5-n)!}
+$$
+[Binomial Distribution vs normal distribution](https://byjus.com/maths/binomial-distribution/#:~:text=The%20main%20difference%20between%20the,an%20infinite%20number%20of%20events.)
+The main difference between the binomial distribution and the normal distribution is that **binomial distribution is discrete**, whereas the **normal distribution is continuous**. It means that the binomial distribution has a finite amount of events, whereas the normal distribution has an infinite number of events
+
+## Binomial Dstribution 3
+
+### [Source](https://www.youtube.com/watch?v=vKNpQ_KTXvE&list=PL1328115D3D8A2566&index=11&ab_channel=KhanAcademy)
+
+For ex, `6 shot baskests ball`, success is equal to 30%.
+X = how many success shot that I make.
+$$
+P(X=0) = (0.7)^{6} *{6 \choose 0} = (0.7)^{6}* \frac{6!}{0!(6-0)!} \\
+P(X=1) = (0.7)^{5} *{0.3}* {6 \choose 1} = (0.7)^5 *0.3* \frac{6!}{1!(6-1)!} \\
+P(X=2) = (0.7)^{4} *(0.3)^{2}* {6 \choose 2} = (0.7)^4 *(0.3)^{2}* \frac{6!}{2!(6-2)!}
+$$

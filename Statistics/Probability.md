@@ -14,7 +14,7 @@
   - [Coin flipping probability](#coin-flipping-probability)
     - [Source](#source-3)
       - [In flipping coin three time condition](#in-flipping-coin-three-time-condition)
-  - [Probability without equally likely events](#probability-without-equally-likely-events)
+  - [Probability without equally likely events (multiply)](#probability-without-equally-likely-events-multiply)
     - [Source](#source-4)
   - [Getting exactly two heads (combinatorics)](#getting-exactly-two-heads-combinatorics)
     - [Source](#source-5)
@@ -81,13 +81,14 @@ P(T) = \frac{1}{2}
 $$
 
 Now Let's figure out the probability of taking this coin then flip it twice.
+
 we will get result as $P(HH), P(HT), P(TH), P(TT)$ each of which probability caculation process is the same as following, essentially.
 
 $$
 P(HH) = P(H_1) *P(H_2) = \frac{1}{2*2} = \frac{1}{4}
 $$
 
-> Note that Each flipping is independent event.
+> Note that Each flipping is **independent event**.
 > What happes in the first flip in no way to affect what happens in the second flip which be known as gambler's fallacy.
 
 ## Addition rule for probability (overlap)
@@ -125,19 +126,19 @@ $$
 P(\text{at least 1 head}) = P(\text{Not getting all tails}) = 1 - P(TTT) = \frac{7}{8}
 $$
 
-## Probability without equally likely events
+## Probability without equally likely events (multiply)
 
 ### [Source](https://www.youtube.com/watch?v=RI874OSJp1U&list=PLC58778F28211FA19&index=7&ab_channel=KhanAcademy)
 
 If we get a unfair coin, which have 60% chance to get head.
-In this situation, in order to visualize the probaility, we have to kind of taking what's called a `frequentist approach` ,which is known as `frequency probability`. You have 100% chance of getting a heads or a tails, and these are `mutually exclusive event`.
+In this situation, in order to visualize the probaility, we have to kind of taking what's called a `frequentist approach` ,which is known as `frequency probability`. You have 100% chance of getting a heads or a tails, and these are **mutually exclusive event**.
 
 $$
 P(H)=60\% \\
 P(T)=40\%
 $$
 
-what the probability of getting heads on our first flip and on our second flip, these are `independent events`, no matter how I get on first flip, I have equal chance of getting heads on second flip.
+what the probability of getting heads on our first flip and on our second flip, these are **independent events**, no matter how I get on first flip, I have equal chance of getting heads on second flip.
 $$
 P(H_1H_2) = P(H_1) * P(H_2) = 0.36
 $$
@@ -154,7 +155,7 @@ $$
 ### Fair Coin: Flip 4 times
 
 what the probability of getting `exaclty 1 heads`?
-we can `add` them together because they are `mutually exclusive`, which meaning `each event will not occur at same time`.
+we can **add** them together because they are **mutually exclusive**, which meaning **each event will not occur at same time**.
 
 $$
 P(\text{exactly 1 heads}) = P(HTTT) + P(THTT) + P(TTHT) + P(TTTH) = \frac{4}{16}
