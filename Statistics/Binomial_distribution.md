@@ -75,3 +75,39 @@ P(X=4) = (0.7)^{2} *(0.3)^{4}* {6 \choose 4} = (0.7)^2 *(0.3)^{4}* \frac{6!}{4!(
 P(X=5) = (0.7)^{1} *(0.3)^{5}* {6 \choose 5} = (0.7)^1 *(0.3)^{5}* \frac{6!}{5!(6-5)!} \\
 P(X=6) = (0.3)^{6} *{6 \choose 6} = (0.3)^{6}* \frac{6!}{6!(6-6)!} \\
 $$
+
+## Expected Value: E(X)
+
+### [Source](https://www.youtube.com/watch?v=j__Kredt7vY&list=PL1328115D3D8A2566&index=13&ab_channel=KhanAcademy)
+
+Say we have our population of numbers is $3,3,3,4,5$
+
+mean ($\mu$) : $\frac{(3+3+3+4+5)}{5} = 3.6$
+
+we can express mean in another way:
+$$
+\begin{equation}
+\begin{split}
+\frac{3(3) + 1(4) + 1(5)}{5} = \frac{1}{5}(3*3 + 1*4 + 1 *5) \newline
+= \frac{3}{5}* 3 + \frac{1}{5} *4 + \frac{1}{5}*5 \newline
+= 0.6 *3 + 0.2* 4 + 0.2 *5 \newline
+= 60\%* 3 + 20\% *4 + 20\%* 5 \newline
+= 1.8 + 0.8 + 1
+\end{split}
+\end{equation}
+$$
+
+Let's say we have random variable, what happens if **population is not finite** (We throw the coin trial as we want)?  :
+$$
+X = \text{number of heads after 6 tosses of fair coin.}
+$$
+
+In this condition, we can't caculate the population mean but,
+we can find **expected value of random variable** as known as **arithmetic mean of an infinite population**.
+$$
+\begin{equation}
+\begin{split}
+E(X) = 0 *0.1563\% + 1* 9.375\% + 2 *23.438\% + \newline 3*31.25\% +  4 *23.438\% + 5* 9.375\% + 6 * 1.563\%
+\end{split}
+\end{equation}
+$$
