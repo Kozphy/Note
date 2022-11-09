@@ -337,4 +337,4 @@ Question is what happends is I put my hand in bag, picking out one coin, flippin
 
 #### Bayes' Theorem
 
-It tells us the probability of both a and b happening $A \bigcap B$, which is essentially saying, it's a set of events in which both a and b occur. That's equal to the probability of a occurring given b times the probability of b which is $P(A | B) *P(B) = P(B|A)* P(A)$
+It tells us the probability of both a and b happening $A \bigcap B$, which is essentially saying, **it's a set of events in which both a and b occur**. That's equal to the probability of a occurring given b times the probability of b which is $P(A | B) *P(B) = P(B|A)* P(A)$

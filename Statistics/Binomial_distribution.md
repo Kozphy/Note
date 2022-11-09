@@ -2,7 +2,23 @@
 
 > Last updated: 2022/10/18
 
+- [Binomial Distribution](#binomial-distribution)
+  - [Binomial Distribution 1](#binomial-distribution-1)
+    - [binomial distribution](#binomial-distribution-1)
+    - [Source](#source)
+    - [learn with first example before get formula of binomial coefficients](#learn-with-first-example-before-get-formula-of-binomial-coefficients)
+  - [Binomial Distribution 2](#binomial-distribution-2)
+    - [Source](#source-1)
+  - [Binomial Dstribution 3](#binomial-dstribution-3)
+    - [Source](#source-2)
+  - [Expected Value: E(X)](#expected-value-ex)
+    - [Source](#source-3)
+  - [Expected value of binomial distribution](#expected-value-of-binomial-distribution)
+    - [Source](#source-4)
+
 ## Binomial Distribution 1
+
+### [binomial distribution](https://peterstatistics.com/CrashCourse/Distributions/Binomial.html)
 
 ### [Source](https://www.youtube.com/watch?v=O12yTz_8EOw&list=PL1328115D3D8A2566&index=9&ab_channel=KhanAcademy)
 
@@ -110,4 +126,36 @@ $$
 E(X) = 0 *0.1563\% + 1* 9.375\% + 2 *23.438\% + \newline 3*31.25\% +  4 *23.438\% + 5* 9.375\% + 6 * 1.563\%
 \end{split}
 \end{equation}
+$$
+
+## Expected value of binomial distribution
+
+### [Source](https://www.youtube.com/watch?v=SqcxYnNlI3Y&list=PL1328115D3D8A2566&index=14&ab_channel=KhanAcademy)
+
+$E(X)$ was just the population mean **with a infinite poupulation**.
+
+In following example, we say that the random variable x is equal to the number of success with probability P after N trials.
+
+$$
+E(X) = \text{number of success with probability P after N trials.}
+$$
+
+Intuitive way for $E(X)$:
+n = number of trials I make
+p = probability
+$$
+E(X) = n * p
+$$
+
+Another ex:
+If $X = \text{number of basketball I make after 10 shots where I have 1 shots is 40\%}$
+where is
+
+$$
+E(X) = 10 * 0.4  = 4
+$$
+
+**In binomial distribution** this is you get **k successes**. (see **Binomial Dstribution 3**)
+$$
+P(X=K) = {n \choose k} * p^k (1-p)^{n-k}
 $$
