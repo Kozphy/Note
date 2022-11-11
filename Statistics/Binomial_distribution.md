@@ -24,7 +24,7 @@
 
 ### learn with first example before get formula of binomial coefficients
 
-Let's say I have a coin, and it's a fair coin, and I'm going to flip it five times. The coin can be `heads` or `tail` which be indicated as `H` or `T` , separately.
+Let's say I have a coin, and it's a fair coin, and I'm going to flip it five times. The coin can be `heads` or `tail` which is indicated as `H` or `T` , separately.
 
 $$
 X = \text{number of heads after 5 flips}
@@ -157,5 +157,20 @@ $$
 
 **In binomial distribution** this is you get **k successes**. (see **Binomial Dstribution 3**)
 $$
-P(X=K) = {n \choose k} * p^k (1-p)^{n-k}
+P(X=K) = {n \choose k} *p^k*(1-p)^{n-k}
+$$
+
+where **sum of expected value** is following
+$$
+\begin{equation}
+\begin{split}
+E(X) = \sum_{k=1}^n k{n \choose k} * p^k * (1-p)^{n-k} \\
+= 1 {n \choose 1} p^1 (1-p)^{n-1} + 2 {n \choose 2} p^2 (2-p)^{n-2}  + \dotso + n {n \choose n} * p^n * (1-p)^{n-n} \\
+= \sum_{k=1}^{n} k \frac{n!}{k!(n-k)!}*p^k* (1-p)^{n-k} \\
+= \sum_{k=1}^{n} k \frac{n!}{k(k-1)!(n-k)!}*p^k*(1-p)^{n-k} \\
+= \sum_{k=1}^{n} \frac{n!}{{(k-1)}!(n-k)!} *p^k* (1-p)^{n-k} \\
+= \sum_{k=1}^{n} \frac{n*(n-1)!}{{(k-1)}!(n-k)!} *p *p^{k-1}* (1-p)^{n-k} \\
+= np \sum_{k=1}^{n} \frac{(n-1)!}{(k-1)!(n-k)!} *p^{k-1}* (1-p)^{n-k}
+\end{split}
+\end{equation}
 $$
