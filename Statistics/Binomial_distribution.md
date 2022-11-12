@@ -174,3 +174,14 @@ E(X) = \sum_{k=1}^n k{n \choose k} * p^k * (1-p)^{n-k} \\
 \end{split}
 \end{equation}
 $$
+
+make **substitution of sum of expected value**
+$$
+\begin{equation}
+\begin{split}
+a = k - 1, \space b = n - 1 \\
+= a + 1 = k, \space b + 1 = n \\
+= n-k = a+1-b-1 = a-b \\
+\end{split}
+\end{equation}
+$$
