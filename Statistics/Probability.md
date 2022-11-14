@@ -138,7 +138,7 @@ P(H)=60\% \\
 P(T)=40\%
 $$
 
-what the probability of getting heads on our first flip and on our second flip, these are **independent events**, no matter how I get on first flip, I have equal chance of getting heads on second flip.
+what the probability of getting heads on our first flip and on our second flip, these are **independent events**, `no matter how I get on first flip, I have equal chance of getting heads on second flip`.
 $$
 P(H_1H_2) = P(H_1) * P(H_2) = 0.36
 $$
