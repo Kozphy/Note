@@ -68,7 +68,7 @@ Then you will get particular instance of **binomial probaility Distribution**.
 
 if you get kind of **infinite number of binomial coefficients value**, you will get like a **bell curve**.
 
-![flip_5_binomial_distri](./assets/probability/flip_5_binomial_distri.drawio.svg)
+![flip_5_binomial_distri](./assets/binomial_distribution/flip_5_binomial_distri.drawio.svg)
 
 $$
 P(X=n) = \frac{5!}{n!(5-n)!}
@@ -182,6 +182,23 @@ $$
 a = k - 1, \space b = n - 1 \\
 = a + 1 = k, \space b + 1 = n \\
 = n-k = a+1-b-1 = a-b \\
+= np \sum_{a=0}^{b} \frac{b!}{a!(b-a)!} * p^a *(1-p)^{b-a} \\
+= np \sum_{a=0}^{b} {b \choose a} *p^a* (1-p)^{b-a} = np
 \end{split}
 \end{equation}
 $$
+where in the next to last line, if $k = n$ then $a = n-1$ so **the upper symbol of sigma** is `b`
+$$
+\sum_{a=0}^{b}
+$$
+
+and the following is equal to 1, because this is **sum over the entire probability**.
+
+$$
+\sum_{a=0}^{b} {b \choose a} *p^a* (1-p)^{b-a} = 1
+$$
+
+![](./assets/binomial_distribution/sum_all_probability.drawio.svg)
+
+> Note
+> The $E(X) = np$ is only true in binomial distribution.
