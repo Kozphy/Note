@@ -3,8 +3,9 @@
 > Last updated: 2022/10/18
 
 - [Binomial Distribution](#binomial-distribution)
-  - [Binomial Distribution 1](#binomial-distribution-1)
+  - [intro](#intro)
     - [binomial distribution](#binomial-distribution-1)
+  - [Binomial Distribution 1](#binomial-distribution-1)
     - [Source](#source)
     - [learn with first example before get formula of binomial coefficients](#learn-with-first-example-before-get-formula-of-binomial-coefficients)
   - [Binomial Distribution 2](#binomial-distribution-2)
@@ -16,9 +17,17 @@
   - [Expected value of binomial distribution](#expected-value-of-binomial-distribution)
     - [Source](#source-4)
 
-## Binomial Distribution 1
+## intro
+
+The `binomial distribution` can be defined as: **"the distribution of the number of ‘successes’**,  X, in a series of `n` **independent** Bernoulli trials where probability of **success at each trial is "p"** and the probability of **failure is "q = 1 − p"**.
+
+The definition mentions **Bernoulli trials**, which can be defined as: **"a set of n independent binary variables** in which the `jth` observation is either a **‘success’ or a ‘failure’**, with the probability of success, p, being the same for all trials"
+
+The classic example of Bernoulli trials (and for the binomial distribution) is flipping a coin.
 
 ### [binomial distribution](https://peterstatistics.com/CrashCourse/Distributions/Binomial.html)
+
+## Binomial Distribution 1
 
 ### [Source](https://www.youtube.com/watch?v=O12yTz_8EOw&list=PL1328115D3D8A2566&index=9&ab_channel=KhanAcademy)
 
