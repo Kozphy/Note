@@ -10,6 +10,8 @@
 
 [term_of_indeterminate](https://byjus.com/maths/indeterminate-forms/#:~:text=The%20term%20“indeterminate”%20means%20an,the%20substitution%20of%20the%20limits.)
 
+[Scribber_Possion_distribution](https://www.scribbr.com/statistics/poisson-distribution/)
+
 we assume
 $$
 X = \text{number of cars pass in an hour}
