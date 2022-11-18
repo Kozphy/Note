@@ -12,6 +12,8 @@
 
 [Scribber_Possion_distribution](https://www.scribbr.com/statistics/poisson-distribution/)
 
+### intro possion
+
 we assume
 $$
 X = \text{number of cars pass in an hour}
@@ -35,6 +37,23 @@ $$
 P(X=k) = {3600 \choose {k}} *({\frac{\lambda}{3600}})^k* (1-\frac{\lambda}{3600})^{3600-k}
 $$
 
+### Some mathematical tool for derivation Possion distribution
+
+#### first tool
+
 $$
 \lim_{x \to \inf} (1+ \frac{a}{x}) ^ x = e^a
+$$
+
+prove above function:
+$$
+\frac{1}{n} = \frac{a}{x} \\
+x = na \\
+\lim_{n \to \inf}(1+\frac{1}{n})^{na} = \lim_{n \to \inf}((1+\frac{1}{n})^n)^a = e^a
+$$
+
+#### second tool
+
+$$
+\frac{x!}{(x-k)!} = x * (x-1) * (x-2) \dotso (x-k+1)
 $$
