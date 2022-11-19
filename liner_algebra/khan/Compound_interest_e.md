@@ -73,3 +73,42 @@ then we can formalize this to:
 $$
 \lim_{n \to \inf}{(1 + \frac{1}{n})}^{n} = e = 2.71....
 $$
+
+## Compound interest and e (part 3)
+
+### [Source](https://www.youtube.com/watch?v=sQYpUJV8foY&ab_channel=KhanAcademy)
+
+Assume  $P(Principle)=50$, $r(\text{interest rate}) = 10%$, $n(\text{number of periods in the year}) = 2$, after 1 year we have
+
+formula:
+$$
+P(1 + \frac{r}{n})^n
+$$
+
+process:
+$$
+P = 50 \rArr 50 + \frac{10\%}{2}(50) = \underbrace{50(1 + \frac{10\%}{2})}_{\text{x}} \rArr x + \frac{10\%}{2}x = x(1+\frac{10\%}{2})
+$$
+
+result:
+$$
+50(1+\frac{10\%}{2})(1+\frac{10\%}{2}) = 50(1 + \frac{0.1}{2})^2
+$$
+
+#### Final payment(the amount you owe me)
+
+$$
+\text{Final payment} = P(1+\frac{r}{n})^n
+$$
+
+make substitution:
+we assume
+$$
+\frac{1}{x} = \frac{r}{n} \\
+n = xr \\
+n \rightarrow \inf \rArr x \rightarrow \inf
+$$
+then 
+$$
+\lim_{n \rightarrow \inf}(1+\frac{r}{n})^n \rArr \lim_{x \rightarrow \inf}(1+\frac{1}{x})^{xr} \rArr \lim_{x \rightarrow \inf}((1+\frac{1}{x})^x)^r \rArr e^r \\
+$$

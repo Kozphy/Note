@@ -45,10 +45,17 @@ $$
 \lim_{x \to \inf} (1+ \frac{a}{x}) ^ x = e^a
 $$
 
-prove above function:
+##### prove above function
+
+we assume
 $$
 \frac{1}{n} = \frac{a}{x} \\
 x = na \\
+$$
+
+then
+
+$$
 \lim_{n \to \inf}(1+\frac{1}{n})^{na} = \lim_{n \to \inf}((1+\frac{1}{n})^n)^a = e^a
 $$
 
