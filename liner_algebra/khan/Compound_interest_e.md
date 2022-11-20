@@ -101,14 +101,17 @@ $$
 \text{Final payment} = P(1+\frac{r}{n})^n
 $$
 
-make substitution:
+`Finding the limit as n approaches infinity and make substitution`:
 we assume
+
 $$
 \frac{1}{x} = \frac{r}{n} \\
 n = xr \\
 n \rightarrow \inf \rArr x \rightarrow \inf
 $$
-then 
+
+then
+
 $$
-\lim_{n \rightarrow \inf}(1+\frac{r}{n})^n \rArr \lim_{x \rightarrow \inf}(1+\frac{1}{x})^{xr} \rArr \lim_{x \rightarrow \inf}((1+\frac{1}{x})^x)^r \rArr e^r \\
+P\lim_{n \rightarrow \inf}(1+\frac{r}{n})^n \rArr P\lim_{x \rightarrow \inf}(1+\frac{1}{x})^{xr} \rArr P\lim_{x \rightarrow \inf}((1+\frac{1}{x})^x)^r \rArr Pe^r \\
 $$

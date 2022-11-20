@@ -108,7 +108,7 @@ Similarly, we need to know how much of the other side of space includes the evid
 $$
 P(E| \lnot{} H) = 0.1
 $$
-where elbow symbol is used to mean "not" in probability.
+where **elbow symbol is used to mean "not"** in probability.
 
 The `probability that our librarian hypothesis` is true given the evidence is the total number of librarians fitting the evidence, 4 divided by the total number of people fitting the evidence, 24.
 $$
