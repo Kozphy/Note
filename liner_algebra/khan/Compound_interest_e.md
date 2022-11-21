@@ -69,7 +69,7 @@ $$
 1(1+\frac{1}{365})^{365} = 2.7144
 $$
 
-then we can formalize this to:
+then we can formalize (n approaches to inf) this to:
 $$
 \lim_{n \to \inf}{(1 + \frac{1}{n})}^{n} = e = 2.71....
 $$
@@ -80,7 +80,7 @@ $$
 
 Assume  $P(Principle)=50$, $r(\text{interest rate}) = 10%$, $n(\text{number of periods in the year}) = 2$, after 1 year we have
 
-formula:
+formula (`compound interest rate`):
 $$
 P(1 + \frac{r}{n})^n
 $$
@@ -114,4 +114,35 @@ then
 
 $$
 P\lim_{n \rightarrow \inf}(1+\frac{r}{n})^n \rArr P\lim_{x \rightarrow \inf}(1+\frac{1}{x})^{xr} \rArr P\lim_{x \rightarrow \inf}((1+\frac{1}{x})^x)^r \rArr Pe^r \\
+$$
+
+## Compound continuous we can reborrow
+
+[Source](https://www.youtube.com/watch?v=VAxHMTJRhmY&ab_channel=KhanAcademy)
+if we borrow for `1 year`, `interest` rate is 10\%, how many at the end of year
+$$
+\$P, r(10r)\% \rArr \$Pe^r
+$$
+
+if we rebrrow for `2 year`, `interest` rate is same
+$$
+(Pe^r)e^r = Pe^{2r}
+$$
+
+if we rebrrow for `3 year`, `interest` rate is same
+$$
+(Pe^{3r})
+$$
+
+we can `formalize` above to:
+$$
+Pe^{tr}
+$$
+
+### example
+
+We borrow `$1000` dollor, `interest` is `25%` for `3 years`.
+
+$$
+1000 *e^{0.25*3} = \$2100.75
 $$
