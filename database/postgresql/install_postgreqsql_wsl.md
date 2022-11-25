@@ -1,0 +1,4 @@
+# install postgreqsql in wsl
+###### tags: `database learn`
+
+https://www.cybertec-postgresql.com/en/postgresql-on-wsl2-for-windows-install-and-setup/
