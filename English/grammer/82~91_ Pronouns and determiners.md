@@ -1,1 +1,0 @@
-# 82~91: Pronouns and determiners

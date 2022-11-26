@@ -3,19 +3,24 @@
 [Source](https://writingcenter.unc.edu/tips-and-tools/sentence-patterns/)
 
 ## Subjects, Verbs, and Clauses
-In its simplest form, an English sentence has two parts: a subject and a verb that express a complete thought when they are together.
-- The subject shows who or what is doing the action. It is always some form of noun or pronoun.
-- The verb shows the action or the state of being. It can be an action verb, like “run,” or a state verb, like “seem.”
+### Subject and Verb
+In its simplest form, an English sentence has two parts: a **subject** and a **verb** that express a complete thought when they are together.
+- The **subject** shows who or what is doing the action. It is always some form of noun or pronoun.
+- The **verb** shows the action or the state of being. It can be an action verb, like “run,” or a state verb, like “seem.”
 
 Examples of simple two word sentences include:
 
 - Marvin slept.
 - Dogs bark.
 - Isotopes react.
+
 ---
-A clause is the combination of a subject and a verb. When you have a subject and verb, you have a clause. We’re going to concentrate on clauses in this handout, with emphasis on these two in particular:
-1. Independent clause: a subject and verb that make a complete thought. Independent clauses are called independent because they can stand on their own and make sense.
-1. Dependent clause: a subject and verb that don’t make a complete thought. Dependent clauses always need to be attached to an independent clause (they’re too weak to stand alone).
+### Clause
+A **clause** is the `combination` of a `subject and a verb`. 
+
+When you have a subject and verb, you have a clause. We’re going to concentrate on clauses in this handout, with emphasis on these two in particular:
+1. `Independent clause`: a subject and verb that make a complete thought. Independent clauses are called independent because they can stand on their own and make sense.
+1. `Dependent clause`: a subject and verb that don’t make a complete thought. Dependent clauses always need to be attached to an independent clause (they’re too weak to stand alone).
 ---
 ### Something tricky
 Before we move on to the sentence types, you should know a little trick of subjects and verbs: they can double up in the same clause. These are called “compound” subjects or verbs because there are two or more of them in the same clause.

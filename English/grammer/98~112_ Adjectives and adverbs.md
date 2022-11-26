@@ -1,1 +1,0 @@
-# 98~112: Adjectives and adverbs
