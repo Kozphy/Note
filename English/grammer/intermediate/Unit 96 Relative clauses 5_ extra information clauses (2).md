@@ -16,7 +16,7 @@ So you can say:
 
 Mr Lee, **to whom I spoke** at the meeting, is interested in our proposal.
 
-In spoken English we often keep the preposition after the verb in the relative clause:
+In spoken English we often `keep the preposition after the verb in the relative clause`:
 - Katherine told me she works for a company called 'Latoma', **which** I'd never **heard of** before.
 
 We do not use **whom** when the preposition is in this position:

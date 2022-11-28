@@ -2,7 +2,7 @@
 ###### tags: `engilsh grammerly intermediate`
 
 ## Part A 
-We use **may** and **might** to say that something is possible. You can use **may** or **might**:
+We use `may` and `might` to say that `something is possible`. You can use `may` or `might`:
 - It **may** be true. or It **might** be true. (= perhaps it is true)
 - She **might** know. or She **may** know.
 
@@ -15,14 +15,14 @@ Note the difference between **may be** and **maybe**:
 - Is it true? **Maybe**. I'm not sure. (**maybe** = it's possible, perhaps)
 
 ## Part B
-For the past we use **may have** .. or **might have**:
+For the `past` we use `may have` .. or `might have`:
 - A: I wonder why Kate didn't answer her phone.
     - B: She **may have been** asleep. (= perhaps she was asleep)
 - A: I can't find my phone anywhere.
     - B: You **might have left** it at work. (=perhaps you left it at work)
 
 ## Part C
-**could** is similar to **may** and **might**:
+`could` is similar to `may` and `might`:
 - It's a strange story, but it **could be** true. (= it is possible that it's true)
 - You **could have left** your phone at work. (= it's possible that you left it there)
 

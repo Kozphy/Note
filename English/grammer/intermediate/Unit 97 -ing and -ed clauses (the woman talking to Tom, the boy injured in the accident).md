@@ -8,7 +8,7 @@ A clause is a part of a sentence. Some clauses begin with **-ing**.
 
 We use **-ing** clauses to say what somebody (or something) is (or was) doing at a particular time.
 
-You can also use an **-ing** clause to say what happens all the time, not just at a particular time.
+You can also use an **-ing** clause to `say what happens all the time, not just at a particular time`.
 
 ## Part B
 Some clauses begin with **-ed (injured, painted** etc.)

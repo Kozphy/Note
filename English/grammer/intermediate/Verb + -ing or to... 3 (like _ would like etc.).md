@@ -7,7 +7,7 @@ When you talk about repeated actions, you can use **-ing** or **to...** after th
 - Stephanie **hates flying**. or Stephanie **hates to fly**.
 - I **love meeting** people. or I **love to meet** people.
 
-We use **-ing** (not **to...**) when we talk about a situation that already exists (or existed).
+We use **-ing** (not **to...**) when we `talk about a situation that already exists (or existed)`.
 - Paul lives in Berlin now. He **likes living** there. (he lives there now and he likes it)
 - Do you **like being** a student? (you are a student - do you like it?)
 
@@ -31,7 +31,7 @@ Compare **I like** and **I would like (**I'd** like):
 - I'**d like to play** tennis today. (= I want to play today)
 
 ## Part C I would like to have (done something)
-I would like **to have done** something = I regret now that I didn't or couldn't do it:
+I would like **to have done** something = `I regret now that I didn't or couldn't do it`:
 - We'**d like to have gone** away, but we were too busy at home.
 
 We use the same structure after **would love/ would hate/ would prefer**:

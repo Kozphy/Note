@@ -38,7 +38,7 @@
 ## Part C on holiday / on a trip etc.
 - (be/go) **on holiday** / **on vacation**
     - I'm going **on holiday** next week.
-- (be/go) ** on a trip** / **on a tour** / **on a cruise** etc.
+- (be/go) **on a trip** / **on a tour** / **on a cruise** etc.
     - One day I'd like to go **on a world tour**.
 - (be/go to a place) on business
     - Emma's away **on business** at the moment.
