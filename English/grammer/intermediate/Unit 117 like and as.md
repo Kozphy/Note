@@ -2,7 +2,7 @@
 ###### tags: `engilsh grammerly intermediate`
 
 ## Part A
-**Like** = similar to, the same as:
+**Like** = `similar to, the same as`:
 - What a beautiful house! It's **like a palace**. (not as a palace)
 - Be careful! The floor has been polished. It's **like walking on ice**. (not as walking)
 
@@ -12,7 +12,7 @@ Sometimes **like** = for example. You can also use **such as**:
 - I enjoy water sports, **like** surfing, scuba diving and water-skiing. or I enjoy water sports, **such as** surfing...
 
 ## Part B
-**As** = in the same way as, in the same condition as.
+**As** = `in the same way as, in the same condition as`.
 We use **as** with subject (S) + verb (V):
 - I didn't move anything. I left everything **as it was**.
 - You should have done it **as I showed** you.

@@ -2,7 +2,7 @@
 ###### tags: `engilsh grammerly intermediate`
 
 ## Part A during
-**during** = at a time between the start and end of something:
+**during** = `at a time between the start and end of something`:
 - I fell asleep **during the movie**. (= at a time between that start and end of the movie)
 - We met some really nice people **during our holiday**.
 
@@ -24,9 +24,9 @@ We use **during** to say when something happens (not how long). Compare **during
 
 ## Part C **during** and **while**
 Compare:
-- We use **during** + noun:
+- We use **during** + `noun`:
     - I fell asleep **during the movie**.
-- We use **while** + subject + verb:
+- We use **while** + `subject + verb`:
     - I fell asleep **while I was watching**.
     - We met a lot of interesting people **while we were on holiday**.
 

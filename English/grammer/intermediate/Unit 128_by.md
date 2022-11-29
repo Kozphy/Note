@@ -12,7 +12,7 @@ Note that we say **by chance**, **by accident** etc. (not by the chance / by an 
 In these expresions we use **by** + noun without **the** or **a**.
 
 ## Part B
-We use **by...** to say how somebody travels. For ex, you can travel:
+We use **by...** to say `how somebody travels`. For ex, you can travel:
 by car
 by train
 by place

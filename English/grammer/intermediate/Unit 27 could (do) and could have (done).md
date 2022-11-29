@@ -20,7 +20,7 @@ Compare **can** and **could**:
 - This is a wonderful place. I **could stay** here for ever.
 
 ## Part C
-We also use **could** (not **can**) to say that something is possible now or in the future:
+We also use **could** (not **can**) to say that something is `possible now or in the future`:
 - The story **could be** true, but I don't think it is. (not can be true)
 - I don't know what time Lisa is coming. She **could get** here at any time.
 
@@ -29,12 +29,12 @@ Compare **can** and **could**:
 - The weather is nice now, but it **could** change later. (the weatehr now, not in general)
 
 ## Part D
-We use **could have** (done) to talk about the past.
+We use **could have** (done) to `talk about the past`.
 
 Something **could have** happened = it was passible, but did not happen
 
 ## Part E
-**I couldn't do** something = it would not be possible:
+**I couldn't do** something = `it would not be possible`:
 - I **couldn't live** in a big city. I'd hate it. (= it wouldn't be possible for me)
 
 For the past we use **couldn't have**... (= would not have been possible)

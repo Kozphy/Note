@@ -2,10 +2,10 @@
 ###### tags: `engilsh grammerly intermediate`
 
 ## Part A 
-We ues **must** to say that we believe something is certain:
+We ues **must** to say that `we believe something is certain`:
 - You've been travelling all day. You **must be** tired. (travelling is tiring and you've been travelling all day, so you **must** be tired)
 
-We ise **can't** to say that we believe something is not possible:
+We use **can't** to say that we `believe something is not possible`:
 - You've just had lunch. You **can't be** hungry already. (we don't expect poeple to be hungry immediately after a meal)
 
 ## Part B

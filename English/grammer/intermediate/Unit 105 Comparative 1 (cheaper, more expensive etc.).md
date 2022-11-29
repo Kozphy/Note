@@ -32,7 +32,7 @@ We use **more**... for longer words (two syllables or more):
 - more expensive
 - more comfortable
 
-We also use **more**... foro adverbs that end in **-ly**:
+We also use **more**... for adverbs that end in **-ly**:
 - more slowly
 - more easily
 - more seriously

@@ -7,7 +7,7 @@
 - We'd better hurry. We have to be home **by 5 o'clock**. (= at or before 5 o'clock, not later than 5 o'clock)
 
 ## Part B
-We use **until** (or **till**) to say how long a situation continues:
+We use **until** (or **till**) to say `how long a situation continues`:
 - Shall we go now? No, let's **wait until** it stops raining. or **...til** it stops raining.
 
 Compare **until** and **by**

@@ -27,7 +27,7 @@ But adverbs go after **am/is/are/was/were**:
 - The traffic **isn't usually** as bad as it was this morning.
 
 ## Part C
-**If the verb is two or more words** (for ex, **can remember/will be cancelled**), the **adverb usually goes after the first verb** (**can/doesn't/will** etc.)
+`If the verb is two or more words` (for ex, **can remember/will be cancelled**), the **adverb usually goes after the first verb** (**can/doesn't/will** etc.)
 
 |       | verb1       | adverb         | verb2        |                 |
 | ----- | ----------- | -------------- | ------------ | --------------- |
