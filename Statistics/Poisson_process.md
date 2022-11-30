@@ -31,7 +31,7 @@ $$
 P(X=k) = {60 \choose k} * (\frac{\lambda}{60})^k * (1-\frac{\lambda}{60})^{60-k}
 $$
 
-we change above func into second, and this is Poisson distribution
+we change above func into second, and this is `Poisson distribution`
 
 $$
 P(X=k) = {3600 \choose {k}} *({\frac{\lambda}{3600}})^k* (1-\frac{\lambda}{3600})^{3600-k}
@@ -63,4 +63,38 @@ $$
 
 $$
 \frac{x!}{(x-k)!} = x * (x-1) * (x-2) \dotso (x-k+1)
+$$
+
+## Poisson process 2
+
+## Source
+
+[Khan](https://www.youtube.com/watch?v=Jkr4FSrNEVY&list=PL1328115D3D8A2566&index=16&ab_channel=KhanAcademy)
+
+$$
+E(X) = \lambda = np \\
+p = \frac{\lambda}{n}
+$$
+
+if we describes this as binomial distribution with the limit as it approach to infinity.
+
+$$
+P(X = K) = \lim_{n \to \inf} {n \choose k} * (\frac{\lambda}{n})^k * (1 - \frac{\lambda}{n})^{n-k}
+$$
+
+we can rearrange above function
+$$
+\lim_{n \to \inf} \frac{n!}{(n-k)!k!} * \frac{\lambda^k}{n^k} * (1-\frac{\lambda}{n})^n *(1 - \frac{\lambda}{n})^{-k}
+$$
+
+$$
+\lim_{n \to \inf} \frac{n * (n-1) * (n-2) \dotso (n-k+1)}{n^k} * \frac{\lambda^k}{k!} * (1-\frac{\lambda}{n})^n * (1- \frac{\lambda}{n})^{-k}
+$$
+
+$$
+\lim_{n \to a}  f(x)g(x) = \lim_{n \to a}f(x) \lim_{x \to a}g(x)
+$$
+
+$$
+\lim_{n \to \inf} \frac{n^k + \dotso + k}{n^k}
 $$
