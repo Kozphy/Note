@@ -25,7 +25,7 @@ In these examples **that** is more usual than **which**, but sometimes you must 
 In relative clauses we use **who/that/which**, not **he/she/they/it**
 
 ## Part D
-**What** = the thing(s) that
+**What** = `the thing(s) that`
 
 Compare **what** and **that**:
 - **What happened** was my fault. (= the things that happened)

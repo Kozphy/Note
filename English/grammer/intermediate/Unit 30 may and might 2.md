@@ -2,7 +2,7 @@
 ###### tags: `engilsh grammerly intermediate`
 
 ## Part A
-We use **may** and **might** to talk about possible actions or happenings in the future:
+We use **may** and **might** to talk about `possible actions or happenings in the future`:
 - I haven't decided where to go on holiday. I **may go** to Ireland. (= perhaps I will go there)
 - Take an umbrella with you. It **might rain** later. (= perhaps it will rain)
 

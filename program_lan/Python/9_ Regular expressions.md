@@ -4,8 +4,9 @@
 [reg search in list](https://stackoverflow.com/questions/3640359/regular-expressions-search-in-list)
 -----
 
-The regular expression library `re` must be imported into your program before you can use it. The simplest use of the regular expression library is the **search()** function. The
-following program demonstrates a trivial use of the search function.
+The regular expression library `re` must be imported into your program before you can use it. 
+
+The simplest use of the regular expression library is the **search()** function. 
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -14,8 +15,10 @@ for line in hand:
     if re.search('From:', line):
         print(line)
 ```
+### caret `^`
+For example, the `caret character` is used in regular expressions to `match “the beginning” of a line`. 
 
-For example, the `caret character` is used in regular expressions to match “the beginning” of a line. We could change our program to only match lines where “From:” was at the beginning of the line as follows:
+We could change our program to only match lines where “From:” was at the beginning of the line as follows:
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -26,7 +29,8 @@ for line in hand:
 
 ```
 ## Character matching in regular expressions
-In the following example, **the regular expression “F..m:”** would match any of the strings “From:”, “Fxxm:”, “Fm:”, or “F!@m:” since **the period characters in the regular expression match any character**.
+### `..` period
+The regular expression “F..m:” would match any of the strings “From:”, “Fxxm:”, “Fm:”, or “F!@m:” since the `period` characters in the regular expression `match any character`.
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -35,10 +39,7 @@ hand = open('mbox-short.txt')
         if re.search('^F..m:', line):
             print(line)
 ```
-This is particularly powerful when combined with the ability to indicate that a character can be repeated any number of times using the “*” or “+” characters in your regular expression. 
-
-**These special characters mean that instead of matching a single character in the search string, they match zero-or-more characters (in the case of the asterisk) or one-or-more of the characters (in the case of the plus sign)**.
-
+### `*` match zero-or-more, `+` match one-or-more
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -49,10 +50,10 @@ for line in hand:
 ```
 
 ## Extracting data using regular expressions
-If we want to extract data from a string in Python we can use the `findall()` method to extract all of the substrings which match a regular expression. Let’s use the example
-of wanting to extract anything that looks like an email address from any line regardless of format. 
+If we want to extract data from a string in Python we can use the `findall()` method to `extract all of the substrings which match` a regular expression. 
 
-We don’t want to write code for each of the types of lines, splitting and slicing differently for each line. This following program uses findall() to find the lines with email addresses in them and extract one or more addresses from each of those lines.
+
+This following program uses findall() to find the lines with email addresses in them and `extract one` or `more addresses` **from each of those lines**.
 
 ```python=
 import re
@@ -60,9 +61,9 @@ s = 'A message from csev@umich.edu to cwen@iupui.edu about meeting @2PM'
 lst = re.findall('\S+@\S+', s)
 print(lst)
 ```
-The `findall()` method searches the string in the second argument and returns a list of all of the strings that look like email addresses. We are using a two-character sequence
-that matches a non-whitespace character (\S).
+The `findall()` method `searches` the string **in the second argument** and returns a list of all of the strings that look like email addresses. 
 
+### \S matches a non-whitespace character
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -72,11 +73,12 @@ x = re.findall('\S+@\S+', line)
 if len(x) > 0:
     print(x)
 ```
+### [] Square brackets
+**Square brackets** are used to indicate a `set of multiple acceptable characters` we are willing to consider matching. 
 
-Square brackets are used to indicate a set of multiple acceptable characters we are willing to consider matching. In a sense, the “\S” is asking to match the set of “non-whitespace characters”. Now we will be a little more explicit in terms of the characters we will match.
+Translating this regular expression, we are looking for substrings that start with a `single lowercase letter`, `uppercase letter`, or `number` “[a-zA-Z0-9]”, followed by zero or more non-blank characters (“\S*”), followed by an atsign, followed by zero or more non-blank characters (“\S*”), followed by an uppercase or lowercase letter. 
 
-This is getting a little complicated and you can begin to see why regular expressions are their own little language unto themselves. Translating this regular expression, we are
-looking for substrings that start with a single lowercase letter, uppercase letter, or number “[a-zA-Z0-9]”, followed by zero or more non-blank characters (“\S*”), followed by an atsign, followed by zero or more non-blank characters (“\S*”), followed by an uppercase or lowercase letter. Note that we switched from “+” to “*” to indicate zero or more nonblank characters since “[a-zA-Z0-9]” is already one non-blank character. Remember that the “*” or “+” applies to the single character immediately to the left of the plus or asterisk.
+Note that we switched from “+” to “*” to indicate zero or more nonblank characters since “[a-zA-Z0-9]” is already one non-blank character. Remember that the “*” or “+” applies to the single character immediately to the left of the plus or asterisk.
 ```python=
 import re
 hand = open('mbox-short.txt')

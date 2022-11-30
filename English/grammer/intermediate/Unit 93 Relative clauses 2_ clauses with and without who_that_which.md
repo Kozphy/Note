@@ -13,7 +13,7 @@ Sometimes **who/that/which** is the **object** of the verb.
 - **The woman who I wanted to see** was away on holiday.
 - Did you find **the keys that you lost**?
 
-When **who/that/which** is the **object, you can leave it out**. So you can say:
+When **who/that/which** is the `object, you can leave it out`. So you can say:
 - **The woman I wanted to see** was away. or The woman **who** I wanted to see.
 
 Note that we say:

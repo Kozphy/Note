@@ -2,10 +2,10 @@
 ###### tags: `engilsh grammerly intermediate`
 
 ## Part A 's
-We use **-'s** (apostrophe + **s**) mostly for people or animals:
+We use **-'s** (apostrophe + **s**) mostly `for people or animals`:
 - **Tom's** computer isn't working. (not the computer of Tom)
 
-We do not use **-'s**** after a long group of words. So we say:
+We do not use **-'s** after a long group of words. So we say:
 - **my friends's** mother
 
 but  
@@ -26,11 +26,11 @@ You can use **'s** after more than one noun:
 - **Jack and Karen's** children
 
 ## Part C of
-For things, ideas etc, we normally use **of**:
+`For things, ideas` etc, we normally use **of**:
 - the temperature **of the water** (not the water's temperature)
 - the name **of the book**
 
-We say **the beginning/end/middle of.../ the top/ bottom of..../the front/ back/side of...:
+We say **the beginning/end/middle of.../ the top/ bottom of..../the front/ back/side of...**:
 - **the beginning of** the month (not the month's beginning)
 
 ## Part D 's or of... for an organisation (= a group of people)

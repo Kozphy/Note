@@ -29,7 +29,7 @@ Sometimes **could** is the past of **can**. We use **could** especially with:
 - As soon as I walked into the room, I **could smell** gas.
 - I was sitting at the back of the theatre and **couldn't hear** very well.
 
-We also use **could** to say that somebody had the general ability or permission to do something
+We also use **could** to say that somebody `had the general ability or permission to do something`
 - My grandfather **could speak** five languages.
 - We were totally free. We could do what we wanted. (= we were allowed to do)
 
@@ -50,14 +50,14 @@ We use could in a number of ways. Sometimes **could** is the past of **can**:
 - Listen. I can hear something.
 - I listened. I could hear something.
 
-But **could** is not only used in this way. We also use **could** to talk about possible actions now or in the future (especially to make suggestions). For ex:
+But **could** is not only used in this way. We also use **could** to `talk about possible actions now or in the future` (especially to make suggestions). For ex:
 - What shall we do tonight? We **could go** to the cinema.
 - When you go to Paris next month, you **could stay** with Sarah. Yes, I suppose I **could**.
 
 **Could** is less sure than **can**.
 
 ### Part 2 realistic of can and could
-We also use **could** (not can) for actions that are not realistc.
+We also use **could** (not can) `for actions that are not realistc`.
 - I'm so tired, I **could sleep** for a week.
 
 Compare can and could:
@@ -66,7 +66,7 @@ Compare can and could:
 - This is a wonderful place. I **could stay** here forever. (unrealistic)
 
 ### Part 3 could and might and may
-We also use **could** (not can) to say that something (a situation or a happening) is possible now or in the future. THe meaning is similar to **might** or **may**
+We also use **could** (not can) to say that `something (a situation or a happening) is possible now or in the future`. THe meaning is similar to **might** or **may**
 - The story **could be** ture, but I don't think it is.
 - I don't know what time Lisa is coming. She **could get** here at any time.
 
@@ -75,18 +75,18 @@ Compare can and could
 - The weather is nice now, but it could change. (the weather now, not in general)
 
 ### Part 4 could have
-We use **could have (done)** to talk about past. Compare
+We use **could have (done)** to talk about `past`. Compare
 - I'm so tired, I **could sleep** for a week.
 - I was so tired, I **could have slept** for a week.
 - The situation is bad, but it **could be** worse.
 - The situation was bad, but it **could have been** worse.
 
-Something **could have** hapened = it was possible but did not happen
+Something **could have** hapened = `it was possible but did not happen`
 - Why did you stay at a hotel when you were in Paris? You **could have stayed** with Sarah.
 - David was lucky. He **could have hurt** himself when he fell, but he's OK.
 
 ### Part 5 couldn't
-We use **couldn't** to say that something would not be possible:
+We use **couldn't** to say that something `would not be possible`:
 - I **couldn't live** in a big city. I'd hate it. (= it wouldn't be possible for me)
 - Everything is fine right now. Things **couldn't be** better.
 
@@ -96,7 +96,7 @@ For the past we use **couldn't have (done)**:
 
 ## Unit 28 Must and can't
 ### Part 1 must and can
-You can use **must** to say that you believe something is certain:
+You can use **must** to say that `you believe something is certain`:
 - My house is very near the motorway. It must be very noisy.
 - You've been travelling all day. You **must be** tired.
 - Louis **must get** very bored in her job. She does the same thing every day.
@@ -122,7 +122,7 @@ I/you/he (etc.) + must / can't + have + p.p / (been + v-ing/v-ed)
 ## Unit 29 May and might 1
 ### situation
 - Where's Ben? 
-    - He **may be in his office. (= perhaps he is in his office)
+    - He **may be** in his office. (= perhaps he is in his office)
     - He **might be haveing** lunch. (= perhaps he is having lunch)
     - Ask Ann. She **might know**. (= perhaps she knows)
 
@@ -163,7 +163,7 @@ But **couldn't** is different from **may not** and **might not**. Compare
 
 ## Unit 30 May and might 2
 ### Part 1 may and might in the future
-We use **may** and **might** to talk about possible actions or happenings in the future.
+We use **may** and **might** to talk about `possible actions or happenings in the future`.
 - I haven't decided yet where to go on holiday. I **may go** to Ireland. (= perhaps I will go there)
 - Take an umbrella with you. It **might rain** latar. (= perhaps it will rain)
 - The bus isn't always on time. We **might have** to wait a few minutes. (= perhaps we will have to wait)
@@ -195,7 +195,7 @@ We also use **may/might be -ing** for possible plans. Compare
 Helen and Clare have just missed the bus. The buses run every hour.
 - What shall we do? Shall we walk? We **might as well**. It's a nice day and I don't want to wait here for an hour.
 
-We **might as well** do something = We should do it because there no better alternative. There is not reason not to do it.
+We **might as well** do something = `We should do it because there no better alternative`. There is not reason not to do it.
 
 **May as well** is also possible
 
@@ -204,12 +204,12 @@ We **might as well** do something = We should do it because there no better alte
 
 ## Unit 31 Have to and must
 ### Part 1 have to
-I **have to do something** = it is necessary to do it, I am obliged to do it:
+I **have to do something** = `it is necessary to do it, I am obliged to do it`:
 - You can't turn right here. You **have to turn** left.
 - I **have to wear** glasses for reading.
 - Robert can't come out with us this evening. He **has to work** late.
 
-We use **do/does/did** in questions and negatie sentences (for the present and past simple)
+We use **do/does/did** in `questions and negative sentences` (for the present and past simple)
 - What **do I have to do** to get a new driving licence?
 
 You can say **I'll have to..., I'm going to have to...** and **I might/ I may have to...**:
@@ -276,10 +276,10 @@ Compare **needn't** (do) and **needn't have** (done):
 - Everything was OK. You **needn't have worried**. (you worried, but i was not necessary)
 
 ### Part 4 Needn't have (done) and didn't need to (do)
-He **needn't have done** something = he did it, but now we know that it was not necessary.
+He **needn't have done** something = `he did it, but now we know that it was not necessary`.
 - Why did he get up at 5 o'clock? He **needn't have got** up so early. He could have stayed in bed longer.
 
-He **didn't need to** do something = it was not necessary to do it. It doesn't matter whether he did it or not.
+He **didn't need to** do something = `it was not necessary to do it. It doesn't matter whether he did it or not`.
 - He **didn't need to** get up early, so he didn't
 - He **didn't need to** get up early, but it was a beautiful morning, so he did.
 
@@ -287,7 +287,7 @@ He **didn't need to** do something = it was not necessary to do it. It doesn't m
 
 ## Unit 33 Should 1
 ### Part 1 should do
-You **should do** something = it is a good thing to do or the right thing to do. You can use **should** to give advice or to give an opinion:
+You **should do** something = `it is a good thing to do or the right thing to do`. You can use **should** to give advice or to give an opinion:
 - You look tired. You **should go** to bed.
 - **Should** we **invite** Stephanie to the party? Yes, I think we **should**.
 
@@ -296,7 +296,7 @@ We often use **should** with **I think/ I don't think / Do you think**...?
 - I **don't think** you **should work** so hard.
 - **Do you think** I **should apply** for this job? Yes, **I think you should.
 
-You **shouldn't** do something = it isn't a good thing to do:
+You **shouldn't** do something = `it isn't a good thing to do`:
 - You **shouldn't believe** everything you read in the newspapers.
 
 **Should** is not as strong as **must** or **have to**
@@ -304,21 +304,21 @@ You **shouldn't** do something = it isn't a good thing to do:
 - You **must** apologise. / You **have to** apologise. (= you have no alternative.)
 
 ### Part 2 should in some situation
-You can use **should** when something is not right or what you expect:
+You can use **should** when `something is not right or what you expect`:
 - Where's Tina? She **should be** here by now. (= she isn't here yet, and this is not normal)
 - The price on this packet is wrong. It **should be** $2.50, not $3.50.
 - That man on the motorbike **should be wearing** a helmet.
 
-We also use **should** to say that we expect something to happen:
+We also use **should** to say that `we expect something to happen`:
 - Helen has been studying hard for the exam, so she **should pass**. (= I expect her to pass)
 - There are plenty of hotels in the town. It **shouldn't be** hard to find a place to stay. (= I don't expect it to be hard)
 
 ### Part 3 should have done
-You **should have done** something = you didn't do it, but it would have been the right thing to do:
+You **should have done** something = `you didn't do it, but it would have been the right thing to do`:
 - You missed a great party last night. You **should have come**. Why didn't you? (= you didn't come, but it would have been good to come)
 - I wonder why they're so late. They **should have got** here long ago.
 
-You **shouldn't have done** something = you did it, but it was the wrong thing to do:
+You **shouldn't have done** something = `you did it, but it was the wrong thing to do`:
 - I'm feeling sick. I **shouldn't have eaten so much. (= I ate too much)
 - She **shouldn't have been listening** to our conversation. It was private. (= she was listening)
 

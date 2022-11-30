@@ -1,9 +1,9 @@
-# Built-in Data Structures, Functions,and Files
+# Chp3 Built-in Data Structures, Functions,and Files
 ###### tags: `data analysis`
 
 ## Data Structures and Sequences
 ### Tuple
-A tuple is a fixed-length, immutable sequence of Python objects. The easiest way to create one is with a comma-separated sequence of values:
+`A tuple is a fixed-length, immutable sequence` of Python objects. The easiest way to create one is with a comma-separated sequence of values:
 ```python=
 In [1]: tup = 4, 5, 6
 In [2]: tup
@@ -19,7 +19,7 @@ Out[7]: ('s', 't', 'r', 'i', 'n', 'g')
 In [8]: tup[0]
 Out[8]: 's'
 ```
-If an object inside a tuple is mutable, such as a list, you can modify it in-place:
+If an `object inside a tuple is mutable`, such as a list, you can modify it in-place:
 ```python=
 In [9]: tup = tuple(['foo', [1, 2], True])
 In [11]: tup[1].append(3)
@@ -33,12 +33,12 @@ In [13]: (4, None, 'foo') + (6, 0) + ('bar',)
 Out[13]: (4, None, 'foo', 6, 0, 'bar')
 ```
 
-Multiplying a tuple by an integer, as with lists, has the effect of concatenating together that many copies of the tuple:
+`Multiplying` a tuple by an integer, as with lists, has the effect of concatenating together that many copies of the tuple:
 ```python=
 In [14]: ('foo', 'bar') * 4
 Out[14]: ('foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar')
 ```
-Note that the objects themselves are not copied, only the references to them.
+> Note that the objects themselves are not copied, only the references to them.
 
 ### Unpacking tuples
 ```python=
@@ -75,7 +75,9 @@ a=4, b=5, c=6
 a=7, b=8, c=9
 ```
 
-The Python language recently acquired some more advanced tuple unpacking to help with situations where you may want to “pluck” a few elements from the beginning of a tuple. This uses the special syntax *rest, which is also used in function signatures to capture an arbitrarily long list of positional arguments:
+You may want to `“pluck”` a few elements from the beginning of a tuple. 
+
+This uses the special syntax `*rest`, which is also used in function signatures to capture an arbitrarily long list of positional arguments:
 ```python=
 In [29]: values = 1, 2, 3, 4, 5
 In [30]: a, b, *rest = values
@@ -85,12 +87,12 @@ In [32]: rest
 Out[32]: [3, 4, 5]
 ```
 
-This rest bit is sometimes something you want to discard; there is nothing special about the rest name. As a matter of convention, many Python programmers will use the underscore (_) for unwanted variables:
+you can use the `underscore (_)` to ignore unwanted variables:
 ```python=
 In [33]: a, b, *_ = values
 ```
 
-Since the size and contents of a tuple cannot be modified, it is very light on instance methods. A particularly useful one (also available on lists) is count, which counts the number of occurrences of a value:
+Since the size and contents of a tuple cannot be modified, you can use `count` method, which **counts the number of occurrences of a value**:
 ```python=
 In [34]: a = (1, 2, 2, 2, 3, 4, 2)
 In [35]: a.count(2)
@@ -98,9 +100,8 @@ Out[35]: 4
 ```
 
 ### List
-In contrast with tuples, lists are variable-length and their contents can be modified in-place. You can define them using square brackets [] or using the list type function
+In contrast with tuples, lists are variable-length and their contents `can be modified in-place`. You can define them using `square brackets []` or using the `list type function`
 
-The list function is frequently used in data processing as a way to materialize an iterator or generator expression:
 ```python=
 In [42]: gen = range(10)
 In [43]: gen
@@ -116,20 +117,22 @@ Out[44]: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 - remove(`value`)
 
 #### Concatenating and combining lists
-Similar to tuples, adding two lists together with + concatenates them:
+Similar to tuples, adding two lists together with `+` concatenates them:
 ```python=
 In [57]: [4, None, 'foo'] + [7, 8, (2, 3)]
 Out[57]: [4, None, 'foo', 7, 8, (2, 3)]
 ```
 
-If you have a list already defined, you can append multiple elements to it using the extend method:
+If you have a list already defined, you can append multiple elements to it using the `extend` method:
 ```python=
 In [58]: x = [4, None, 'foo']
 In [59]: x.extend([7, 8, (2, 3)])
 In [60]: x
 Out[60]: [4, None, 'foo', 7, 8, (2, 3)]
 ```
-**Note that list concatenation by addition is a comparatively expensive operation since a new list must be created and the objects copied over**. Using extend to append elements to an existing list, especially if you are building up a large list, is usually preferable. 
+> Note that list concatenation by **addition** is a **comparatively expensive operation** since a new list must be created and the objects copied over. 
+
+Using `extend` to append elements to an existing list, especially if you are building up a large list, is usually `preferable`. 
 
 Thus,
 ```python=
@@ -146,7 +149,7 @@ for chunk in list_of_lists:
 ```
 
 #### Sorting
-You can sort a list in-place (without creating a new object) by calling its sort function
+You can `sort a list in-place` (without creating a new object) by calling its sort function
 ```python=
 In [61]: a = [7, 2, 5, 1, 3]
 In [62]: a.sort()
@@ -154,7 +157,7 @@ In [63]: a
 Out[63]: [1, 2, 3, 5, 7]
 ```
 
-**sort** has a few options that will occasionally come in handy. One is the ability to pass a secondary sort **key**--that is, a funtion that produces a value to use to sort the objects. For ex, we could sort a collection of strings by their lengths:
+The **sort** secondary parameter is **key** a funtion that produces a value to use to sort the objects. For ex, we could **sort a collection of strings by their lengths**:
 ```python=
 In [64]: b = ['saw', 'small', 'He', 'foxes', 'six']
 In [65]: b.sort(key=len)
@@ -163,8 +166,10 @@ Out[66]: ['He', 'saw', 'six', 'small', 'foxes']
 ```
 
 #### Binary search and maintaining a sorted list
-The built-in bisect module implements binary search and insertion into a sorted list.
-**bisect.bisect** finds the location where an element should be inserted to keep it sorted, while **bisect.insort** actually inserts the element into that location:
+The built-in **bisect** module implements **binary search** and **insertion into a sorted list**.
+
+- **bisect.bisect** `finds` the `location` where an element `should be inserted to keep it sorted`.
+- **bisect.insort** `actually inserts` the element into that location:
 ```python=
 In [67]: import bisect
 In [68]: c = [1, 2, 2, 2, 3, 4, 7]
@@ -176,16 +181,16 @@ In [71]: bisect.insort(c, 6)
 In [72]: c
 Out[72]: [1, 2, 2, 2, 3, 4, 6, 7]
 ```
-> The bisect module functions do not check whether the list is sorted, as doing so would be computationally expensive. Thus, using them with an unsorted list will succeed without error but may lead to incorrect results.
+> The bisect module functions do not check whether the list is sorted. Thus, using them with an unsorted list will succeed without error but may lead to **incorrect results**.
 
 #### Slicing
-A **step** can also be used after second colon ty, say, take every other element:
+A **step** can also be used `after second colon`.
 ```python=
 In [73]: seq = [7, 2, 3, 7, 5, 6, 0, 1]
 In [81]: seq[::2]
 Out[82]: [7, 3, 5, 0]
 ```
-A clever use of this is to pass -1, which has the useful effect of reversing a list or tuple:
+A clever use of this is to pass `-1`, which reverse a list or tuple:
 ```python=
 In [82]: seq[::-1]
 Out[83]: [1, 0, 6, 5, 7, 3, 2, 7]
@@ -193,16 +198,13 @@ Out[83]: [1, 0, 6, 5, 7, 3, 2, 7]
 
 ## Built-in Sequence Functions
 ### enumerate
-It's common when iterating over a sequence to want to keep track of the index of the current item.
-
-Since this is so common, Python has a built-in function, enumerate, which returns a sequence of (i, value) tuples:
+Enumerate returns a `sequence of (i, value) tuples`:
 ```python=
 for i, value in enumerate(collection):
  # do something with value
 ```
 
-When you are indexing data, a helpful pattern that uses enumerate is computing a **dict** mapping the values of a sequence (which are assumed to be unique) to their
-locations in the sequence:
+You can `map` the `values` of a sequence to their `key` (unique) in the sequence:
 ```python=
 In [83]: some_list = ['foo', 'bar', 'baz']
 In [84]: mapping = {}
@@ -213,7 +215,7 @@ Out[86]: {'bar': 1, 'baz': 2, 'foo': 0}
 ```
 
 ### sorted
-The sorted function returns a new sorted list from the elements of any sequence:
+The `sorted` function returns a `new sorted list` from the elements of any sequence:
 ```python=
 In [87]: sorted([7, 1, 2, 6, 0, 3, 2])
 Out[87]: [0, 1, 2, 2, 3, 6, 7]
@@ -222,7 +224,7 @@ Out[88]: [' ', 'a', 'c', 'e', 'e', 'h', 'o', 'r', 'r', 's']
 ```
 
 ## zip
-zip “pairs” up the elements of a number of lists, tuples, or other sequences to create a list of tuples:
+zip `“pairs” up` the elements of a number of lists, tuples, or other sequences to create a list of tuples:
 ```python=
 In [89]: seq1 = ['foo', 'bar', 'baz']
 In [90]: seq2 = ['one', 'two', 'three']
@@ -231,14 +233,14 @@ In [92]: list(zipped)
 Out[92]: [('foo', 'one'), ('bar', 'two'), ('baz', 'three')]
 ```
 
-zip can take an arbitrary number of sequences, and the number of elements it produces is determined by the shortest sequence:
+zip can take an arbitrary number of sequences, and `the number of elements it produces is determined by the shortest sequence`:
 ```python=
 In [93]: seq3 = [False, True]
 In [94]: list(zip(seq1, seq2, seq3))
 Out[94]: [('foo', 'one', False), ('bar', 'two', True)]
 ```
 
-A very common use of **zip** is simultaneously iteraing over multiple sequences, possibly also combined with enumerate:
+A very common use of **zip** is `simultaneously iteraing` over multiple sequences, possibly also `combined` with `enumerate`:
 ```python=
 In [95]: for i, (a, b) in enumerate(zip(seq1, seq2)):
  ....: print('{0}: {1}, {2}'.format(i, a, b))
@@ -248,7 +250,7 @@ In [95]: for i, (a, b) in enumerate(zip(seq1, seq2)):
 2: baz, three
 ```
 
-Given a “zipped” sequence, zip can be applied in a clever way to “unzip” the sequence. Another way to think about this is converting a list of rows into a list of columns. The syntax, which looks a bit magical, is:
+Given a “zipped” sequence, zip can be applied to `“unzip”` the sequence by **asterisk**. Another way to think about this is converting a **list of rows into a list of columns**. 
 ```python=
 In [96]: pitchers = [('Nolan', 'Ryan'), ('Roger', 'Clemens'),
  ....: ('Schilling', 'Curt')]
@@ -260,16 +262,17 @@ Out[99]: ('Ryan', 'Clemens', 'Curt')
 ```
 
 ## reversed
-reversed iterates over the elements of a sequence in reverse order:
+`reversed` iterates over the elements of a sequence **in reverse order**:
 ```python=
 In [100]: list(reversed(range(10)))
 Out[100]: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 ```
-Keep in mind that **reversed** is a generator (to be discussed in some more detail later), so it does not create the reversed sequence until materialized (e.g., with list or a for loop)
+Keep in mind that **reversed** is a `generator`, so it does not create the reversed sequence until `materialized` (e.g., with list or a for loop)
 
 # dict
-You can delete values either using the **del** keyword or the pop method (which simultaneously returns the value and deletes the key)
+You can delete values either using the **del** keyword or the **pop** method.
 ```python=
+di = {'a' : 'some value', 'b' : [1, 2, 3, 4]}
 In [108]: d1[5] = 'some value'
 In [109]: d1
 Out[109]:
@@ -277,6 +280,7 @@ Out[109]:
 'b': [1, 2, 3, 4],
 7: 'an integer',
 5: 'some value'}
+
 In [110]: d1['dummy'] = 'another value'
 In [111]: d1
 Out[111]:
@@ -285,6 +289,7 @@ Out[111]:
 7: 'an integer',
 5: 'some value',
 'dummy': 'another value'}
+
 In [112]: del d1[5]
 In [113]: d1
 Out[113]:
@@ -292,6 +297,7 @@ Out[113]:
 'b': [1, 2, 3, 4],
 7: 'an integer',
 'dummy': 'another value'}
+
 In [114]: ret = d1.pop('dummy')
 In [115]: ret
 Out[115]: 'another value'
@@ -299,7 +305,7 @@ In [116]: d1
 Out[116]: {'a': 'some value', 'b': [1, 2, 3, 4], 7: 'an integer'}
 ```
 
-The **keys** and **values** method give you iterators of the dict’s keys and values, respectively. While the key-value pairs are not in any particular order, these functions output the keys and values in the same order:
+The **keys** and **values** method give you iterators of the dict’s keys and values, respectively. 
 ```python=
 In [117]: list(d1.keys())
 Out[117]: ['a', 'b', 7]
@@ -307,7 +313,7 @@ In [118]: list(d1.values())
 Out[118]: ['some value', [1, 2, 3, 4], 'an integer']
 ```
 
-You can merge one dict into another using the **update** method:
+You can `merge one dict into another` using the **update** method:
 ```python=
 In [119]: d1.update({'b' : 'foo', 'c' : 12})
 In [120]: d1
@@ -315,57 +321,63 @@ Out[120]: {'a': 'some value', 'b': 'foo', 7: 'an integer', 'c': 12}
 ```
 
 ## Creating dicts from sequences
-It's common to occasionally end up with two sequences that you want to pair up element-wise in a dict. As a first cut, you might write code like this:
+You can `zip` two sequences that you want to pair up element-wise in a dict. 
 ```python=
+key_list = [1,23,45]
+value_list = [421,321,42]
 mapping = {}
 for key, value in zip(key_list, value_list):
     mapping[key] = value
 ```
-
-Since a dict is essentially a collection of 2-tuples, the dict function accepts a list of 2-tuples:
+Since a dict is `essentially a collection of 2-tuples`, the dict function accepts a list of 2-tuples:
 ```python=
 In [121]: mapping = dict(zip(range(5), reversed(range(5))))
 In [122]: mapping
 Out[122]: {0: 4, 1: 3, 2: 2, 3: 1, 4: 0}
 ```
+> **range** return a **immutable sequence type**.
 
 ## Default values
-It’s very common to have logic like:
+Using if-else-condition create default value of dict.
 ```python=
 if key in some_dict:
- value = some_dict[key]
+    value = some_dict[key]
 else:
- value = default_value
+    value = default_value
 ```
 
-Thus, the dict methods get and pop can take a default value to be returned, so that the above if-else block can be written simply as:
+Thus, the dict methods `get` and `pop` can take a `default value` to **be returned**, so that the above if-else block can be written simply as:
 ```python=
 value = some_dict.get(key, default_value)
 ```
 
-**get** by default will return **None** if the key is not present, while pop will raise an exception. With setting values, a common case is for the values in a dict to be other collections, like lists. For example, you could imaginecategorizing a list of words by their first letters as a dict of lists:
+### get
+**get** by default will return **None** if the key is not present, while `pop will raise an exception`. 
+
+With setting values, a common case is for the `values` in a dict `to be other collections, like lists`. 
 ```python=
 In [123]: words = ['apple', 'bat', 'bar', 'atom', 'book']
 In [124]: by_letter = {}
 In [125]: for word in words:
  .....: letter = word[0]
  .....: if letter not in by_letter:
- .....: by_letter[letter] = [word]
+ .....:     by_letter[letter] = [word]
  .....: else:
- .....: by_letter[letter].append(word)
+ .....:     by_letter[letter].append(word)
  .....:
 In [126]: by_letter
 Out[126]: {'a': ['apple', 'atom'], 'b': ['bat', 'bar', 'book']}
 ```
-
-The **setdefault** dict method is for precisely this purpose. The preceding for loop can be rewritten as:
+### setdefault
+The **setdefault** dict method is for precisely this purpose. The `preceding for loop can be rewritten as`:
 ```python=
 for word in words:
     letter = word[0]
-    by_letter.seetdefault(letter, []).append(word)
+    by_letter.setdefault(letter, []).append(word)
 ```
 
-The built-in **collections** module has a useful class, defaultdict, which makes this even easier. To create one, you pass a type or function for generating the default value for each slot in the dict:
+### defaultdict
+The built-in **collections** module has  `defaultdict` which can set **default type of dict value**.
 ```python=
 from collections import defaultdict
 by_letter = defaultdict(list)
@@ -374,8 +386,10 @@ for word in words:
 ```
 
 ## Valid dict key types
-While the values of a dict can be any Python object, the keys generally have to be immutable objects like scalar types (int, float, string) or tuples (all the objects in the tuple need to be immutable, too). The technical term here is hashability. You can check whether an object is hashable (can be used as a key in a dict) with the hash
-function:
+The **keys of dict** is **generally immutable**, like `scalar types` (int, float, string) or `tuples`.
+
+You can use `hash` function to check whether an object is `hashable` which means you can use it as a key in a dict.
+
 ```python=
 In [127]: hash('string')
 Out[127]: 5023931463650008331
@@ -388,7 +402,8 @@ TypeError Traceback (most recent call last)
 ----> 1 hash((1, 2, [2, 3])) # fails because lists are mutable
 TypeError: unhashable type: 'list'
 ```
-To use a list as a key, one option is to convert it to a tuple, which can be hashed as long as its elements also can:
+
+**To use a list as a key, one option is to convert it to a tuple**:
 ```python=
 In [130]: d = {}
 In [131]: d[tuple([1, 2, 3])] = 5
@@ -397,7 +412,11 @@ Out[132]: {(1, 2, 3): 5}
 ```
 
 ## set
-A set is an unordered collection of unique elements. You can think of them like dicts, but keys only, no values. A set can be created in two ways: via the set function or via a set literal with curly braces
+A **set** is an `unordered collection of unique elements`. 
+
+You can think of them like dicts, but `keys only, no values`.
+
+A set can be **created in two ways**: via the set `function` or via a `set literal with curly braces`
 ```python=
 In [133]: set([2, 2, 2, 1, 3, 3])
 Out[133]: {1, 2, 3}
@@ -411,7 +430,11 @@ In [135]: a = {1, 2, 3, 4, 5}
 In [136]: b = {3, 4, 5, 6, 7, 8}
 ```
 
-The **union** of these two sets is the set of distinct elements occurring in either set. This can be computed with either the union method or the | binary operator:
+### union
+
+You can use `union` to get all element of two set in no overlap.
+
+This can be computed with either the `union method` or the `| binary operator`:
 ```python=
 In [137]: a.union(b)
 Out[137]: {1, 2, 3, 4, 5, 6, 7, 8}
@@ -419,7 +442,10 @@ In [138]: a | b
 Out[138]: {1, 2, 3, 4, 5, 6, 7, 8}
 ```
 
-The **intersection** contains the elements occurring in both sets. The & operator or the intersection method can be used:
+### intersection
+The **intersection** contains the elements `occurring in both sets`. 
+
+The `&` operator or the intersection method can be used:
 ```python=
 In [139]: a.intersection(b)
 Out[139]: {3, 4, 5}
@@ -431,7 +457,8 @@ Out[140]: {3, 4, 5}
 See Table 3-1 for a list of commonly used set methods.
 ![](https://i.imgur.com/lhCCwMq.png)
 
-All of the logical set operations have in-place counterparts, which enable you to replace the contents of the set on the left side of the operation with the result. For very large sets, this may be more efficient:
+For very large sets using `logical set operations` is more efficient which could let you **replace** set elements **in-place** `on left hand side of operations`.
+
 ```python=
 In [141]: c = a.copy()
 In [142]: c |= b
@@ -443,7 +470,7 @@ In [146]: d
 Out[146]: {3, 4, 5}
 ```
 
-Like dicts, set elements generally must be immutable. To have list-like elements, you must convert it to a tuple:
+Like dicts, **set elements generally must be immutable**. To have list-like elements, you must `convert it to a tuple`:
 ```python=
 In [147]: my_data = [1, 2, 3, 4]
 In [148]: my_set = {tuple(my_data)}
@@ -457,10 +484,13 @@ Out[153]: True
 ```
 
 ## List, Set and Dict Comprehensions
-**List comprehensions** are one of the most-loved Python language features. They allow you to concisely form a new list by filtering the elements of a collection, transforming the elements passing the filter in one concise expression. They take the basic form:
+### List comprehensions (square bracket)
+The filter condition can be omitted, leaving only the expression. 
+
 ```
 [expr for val in collection if condition]
 ```
+
 This is equivalent to the following **for** loop:
 ```python=
 result = []
@@ -469,33 +499,33 @@ for val in collection:
         result.append(expr)
 ```
 
-The filter condition can be omitted, leaving only the expression. For example, given a list of strings, we could filter out strings with length 2 or less and also convert them to uppercase like this:
+For example, given a list of strings, we could filter out strings with length 2 or less and also convert them to uppercase like this:
 ```python=
 In [82]: strings = ['a', 'as', 'bat', 'car', 'done', 'python']
 In [85]: [x.upper() for x in strings if len(x) <= 2]
 Out[85]: ['A', 'AS']
 ```
 
-Set and dict comprehensions are a natural extension, producing sets and dicts in an idiomatically similar way instead of lists. A dict comprehension looks like this:
-
+### dict comprehension (square bracket)
 A dict comprehension looks like this:
 ```python=
 dict_comp = {key-expr : value-expr for value in collection if condition}
 ```
 
-A set comprehension looks like the equivalent list comprehension except with curly braces instead of square brackets:
+### set comprehension (curly braces)
+A set comprehension looks like the equivalent list comprehension except `with curly braces` instead of square brackets:
 ```python=
 set_comp = {expr for value in collection if condition}
 ```
 
-Suppose we wanted a set containing just the lengths of the strings contained in the collection; we could easily compute this using a set comprehension:
+Suppose we wanted a `set containing just the lengths of the strings` contained in the collection 
 ```python=
 In [156]: unique_lengths = {len(x) for x in strings}
 In [157]: unique_lengths
 Out[157]: {1, 2, 3, 4, 6}
 ```
 
-We could also express this more functionally using the map function, introduced shortly:
+We could also express this more functionally using the `map` function, introduced shortly:
 ```python=
 In [158]: set(map(len, strings))
 Out[158]: {1, 2, 3, 4, 6}
@@ -510,12 +540,12 @@ Out[95]: {'a': 0, 'as': 1, 'bat': 2, 'car': 3, 'done': 4, 'python': 5}
 ```
 
 ## Nested list comprehensions
-Suppos we have a list of lists containing some English and Spanish names:
+Suppose we have a list of lists containing some English and Spanish names:
 ```python=
 In [161]: all_data = [['John', 'Emily', 'Michael', 'Mary', 'Steven'],['Maria', 'Juan', 'Javier', 'Natalia', 'Pilar']]
 ```
 
-Now, suppose we wanted to get a single list containing all names with two or more e’s in them. We could certainly do this with a simple for loop:
+Now, suppose we wanted to get a single list containing all names `with two or more e’s` in them. We could certainly do this with a simple for loop:
 ```python=
 names_of_interest = []
 for names in all_data:
@@ -531,7 +561,7 @@ In [163]: result
 Out[163]: ['Steven']
 ```
 
-Here is another example where we “flatten” a list of tuples of integers into a simple list of integers:
+Here is another example where we `“flatten”` a list of tuples of integers into a simple list of integers:
 ```python=
 In [164]: some_tuples = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]
 In [165]: flattened = [x for tup in some_tuples for x in tup]
@@ -545,32 +575,46 @@ Out[167]: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 ```
 
 # 3.2 Functions
+## keyword argument and positional arguments
+Each function can have `positional arguments` and `keyword arguments`.
+
+`Keyword arguments` are most commonly used to specify **default values** or **optional arguments**.
+
+The main restriction on function arguments is that the `keyword arguments must follow the positional arguments` (if any).
+
 ```python=
 def my_function(x, y, z=1.5):
- if z > 1:
- return z * (x + y)
- else:
- return z / (x + y)
+    if z > 1:
+        return z * (x + y)
+    else:
+        return z / (x + y)
 ```
-Each function can have positional arguments and keyword arguments. Keyword arguments are most commonly used to specify default values or optional arguments. In the preceding function, x and y are positional arguments while z is a keyword argument. This means that the function can be called in any of these ways:
+
 ```python=
 my_function(5, 6, z=0.7)
 my_function(3.14, 7, 3.5)
 my_function(10, 20)
 ```
 
-The main restriction on function arguments is that the keyword arguments must follow the positional arguments (if any).
+## Namespaces, scope, and local functions, global variable
+Functions can access variables in two different scopes: **global** and **local**.
 
-## Namespaces, scope, and local functions
-Functions can access variables in two different scopes: **global** and **local**. An alternative and more descriptive name describing a variable scope in Python is a namespace. Any variables that are assigned within a function by default are assigned to the local namespace. The local namespace is created when the function is called and immediately populated by the function’s arguments. After the function is finished, the local namespace is destroyed.
+An alternative and more descriptive name describing a variable scope in Python is a `namespace`. 
+
+Any variables that are assigned `within a function` by default are assigned to the `local namespace`. 
+
+The `local namespace is created when the function is called` and immediately populated by the function’s arguments. 
+
+After the function is finished, the local namespace is destroyed.
+
 ```python=
 def func():
     a = []
     for i in range(5):
         a.append(i)
 ```
-When func() is called, the empty list a is created, five elements are appended, and then a is destroyed when the function exits. Suppose instead we had declared a as
-follows:
+
+When `func()` is called, the empty list a is created, five elements are appended, and then a is destroyed when the function exits. 
 ```python=
 a = []
 def func():
@@ -578,7 +622,9 @@ def func():
  a.append(i)
 ```
 
-Assigning variables outside of the function's scope is possible, but those variables must be declared as global via the **global** keyword:
+### global variable
+You can use **global** variable to assign outside of the function's scope.
+
 ```python=
 a = None
 
@@ -590,6 +636,9 @@ print(a)
 ```
 
 ## Returning  Multiple Values
+
+What’s happening here is that the function is `actually just returning one object`, **namely a tuple**, which is then being unpacked into the result variables.
+
 ```python=
 def f():
     a = 5
@@ -599,33 +648,34 @@ def f():
 a, b, c = f()
 ```
 
-What’s happening here is that the function is actually just returning one object, namely a tuple, which is then being unpacked into the result variables.
 
-In the precceding exampe, we could have done this instead:
+In the precceding example, we could have done this instead:
 ```python=
 return_value = f()
 ```
+
 In this case, **return_value** would be a 3-tuple with the three returned variables.
 
 ## Functions are objects
+Lots of things need to happen to `make this list of strings uniform and ready for analysis`: stripping whitespace, removing punctuation symbols, and standardizing on proper capitalization. 
+
 ```python=
 In [171]: states = [' Alabama ', 'Georgia!', 'Georgia', 'georgia', 'FlOrIda',
  .....: 'south carolina##', 'West virginia?']
 ```
 
-Anyone who has ever worked with user-submitted survey data has seen messy results like these. Lots of things need to happen to make this list of strings uniform and
-ready for analysis: stripping whitespace, removing punctuation symbols, and standardizing on proper capitalization. One way to do this is to use built-in string methods along with the re standard library module for regular expressions:
+One way to do this is to use built-in string methods along with the `re` standard library module for regular expressions:
 ```python=
 import re
 
 def clean_strings(strings):
- result = []
- for value in strings:
- value = value.strip()
- value = re.sub('[!#?]', '', value)
- value = value.title()
- result.append(value)
- return result
+    result = []
+        for value in strings:
+            value = value.strip()
+            value = re.sub('[!#?]', '', value)
+            value = value.title()
+            result.append(value)
+            return result
 ```
 
 An alternative approach that you may find useful is to make a list of the operations you want to apply to a particular set of strings:

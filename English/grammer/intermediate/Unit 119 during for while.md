@@ -11,7 +11,7 @@ you can usually say **in** or **during**:
 - It rained **in the night**. or ...**during the night**.
 
 ## Part B **for** and **during**
-We use **for** (+ a period of time) to say how long something goes on:
+We use **for** (+ a period of time) to say `how long something goes on`:
 - We watched TV **for two hours** last night.
 - Jess is going away **for a week** in September.
 

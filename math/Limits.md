@@ -22,7 +22,7 @@ We don't really know the value of $\frac{0}{0}$ (It is "indeterminate").
 
 So we need to use another way to **approach** it **closer and closer**:
 
-![limits_continue](./assets/Poisson_process/limits_continue.drawio.svg)
+![limits_continue](../Statistics/assets/Poisson_process/limits_continue.drawio.svg)
 
 We want to give the answer "2" but can't, so instead mathematicians say exactly what is going on by using the special word "limit".
 
