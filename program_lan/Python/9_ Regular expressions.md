@@ -1,12 +1,16 @@
 # 9: Regular expressions
+
 ###### tags: `python learn`
+
 ## source
+
 [reg search in list](https://stackoverflow.com/questions/3640359/regular-expressions-search-in-list)
 -----
 
-The regular expression library `re` must be imported into your program before you can use it. 
+The regular expression library `re` must be imported into your program before you can use it.
 
-The simplest use of the regular expression library is the **search()** function. 
+The simplest use of the regular expression library is the **search()** function.
+
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -15,10 +19,13 @@ for line in hand:
     if re.search('From:', line):
         print(line)
 ```
+
 ### caret `^`
-For example, the `caret character` is used in regular expressions to `match “the beginning” of a line`. 
+
+For example, the `caret character` is used in regular expressions to `match “the beginning” of a line`.
 
 We could change our program to only match lines where “From:” was at the beginning of the line as follows:
+
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -28,9 +35,13 @@ for line in hand:
         print(line)
 
 ```
+
 ## Character matching in regular expressions
+
 ### `..` period
+
 The regular expression “F..m:” would match any of the strings “From:”, “Fxxm:”, “Fm:”, or “F!@m:” since the `period` characters in the regular expression `match any character`.
+
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -39,7 +50,9 @@ hand = open('mbox-short.txt')
         if re.search('^F..m:', line):
             print(line)
 ```
+
 ### `*` match zero-or-more, `+` match one-or-more
+
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -50,8 +63,8 @@ for line in hand:
 ```
 
 ## Extracting data using regular expressions
-If we want to extract data from a string in Python we can use the `findall()` method to `extract all of the substrings which match` a regular expression. 
 
+If we want to extract data from a string in Python we can use the `findall()` method to `extract all of the substrings which match` a regular expression.
 
 This following program uses findall() to find the lines with email addresses in them and `extract one` or `more addresses` **from each of those lines**.
 
@@ -61,9 +74,11 @@ s = 'A message from csev@umich.edu to cwen@iupui.edu about meeting @2PM'
 lst = re.findall('\S+@\S+', s)
 print(lst)
 ```
-The `findall()` method `searches` the string **in the second argument** and returns a list of all of the strings that look like email addresses. 
+
+The `findall()` method `searches` the string **in the second argument** and returns a list of all of the strings that look like email addresses.
 
 ### \S matches a non-whitespace character
+
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -73,12 +88,15 @@ x = re.findall('\S+@\S+', line)
 if len(x) > 0:
     print(x)
 ```
-### [] Square brackets
-**Square brackets** are used to indicate a `set of multiple acceptable characters` we are willing to consider matching. 
 
-Translating this regular expression, we are looking for substrings that start with a `single lowercase letter`, `uppercase letter`, or `number` “[a-zA-Z0-9]”, followed by zero or more non-blank characters (“\S*”), followed by an atsign, followed by zero or more non-blank characters (“\S*”), followed by an uppercase or lowercase letter. 
+### [] Square brackets
+
+**Square brackets** are used to indicate a `set of multiple acceptable characters` we are willing to consider matching.
+
+Translating this regular expression, we are looking for substrings that start with a `single lowercase letter`, `uppercase letter`, or `number` “[a-zA-Z0-9]”, followed by zero or more non-blank characters (“\S*”), followed by an atsign, followed by zero or more non-blank characters (“\S*”), followed by an uppercase or lowercase letter.
 
 Note that we switched from “+” to “*” to indicate zero or more nonblank characters since “[a-zA-Z0-9]” is already one non-blank character. Remember that the “*” or “+” applies to the single character immediately to the left of the plus or asterisk.
+
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -90,11 +108,14 @@ if len(x) > 0:
 ```
 
 ## Combining searching and extracting
+
 If we want to find numbers on lines that start with the string “X-” such as:
+
 ```python=
 X-DSPAM-Confidence: 0.8475
 X-DSPAM-Probability: 0.0000
 ```
+
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -105,7 +126,9 @@ for line in hand:
 
 
 ```
+
 Parentheses are another special character in regular expressions. When you add parentheses to a regular expression, they are ignored when matching the string. But when you are using `findall()`, parentheses indicate that while you want the whole expression to match, you only are interested in extracting a portion of the substring that matches the regular expression.
+
 ```python=
 import re
 hand = open('mbox-short.txt')
@@ -115,10 +138,12 @@ for line in hand:
     if len(x) > 0:
         print(x)
 ```
+
 Instead of calling `search()`, we add parentheses around the part of the regular expression that represents the floating-point number to indicate we only want `findall()` to give us back the floating-point number portion of the matching string.
 
 Now we can use regular expressions to redo an exercise from earlier in the book where we were interested in the time of day of each mail message. We wanted to extract the hour of the day for each line.
 We looked for lines of the form:
+
 ```txt
 From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008
 ```
@@ -135,17 +160,21 @@ for line in hand:
 ```
 
 ## Escape character
+
 Since we use special characters in regular expressions to match the beginning or end of a line or specify wild cards, we need a way to indicate that these characters are “normal” and we want to match the actual character such as a dollar sign or caret.
 
 We can indicate that we want to simply match a character by prefixing that character with a backslash.
+
 ```python=
 import re
 x = 'We just received $10.00 for cookies.'
 y = re.findall('\$[0-9.]+', x)
 ```
+
 **Note: Inside square brackets, characters are not “special”. So when we say “[0-9.]”, it really means digits or a period. Outside of square brackets, a period is the “wild-card” character and matches any character. Inside square brackets, the period is a period.**
 
- ## Summary
+## Summary
+
 - ^ Matches the beginning of the line.
 - $ Matches the end of the line.
 - . Matches any character (a wildcard).
@@ -164,7 +193,9 @@ y = re.findall('\$[0-9.]+', x)
 - \d Matches any decimal digit; equivalent to the set [0-9] character; equivalent to the set [ˆ0-9].
 
 ## Bonus section for Unix / Linux users
+
 As a matter of fact, there is a command-line program built into Unix called grep (Generalized Regular Expression Parser) that does pretty much the same as the `search()` examples in this chapter. So if you have a Macintosh or Linux system, you can try the following commands in your command-line window.
+
 ```vim
 $ grep '^From:' mbox-short.txt
 From: stephen.marquard@uct.ac.za
