@@ -45,7 +45,7 @@ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 To take affect:
 
 ```cmd
-source ~/bashrc
+source ~/.bashrc
 ```
 
 ## show pyenv version

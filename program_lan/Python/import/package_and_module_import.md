@@ -11,13 +11,13 @@ An **object** that serves as an **organizational unit of Python code**. Modules 
 A Python module which can contain submodules or recursively, subpackages. Technically, a package is a Python module with a **`__path__`** attribute.
 
 > keep in mind
-> all packages are modules, but not all modules are packages, Any module that contains a `__path__` attribute is considered a package.
+> **all packages are modules**, but not all modules are packages, Any module that contains a `__path__` attribute is considered a package.
 
 ## Regular packages
 
-A traditional package, such as a directory containing an `__init__.py` file.
+A `traditional package`, such as a directory containing an `__init__.py` file.
 
-A regular package is typically implemented as a directory containing an `__init.py__` file. When a regular package is imported, this `__init__`.py file **is implicitly executed**, and the objects it defines are **bound to names in the package’s namespace**.
+A `regular package` is typically implemented as a directory containing an `__init.py__` file. When a regular package is imported, this `__init__`.py file **is implicitly executed**, and the objects it defines are **bound to names in the package’s namespace**.
 
 For example, the following file system layout defines a top level parent package with three subpackages:
 
