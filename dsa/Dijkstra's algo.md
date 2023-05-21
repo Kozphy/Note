@@ -19,9 +19,9 @@ When you work with Dijkstra’s algorithm, each edge in the graph has a number a
 
 A graph with weights is called a **weighted graph**. A graph without  weights is called an **unweighted graph**.
 
-- To calculate the shortest path in an unweighted graph, use breadth-first search.
+- To calculate the shortest path in an unweighted graph, use **breadth-first search**.
 
-- To calculate the shortest path in a weighted graph, use Dijkstra’s algorithm.
+- To calculate the shortest path in a weighted graph, use **Dijkstra’s algorithm** (one of BFS).
 
 Graphs can also have cycles. A cycle looks like this.
 ![](https://i.imgur.com/wL0WaH4.png)
