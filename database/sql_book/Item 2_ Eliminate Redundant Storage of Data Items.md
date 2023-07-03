@@ -6,11 +6,11 @@ Redundant storage of data causes many problems, including inconsistent data; ins
 
 Normalization is a process that involves dividing information by subject to help eliminate problems associated with storing duplicate data.
 
-We are more concerned with cases where users enter the same piece of data in more than one place.
+We are more `concerned with` cases where `users enter the same piece of data in more than one place`.
 
 Such redundancy is necessary to maintain the relational link between tables.
 
-One goal of normalization is to minimize the need to repeat data, either in the same table or in different tables throughout a database.
+One goal of normalization is to `minimize the need to repeat data`, either in the same table or in different tables throughout a database.
 
 ![](https://i.imgur.com/Ee8mswt.png)
 
@@ -30,6 +30,6 @@ This design allows you to enter customer, employee, and automobile model informa
 
 
 ## Things to Remember
-- A goal of database normalization is the elimination of redundant data and minimizing resource use when processing data.
+- A goal of database normalization is the `elimination of redundant data and minimizing resource use when processing data`.
 - By eliminating redundant data, you eliminate insert, update, and delete anomalies.
 - By eliminating redundant data, you minimize the occurrence of inconsistent data.
