@@ -6,9 +6,9 @@
 - It needs to be consistent.
 - It should map diferent words to different numbers. 
 
-Put a hash function and an array together,  and you get a data structure called a hash table.
+Put a `hash function` and an `array` together,  and you get a data structure called a hash table.
 
-Hash table also known as hash maps, maps, dictionaries, and  associative arrays.
+Hash table also known as `hash maps`, `maps`, `dictionaries`, and  `associative arrays`.
 
 ![](https://i.imgur.com/pyq8JFN.png)
 
