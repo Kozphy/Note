@@ -41,6 +41,6 @@ Remember that you won’t be able to create an index on the example from **Listi
 
 ## Things to remember
 - Many systems let you define calculated columns when you define your table, but you need to be aware of the `performance implications`, particularly when using nondeterministic expressions or functions.
-- You can also define calculated columns as regular columns and then maintain them with triggers, but the code to do so may be complex.
+- `You can also define calculated columns as regular columns and then maintain them with triggers`, but the code to do so may be complex.
 - Calculated columns cause additional overhead in your database system, so use them only when the benefits outweight the costs. Most of the time, you will want to create an index on the calculated columns to repeat some benefits in exchange for increased storage and slower updates.
-- Using views to define calculations is often a desirable alternative to actually storing calculations on a table for cases where indexing does not apply.
+- `Using views to define calculations is often a desirable` alternative to actually storing calculations on a table for cases where indexing does not apply.
