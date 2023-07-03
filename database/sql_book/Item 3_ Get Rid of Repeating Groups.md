@@ -2,11 +2,11 @@
 ###### tags: `sql book`
 
 ## what is repeating group
-An example of repeating groups of data is shown in Figure 1.6, with a **DrawingNumber** being associated with up to five **Predecessors**. The table has a one-tomany relationship between drawing numbers and predecessor values.
+An example of repeating groups of data is shown in Figure 1.6, with a **DrawingNumber** being associated with up to five **Predecessors**. The table has a one-to-many relationship between drawing numbers and predecessor values.
 ![](https://i.imgur.com/2eEWWqw.png)
 
 
-The example in **Figure 1.6** shows a single attribute, **Predecessor**, as a repea
+The example in **Figure 1.6** shows a single attribute, **Predecessor**, as a repeat
 
 If you were to see columns named **Quantity1, ItemDescription1, Price1, Quantity2,
 ItemDescription2, Price2 . . . QuantityN, ItemDescriptionN, PriceN**, you
@@ -34,7 +34,7 @@ A much better design involves adding or removing rows as needed.
 > A UNION query requires that the columns be of the same data type, and in the same order, for each SELECT statement.
 
 ## Things to remember
-- A goal of database normalization is the elimination of repeating groups of data and minimizing the schema change.
-- By eliminating repeating groups of data, you can use indexing to prevent accidental duplication of data, and you greatly simplify any queries needed.
+- A goal of database normalization is the `elimination of repeating groups of data and minimizing the schema change`.
+- By eliminating repeating groups of data, you can use `indexing to prevent accidental duplication of data`, and you greatly simplify any queries needed.
 - Removing repeating groups of data makes the design more flexible because adding a new group simply requires adding another row of data, not changing the table design to add more columns.
 
