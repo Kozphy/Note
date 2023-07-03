@@ -43,6 +43,7 @@ In this case, the greedy algorithm runs in **O(n^2)** time, where n is the numbe
 The keys are station names, and the values are the states they cover. 
 
 ![](https://i.imgur.com/fbSfA0r.png)
+
 ### Calculating the answer
 ![](https://i.imgur.com/7JvD4J1.png)
 
@@ -50,9 +51,9 @@ The keys are station names, and the values are the states they cover.
 ![](https://i.imgur.com/bSRgBcu.png)
 ![](https://i.imgur.com/xGSp2J5.png)
 
-- A set union means "combine both sets"
-- A set intersection means "find the items that show up in both sets (in this case, just the tomato.)"
-- A set difference means "subtract the items in on set from the items in the other set."
+- A `set union` means "combine both sets"
+- A `set intersection` means "find the items that show up in both sets (in this case, just the tomato.)"
+- A `set difference` means "subtract the items in on set from the items in the other set."
 
 
 ![](https://i.imgur.com/iC5RHO2.png)
