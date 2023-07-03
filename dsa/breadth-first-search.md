@@ -2,10 +2,10 @@
 ###### tags: `data structure`
 
 ## What is BFS
-Breadth-first search allows you to find the shortest distance between two things.
+Breadth-first search allows you to find the `shortest distance` between two things.
 
 You can use breadth-first search to
-- Write a checkers AI that calculates the fewest moves to vicotry
+- Write a checkers AI that calculates the fewest moves to victory.
 - Write a spell checker (fewest edits from your misspelling to a real word - for ex, READED -> READER is one edit)
 - Find the doctor closest to you in your network.
 
@@ -29,7 +29,7 @@ graph[“jonny”] = []
 ```
 
 ## About directed graph and undirected graph
-An undirected graph doesn’t have any arrows, and both nodes are each other’s neighbors. For example, both of these graphs are equal.
+An `undirected graph` doesn’t have any arrows, and both nodes are each other’s neighbors. For example, both of these graphs are equal.
 ![](https://i.imgur.com/ZWFC8VL.png)
 
 ## implement bfs
@@ -54,7 +54,7 @@ BFS_search("you")
 ```
 ### Running time
 - O(number of edges), where edges is the arrow or connection from open person to another.
-- Adding one person to the search_queue takes constant time: O(1).
+- Adding one person to the search_queue takes constant time: `O(1)`.
 - Doing this for every person will take O(number of people) total. 
 
 **Breadth-first search takes O(number of people + number of edges)**, and it’s more commonly written as O(V+E) (V for number of vertices, E for number of edges).
