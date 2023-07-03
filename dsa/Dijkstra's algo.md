@@ -4,7 +4,7 @@
 ## shortest path vs faster path
 ### shortest path
 ![](https://i.imgur.com/gFZ7Ahr.png)
-It’s the shortest path, because it has the least number of segments (three segments).
+It’s the shortest path, because it has the `least number of segments` (three segments).
 
 ### faster path
 But suppose you add travel times to those segments. Now you see that there's a faster path.
