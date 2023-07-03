@@ -4,9 +4,9 @@
 ## why need to store only one property per colunm
 In relational terminology, a relation (table) should describe one and only one subject or action.
 
-It is not a good idea to store more than one property value in a single column because that makes it difficult to isolate that property value when performing searches or aggregating values.
+It is `not a good idea to store more than one property value in a single column` because that makes it difficult to isolate that property value when performing searches or aggregating values.
 
-Fundamentally, you should consider putting important individual properties in their own columns.
+Fundamentally, you should consider `putting important individual properties in their own columns`.
 
 You can see an example of a table containing multiple properties in columns in **Table 1.1**.
 ![](https://i.imgur.com/ELWOCoK.png)
