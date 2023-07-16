@@ -9,4 +9,4 @@ You can use virtual hosting in web support by `setting up URIMAP resources`.
 
 `In HTTP/1.0 the host name` does not appear in the `HTTP message`; it is lost after the IP address has been resolved. If more than one set of resources is held on the server represented by the IP address, the server has difficulty distinguishing which resources belong to which host.
 
-`However, HTTP/1.1 requests provide the host name in the request, usually in a Host header`. The presence of the host name in the message enables the HTTP server to direct requests containing different host names to the appropriate resources for each host. This feature of HTTP is known as virtual hosting. CICS® web support provides support for virtual hosting through the use of URIMAP resources.
+However, `HTTP/1.1 requests` provide the `host name` in the request, usually in a `Host header`. The presence of the host name in the message enables the HTTP server to direct requests containing different host names to the appropriate resources for each host. This feature of HTTP is known as `virtual hosting`. CICS® web support provides support for virtual hosting through the use of URIMAP resources.
