@@ -17,7 +17,7 @@ All these actions are described as "requirements". A client or server that fulfi
 In the HTTP response that is sent to a client, the `status code`, which is a 3-digit number, is accompanied by a `reason phrase (also known as status text)` that `summarizes the meaning of the code`. With the HTTP version of the response, these items are placed in the first line of the response, which is therefore known as the `status line`.
 
 - [HTTP requests](./http_requests.md)
-An HTTP request is made by a client, to a named host, which is located on a server. The aim of the request is to access a resource on the server.
+An HTTP request `is made by a client, to a named host`, which is located on a server. The aim of the request is to access a resource on the server.
 
 - [HTTP responses](./http.response.md)
-An HTTP response is made by a server to a client. The aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request.
+An HTTP response is made `by a server to a client`. The aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request.

@@ -1,0 +1,9 @@
+﻿| Quantifiers | description                     |
+| ----------- | ------------------------------- |
+| *           | 0 or more                       |
+| +           | 1 or more                       |
+| ?           | 0 or 1                          |
+| {m}         | Exactly m times                 |
+| {n,}        | Min n times                     |
+| {m, n}      | From m to n times               |
+| {m, n}?     | From m to n, as few as possible |
