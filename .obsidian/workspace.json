@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "ace17d9e393f8059",
+    "type": "split",
+    "children": [
+      {
+        "id": "4be9d721f5b3a41a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ccab357a4fd3f75",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3357dad33065d22a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b24b6d9c7eeaf94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6724f66404ec2c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8eb321ac57056bbd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "32170f235f0a2902",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c4bd9e2d7b0e1364",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c11f3c66465ac85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfdc67d648644dfc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "edbab72f3cd77888",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "27059329fb6fa67d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5f8d754f68cd17ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "5b4b6acbfecd31bb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3ccab357a4fd3f75",
+  "lastOpenFiles": [
+    "web_security/About web security.md",
+    "web_security/Authentication vs Authorization.md",
+    "web_security",
+    "Visual_Studio/index.md",
+    "Visual_Studio",
+    "vim/Editing Magic operators.md",
+    "vim/Moving Fast_ Motions.md",
+    "vim/vim tutorial index.md",
+    "vim",
+    "unicode/unicode_transform_format.drawio.svg",
+    "unicode/Endianness.md",
+    "unicode/unicode_characterSet.md",
+    "unicode/order_mark_car.drawio.svg",
+    "unicode",
+    "Statistics/stat_func/basic_concept.go",
+    "Statistics/stat_func",
+    "Statistics/assets/probability/throw_two_dice.drawio.svg",
+    "Statistics/assets/probability/11_square.drawio.svg",
+    "Statistics/assets/probability/probability_tree.drawio.svg",
+    "Statistics/assets/probability/addition_rule.drawio.svg",
+    "Statistics/assets/probability/flip_position.drawio.svg",
+    "Statistics/assets/probability/generalizing_bayes_formula.drawio.svg",
+    "Statistics/assets/probability/probability_essence.drawio.svg",
+    "Statistics/assets/probability/hypothesis_square.drawio.svg",
+    "Statistics/assets/probability",
+    "Statistics/assets/binomial_distribution",
+    "Statistics/assets/Poisson_process",
+    "Statistics/assets",
+    "Statistics/density_func.md",
+    "Statistics/Poisson_process.md",
+    "Statistics/statistic_index.md",
+    "Statistics/Random_variables.md",
+    "Statistics/Binomial_distribution.md",
+    "Statistics/Probability.md",
+    "Statistics/Bayes_theorem.md",
+    "Statistics/basic_concept.md",
+    "scaling/Horizontal and Vertical scaling.md",
+    "program_lan/cpp/Input and Output parameters.md",
+    "program_lan/cpp/Math function.md",
+    "program_lan/cpp/Resurrecting members back in scope.md",
+    "program_lan/cpp/introduce references.md",
+    "program_lan/cpp/Function Overloading.md",
+    "program_lan/cpp/Declaring and Using Array.md",
+    "program_lan/cpp/Output formating.md",
+    "program_lan/cpp/Protected member.md",
+    "program_lan/cpp/The this Pointer.md",
+    "Untitled.canvas"
+  ]
+}
