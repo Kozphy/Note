@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4be9d721f5b3a41a",
+        "id": "b48715c3cc38e557",
         "type": "tabs",
         "children": [
           {
-            "id": "3ccab357a4fd3f75",
+            "id": "18f5d92bf1b53872",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "automation/automation_index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "automation/automation_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -92,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "automation/automation_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "automation/automation_index.md"
+              }
             }
           },
           {
@@ -148,8 +156,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ccab357a4fd3f75",
+  "active": "18f5d92bf1b53872",
   "lastOpenFiles": [
+    "automation/Automation control.md",
+    "automation/automation_index.md",
+    "css/CSS font-family.md",
+    "css/css index.md",
+    "css/CSS 筆記.md",
+    "css/CSS 選取器.md",
+    "Untitled.canvas",
+    "css/Untitled.canvas",
+    "database/database learn index.md",
+    "github/github index.md",
+    "dsa/DSA index.md",
+    "lang_source/programe lang source.md",
+    "database/mysql/cmd.md",
+    "program_lan/Python/offic_doc/enum.md",
+    "liner_algebra/essense/2_linerCombine_linearSpan_basis.md",
+    "program_lan/cpp/learn cpp20 index.md",
     "web_security/About web security.md",
     "web_security/Authentication vs Authorization.md",
     "web_security",
@@ -181,21 +205,6 @@
     "Statistics/density_func.md",
     "Statistics/Poisson_process.md",
     "Statistics/statistic_index.md",
-    "Statistics/Random_variables.md",
-    "Statistics/Binomial_distribution.md",
-    "Statistics/Probability.md",
-    "Statistics/Bayes_theorem.md",
-    "Statistics/basic_concept.md",
-    "scaling/Horizontal and Vertical scaling.md",
-    "program_lan/cpp/Input and Output parameters.md",
-    "program_lan/cpp/Math function.md",
-    "program_lan/cpp/Resurrecting members back in scope.md",
-    "program_lan/cpp/introduce references.md",
-    "program_lan/cpp/Function Overloading.md",
-    "program_lan/cpp/Declaring and Using Array.md",
-    "program_lan/cpp/Output formating.md",
-    "program_lan/cpp/Protected member.md",
-    "program_lan/cpp/The this Pointer.md",
-    "Untitled.canvas"
+    "Statistics/Random_variables.md"
   ]
 }

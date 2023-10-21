@@ -1,3 +1,8 @@
+---
+tags:
+  - automation
+---
+
 # What is Automation control
 It involves the use of technology, such as `computer systems` and `specialized software`, to manage and regulate the operation of machines, equipment, and processes in an automated manner. 
 

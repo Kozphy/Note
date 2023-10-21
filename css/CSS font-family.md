@@ -1,3 +1,8 @@
+---
+tags:
+  - css
+---
+
 CSS font-family
 ===
 ###### tags: `css`
