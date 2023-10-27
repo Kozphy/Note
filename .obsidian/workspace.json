@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "automation/automation_index.md",
+                "file": "C_sharp/jagged Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "automation/automation_index.md",
+                "file": "C_sharp/jagged Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "automation/automation_index.md",
+                "file": "C_sharp/jagged Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "automation/automation_index.md"
+                "file": "C_sharp/jagged Array.md"
               }
             }
           },
@@ -137,6 +137,22 @@
               "state": {
                 "sortOrder": "frequency"
               }
+            }
+          },
+          {
+            "id": "fda56bd2681977f6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a0257a923cbbda96",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ]
@@ -153,18 +169,30 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "18f5d92bf1b53872",
   "lastOpenFiles": [
-    "automation/Automation control.md",
+    "Pasted image 20231027123917.png",
+    "Pasted image 20231027123846.png",
+    "web_security/About web security.md",
+    "C_sharp/jagged Array.md",
+    "C_sharp",
+    "Untitled.canvas",
+    "2023-10-23.md",
+    "readmd.md",
     "automation/automation_index.md",
+    "index.md",
+    "Excalidraw/Drawing 2023-10-23 22.43.54.excalidraw.md",
+    "Excalidraw",
+    "automation/Automation control.md",
     "css/CSS font-family.md",
     "css/css index.md",
     "css/CSS 筆記.md",
     "css/CSS 選取器.md",
-    "Untitled.canvas",
     "css/Untitled.canvas",
     "database/database learn index.md",
     "github/github index.md",
@@ -174,7 +202,6 @@
     "program_lan/Python/offic_doc/enum.md",
     "liner_algebra/essense/2_linerCombine_linearSpan_basis.md",
     "program_lan/cpp/learn cpp20 index.md",
-    "web_security/About web security.md",
     "web_security/Authentication vs Authorization.md",
     "web_security",
     "Visual_Studio/index.md",
@@ -184,8 +211,6 @@
     "vim/vim tutorial index.md",
     "vim",
     "unicode/unicode_transform_format.drawio.svg",
-    "unicode/Endianness.md",
-    "unicode/unicode_characterSet.md",
     "unicode/order_mark_car.drawio.svg",
     "unicode",
     "Statistics/stat_func/basic_concept.go",
@@ -197,14 +222,7 @@
     "Statistics/assets/probability/flip_position.drawio.svg",
     "Statistics/assets/probability/generalizing_bayes_formula.drawio.svg",
     "Statistics/assets/probability/probability_essence.drawio.svg",
-    "Statistics/assets/probability/hypothesis_square.drawio.svg",
     "Statistics/assets/probability",
-    "Statistics/assets/binomial_distribution",
-    "Statistics/assets/Poisson_process",
-    "Statistics/assets",
-    "Statistics/density_func.md",
-    "Statistics/Poisson_process.md",
-    "Statistics/statistic_index.md",
-    "Statistics/Random_variables.md"
+    "Statistics/assets/binomial_distribution"
   ]
 }
