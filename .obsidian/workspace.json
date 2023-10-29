@@ -4,22 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "b48715c3cc38e557",
+        "id": "3afc4c521f0cb167",
         "type": "tabs",
         "children": [
           {
-            "id": "18f5d92bf1b53872",
+            "id": "5f43609290af06a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C_sharp/jagged Array.md",
+                "file": "chatgpt/mermaid.js with chatgpt.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "05571148b8495282",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Mermaid_diagram_example/Component_diagram.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "operating system",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C_sharp/jagged Array.md",
+                "file": "Excalidraw/Mermaid_diagram_example/Component_diagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C_sharp/jagged Array.md",
+                "file": "Excalidraw/Mermaid_diagram_example/Component_diagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C_sharp/jagged Array.md"
+                "file": "Excalidraw/Mermaid_diagram_example/Component_diagram.md"
               }
             }
           },
@@ -154,13 +165,21 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "b239e3af1c03f87f",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,58 +190,61 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "18f5d92bf1b53872",
+  "active": "f6724f66404ec2c7",
   "lastOpenFiles": [
-    "Pasted image 20231027123917.png",
-    "Pasted image 20231027123846.png",
-    "web_security/About web security.md",
+    "chatgpt/mermaid.js with chatgpt.md",
+    "Excalidraw/example/Untitled.md",
+    "Excalidraw/Mermaid_diagram_example/Component_diagram.md",
+    "chatgpt/chatgpt index.md",
+    "Excalidraw/Mermaid_diagram_example/Use_diagram.md",
+    "Excalidraw/Mermaid_diagram_example/Class_diagram.md",
+    "Excalidraw/Mermaid_diagram_example/Sequence_diagram.md",
+    "Excalidraw/McKinsey 7 steps.md",
+    "program_lan/Python/basic/5_ File.md",
+    "Pasted image 20231029154935.png",
+    "javascript/Promise.md",
+    "cheatsheet/cheetsheet index.md",
+    "javascript",
+    "cheatsheet",
+    "Pasted image 20231029121720.png",
+    "obsidian_instruction/shortcut.md",
     "C_sharp/jagged Array.md",
-    "C_sharp",
+    "note_pic/Pasted image 20231027123846.png",
+    "note_pic",
+    "note_pic/Pasted image 20231029113548.png",
+    "note_pic/Pasted image 20231027123917.png",
+    "obsidian_instruction/Untitled.md",
+    "obsidian_instruction",
+    "Excalidraw/Mermaid_diagram_example",
+    "Excalidraw/Drawing 2023-10-29 10.00.01.excalidraw.md",
+    "chatgpt/Untitled Kanban.md",
     "Untitled.canvas",
+    "2023-10-29.md",
+    "chatgpt",
+    "web_security/About web security.md",
+    "C_sharp",
     "2023-10-23.md",
     "readmd.md",
     "automation/automation_index.md",
     "index.md",
-    "Excalidraw/Drawing 2023-10-23 22.43.54.excalidraw.md",
     "Excalidraw",
     "automation/Automation control.md",
     "css/CSS font-family.md",
     "css/css index.md",
     "css/CSS 筆記.md",
-    "css/CSS 選取器.md",
     "css/Untitled.canvas",
-    "database/database learn index.md",
-    "github/github index.md",
-    "dsa/DSA index.md",
-    "lang_source/programe lang source.md",
-    "database/mysql/cmd.md",
-    "program_lan/Python/offic_doc/enum.md",
-    "liner_algebra/essense/2_linerCombine_linearSpan_basis.md",
-    "program_lan/cpp/learn cpp20 index.md",
-    "web_security/Authentication vs Authorization.md",
     "web_security",
-    "Visual_Studio/index.md",
     "Visual_Studio",
-    "vim/Editing Magic operators.md",
-    "vim/Moving Fast_ Motions.md",
-    "vim/vim tutorial index.md",
-    "vim",
     "unicode/unicode_transform_format.drawio.svg",
     "unicode/order_mark_car.drawio.svg",
-    "unicode",
-    "Statistics/stat_func/basic_concept.go",
-    "Statistics/stat_func",
     "Statistics/assets/probability/throw_two_dice.drawio.svg",
     "Statistics/assets/probability/11_square.drawio.svg",
-    "Statistics/assets/probability/probability_tree.drawio.svg",
-    "Statistics/assets/probability/addition_rule.drawio.svg",
-    "Statistics/assets/probability/flip_position.drawio.svg",
-    "Statistics/assets/probability/generalizing_bayes_formula.drawio.svg",
-    "Statistics/assets/probability/probability_essence.drawio.svg",
-    "Statistics/assets/probability",
-    "Statistics/assets/binomial_distribution"
+    "Statistics/assets/probability/probability_tree.drawio.svg"
   ]
 }
