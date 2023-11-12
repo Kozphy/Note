@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "trashOption": "local",
-  "vimMode": true
+  "vimMode": true,
+  "useMarkdownLinks": true
 }

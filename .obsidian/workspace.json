@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chatgpt/mermaid.js with chatgpt.md",
+                "file": "Csharp/asp.net core/appsettings.json and connection string.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,14 +23,15 @@
             "id": "05571148b8495282",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Mermaid_diagram_example/Component_diagram.md"
+                "file": "Csharp/decompiler, compiler and assembly.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "operating system",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Mermaid_diagram_example/Component_diagram.md",
+                "file": "Csharp/asp.net core/appsettings.json and connection string.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,14 +109,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Mermaid_diagram_example/Component_diagram.md",
+                "file": "Csharp/asp.net core/appsettings.json and connection string.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Mermaid_diagram_example/Component_diagram.md"
+                "file": "Csharp/asp.net core/appsettings.json and connection string.md"
               }
             }
           },
@@ -167,7 +168,7 @@
             }
           },
           {
-            "id": "b239e3af1c03f87f",
+            "id": "cf6a80e0abf30df1",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -196,55 +197,55 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "f6724f66404ec2c7",
+  "active": "5f43609290af06a3",
   "lastOpenFiles": [
+    "Csharp/Solution File (.sln).md",
+    "Csharp/asp.net core/appsettings.json and connection string.md",
+    "Csharp/asp.net core",
+    "SQL/The different between .mdf and .ldf.md",
+    "SQL/double quote and single quote.md",
+    "Csharp/decompiler, compiler and assembly.md",
+    "program_lan/Python/13_ Using databases and SQL.md",
+    "SQL",
+    "Csharp/Code Map.md",
+    "Pasted image 20231110201024.png",
+    "Csharp/Untitled.md",
+    "Csharp/jagged Array.md",
+    "Proprietary/metadata.md",
+    "Untitled.md",
+    "Proprietary",
+    "Visual_Studio/index.md",
     "chatgpt/mermaid.js with chatgpt.md",
-    "Excalidraw/example/Untitled.md",
-    "Excalidraw/Mermaid_diagram_example/Component_diagram.md",
+    "New Text Document.txt",
+    "Excalidraw/Drawing 2023-11-09 18.20.48.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-09 18.20.49.excalidraw.md",
+    "Pasted image 20231109180035.png",
+    "Pasted image 20231109175952.png",
+    "Csharp/array.md",
+    "unicode/unicode_characterSet.md",
+    "unicode/unicode_transform_format.drawio.svg",
+    "unicode/order_mark_car.drawio.svg",
+    "unicode/Endianness.md",
     "chatgpt/chatgpt index.md",
-    "Excalidraw/Mermaid_diagram_example/Use_diagram.md",
     "Excalidraw/Mermaid_diagram_example/Class_diagram.md",
-    "Excalidraw/Mermaid_diagram_example/Sequence_diagram.md",
+    "ERP/index.md",
     "Excalidraw/McKinsey 7 steps.md",
-    "program_lan/Python/basic/5_ File.md",
+    "Excalidraw/Mermaid_diagram_example/Sequence_diagram.md",
+    "Excalidraw/Mermaid_diagram_example/Component_diagram.md",
+    "Excalidraw/Mermaid_diagram_example/Use_diagram.md",
+    "Excalidraw/example/Untitled.md",
     "Pasted image 20231029154935.png",
-    "javascript/Promise.md",
-    "cheatsheet/cheetsheet index.md",
     "javascript",
     "cheatsheet",
     "Pasted image 20231029121720.png",
-    "obsidian_instruction/shortcut.md",
-    "C_sharp/jagged Array.md",
     "note_pic/Pasted image 20231027123846.png",
     "note_pic",
     "note_pic/Pasted image 20231029113548.png",
     "note_pic/Pasted image 20231027123917.png",
-    "obsidian_instruction/Untitled.md",
     "obsidian_instruction",
     "Excalidraw/Mermaid_diagram_example",
-    "Excalidraw/Drawing 2023-10-29 10.00.01.excalidraw.md",
-    "chatgpt/Untitled Kanban.md",
     "Untitled.canvas",
-    "2023-10-29.md",
     "chatgpt",
-    "web_security/About web security.md",
-    "C_sharp",
-    "2023-10-23.md",
-    "readmd.md",
-    "automation/automation_index.md",
-    "index.md",
-    "Excalidraw",
-    "automation/Automation control.md",
-    "css/CSS font-family.md",
-    "css/css index.md",
-    "css/CSS 筆記.md",
-    "css/Untitled.canvas",
-    "web_security",
-    "Visual_Studio",
-    "unicode/unicode_transform_format.drawio.svg",
-    "unicode/order_mark_car.drawio.svg",
-    "Statistics/assets/probability/throw_two_dice.drawio.svg",
-    "Statistics/assets/probability/11_square.drawio.svg",
-    "Statistics/assets/probability/probability_tree.drawio.svg"
+    "css/Untitled.canvas"
   ]
 }
