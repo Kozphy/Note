@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Csharp/asp.net core/appsettings.json and connection string.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05571148b8495282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Csharp/decompiler, compiler and assembly.md",
+                "file": "ML/Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Csharp/asp.net core/appsettings.json and connection string.md",
+                "file": "ML/Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Csharp/asp.net core/appsettings.json and connection string.md",
+                "file": "ML/Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Csharp/asp.net core/appsettings.json and connection string.md"
+                "file": "ML/Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras.md"
               }
             }
           },
@@ -199,17 +187,28 @@
   },
   "active": "5f43609290af06a3",
   "lastOpenFiles": [
-    "Csharp/Solution File (.sln).md",
-    "Csharp/asp.net core/appsettings.json and connection string.md",
-    "Csharp/asp.net core",
-    "SQL/The different between .mdf and .ldf.md",
-    "SQL/double quote and single quote.md",
+    "MSSQL/SSMS/SSMS components and configuration.md",
+    "ML/Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras.md",
+    "ML",
+    "RNN",
+    "MSSQL/reversed word.md",
+    "MSSQL/SSMS",
+    "MSSQL/FOREIGN key syntax.md",
+    "MSSQL/double quote and single quote.md",
+    "MSSQL/document conventions.md",
+    "MSSQL/The name convention of foreign key in sql.md",
     "Csharp/decompiler, compiler and assembly.md",
+    "Csharp/null-coalescing operators.md",
+    "Csharp/asp.net core/appsettings.json and connection string.md",
+    "MSSQL/type/Bit.md",
+    "MSSQL/type",
+    "Csharp/Solution File (.sln).md",
+    "Csharp/asp.net core",
+    "MSSQL/The different between .mdf and .ldf.md",
     "program_lan/Python/13_ Using databases and SQL.md",
-    "SQL",
+    "MSSQL",
     "Csharp/Code Map.md",
     "Pasted image 20231110201024.png",
-    "Csharp/Untitled.md",
     "Csharp/jagged Array.md",
     "Proprietary/metadata.md",
     "Untitled.md",
@@ -227,25 +226,14 @@
     "unicode/order_mark_car.drawio.svg",
     "unicode/Endianness.md",
     "chatgpt/chatgpt index.md",
-    "Excalidraw/Mermaid_diagram_example/Class_diagram.md",
-    "ERP/index.md",
-    "Excalidraw/McKinsey 7 steps.md",
-    "Excalidraw/Mermaid_diagram_example/Sequence_diagram.md",
-    "Excalidraw/Mermaid_diagram_example/Component_diagram.md",
-    "Excalidraw/Mermaid_diagram_example/Use_diagram.md",
-    "Excalidraw/example/Untitled.md",
     "Pasted image 20231029154935.png",
     "javascript",
     "cheatsheet",
     "Pasted image 20231029121720.png",
     "note_pic/Pasted image 20231027123846.png",
-    "note_pic",
     "note_pic/Pasted image 20231029113548.png",
     "note_pic/Pasted image 20231027123917.png",
-    "obsidian_instruction",
-    "Excalidraw/Mermaid_diagram_example",
     "Untitled.canvas",
-    "chatgpt",
     "css/Untitled.canvas"
   ]
 }
