@@ -1,4 +1,3 @@
-# 
 About workflows
 Triggering a workflow
 Events that trigger workflows

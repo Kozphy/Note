@@ -1,4 +1,3 @@
-# Describing Databases with MetaData index
 ###### tags: `database learn`
 
 [Describing Databases with Metadata](/jpAv5tX1Szi1UyRbLEXhog)
