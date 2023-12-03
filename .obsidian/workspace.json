@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3afc4c521f0cb167",
+        "id": "c0862cc11917054d",
         "type": "tabs",
         "children": [
           {
-            "id": "5f43609290af06a3",
+            "id": "ba38e925dcabbe27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Csharp/Value Type and Reference Type.md",
+                "file": "management/Eisenhower Matrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "management",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Csharp/Value Type and Reference Type.md",
+                "file": "management/Eisenhower Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Csharp/Value Type and Reference Type.md",
+                "file": "management/Eisenhower Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Csharp/Value Type and Reference Type.md"
+                "file": "management/Eisenhower Matrix.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -182,57 +182,58 @@
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "zk-prefixer:Create new unique note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "card-board:CardBoard": false
     }
   },
   "active": "f6724f66404ec2c7",
   "lastOpenFiles": [
-    "Csharp/Core CSharp and .NET Quick Reference.pdf",
-    "2023-12-03.md",
-    "Csharp/Value Type and Reference Type.md",
-    "k8s",
-    "Pasted image 20231201222057.png",
-    "OS/OS_index.md",
-    "ML/Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras.md",
-    "linux/CS Tools.md",
-    "github_action/Using_workflows.md",
-    "github_action/component_of_github_action.drawio.svg",
-    "github_action/understand_github_action.md",
-    "github_action/using_workflows/Reusing_workflows.md",
-    "javascript/Promise.md",
-    "note_pic/Pasted image 20231027123846.png",
+    "obsidian_instruction/my_community_plugin/todoist-text/manifest.json",
+    "obsidian_instruction/my_community_plugin/todoist-text/styles.css",
+    "obsidian_instruction/my_community_plugin/todoist-text/data.json",
+    "obsidian_instruction/my_community_plugin/todoist-text/main.js",
+    "obsidian_instruction/my_community_plugin/todoist-text",
+    "obsidian_instruction/my_community_plugin/obsidian-markdown-formatting-assistant-plugin/styles.css",
+    "obsidian_instruction/my_community_plugin/obsidian-markdown-formatting-assistant-plugin/manifest.json",
+    "obsidian_instruction/my_community_plugin/obsidian-markdown-formatting-assistant-plugin/main.js",
+    "obsidian_instruction/my_community_plugin/obsidian-markdown-formatting-assistant-plugin/data.json",
+    "obsidian_instruction/my_community_plugin/obsidian-markdown-formatting-assistant-plugin",
+    "obsidian_instruction/my_community_plugin/dataview/manifest.json",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-yellow.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-white.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-purple.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-green.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-blue.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/boardmarker-purple.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/README.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/CONTRIBUTING.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chart/README.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/customcontrols/README.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/README.md",
+    "obsidian_instruction/my_obsidian_plugin.md",
+    "management/Eisenhower Matrix.md",
+    "management/Drawing 2023-12-03 22.54.37.excalidraw.md",
+    "chatgpt/mermaid.js with chatgpt.md",
     "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
-    "VM/Enhanced Session Mode.md",
-    "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md",
-    "VM/intro virtual machine.md",
-    "VM/Hyper-V login in enhanced mode not possible.md",
-    "VM/how to copy and transfer files to hyper-v VM.md",
-    "Csharp/Classes OOP/Abstraction and interface.md",
-    "Csharp/Classes OOP/Fields or Variable vs Properties.md",
-    "Csharp/Classes OOP/Untitled",
-    "Csharp/modifiers_keyword/override_virtual_and_new.md",
-    "Csharp/Classes OOP",
-    "Csharp/modifiers_keyword/static_async.md",
-    "Csharp/Untitled",
-    "Csharp/modifiers_keyword",
-    "TECHNOLOGY EXPLAINED",
-    "database/Describing Databases with MetaData index.md",
-    "database/db design/規劃關聯式資料庫.md",
-    "database/db design",
-    "database/database learn index.md",
-    "database/MSSQL/Primary Key.md",
-    "database/MSSQL/what is object meaning in database.md",
-    "database/MSSQL/The name convention of foreign key in sql.md",
-    "Pasted image 20231117221829.png",
-    "Csharp/img/type_convert.png",
-    "backend",
-    "VM",
-    "web browser extension",
-    "Pasted image 20231110201024.png",
-    "Pasted image 20231109180035.png",
-    "Pasted image 20231109175952.png",
-    "unicode/unicode_transform_format.drawio.svg",
-    "unicode/order_mark_car.drawio.svg",
+    "how to take note/create checkbox in obsidian.md",
+    "Excalidraw/Mermaid_diagram_example/Class_diagram.md",
+    "cheatsheet/cheetsheet index.md",
+    "obsidian_instruction/step-by-step guide.md",
+    "2023-W49.md",
+    "2023-11-03.md",
+    "obsidian_instruction/shortcut.md",
+    "Csharp/display_cmd_args.md",
+    "Csharp/escape_Character.md",
+    "Csharp/jagged Array.md",
+    "Csharp/list.md",
+    "Csharp/math.md",
+    "Csharp/method.md",
+    "Csharp/null-coalescing operators.md",
+    "Csharp/regular_expression.md",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]
