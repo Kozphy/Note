@@ -8,27 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "635bc7252443dbbf",
-            "type": "leaf",
-            "state": {
-              "type": "card-board-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "53e25388d81988ea",
+            "id": "01e85b3887a7244f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian_instruction/CardBoard/example_card_board/undated.md",
+                "file": "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "4484d1b6c8e48f64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b431b3b65ec8eba1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "management/Eisenhower_Matrix/Eisenhower Matrix implement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian_instruction/CardBoard/example_card_board/undated.md",
+                "file": "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian_instruction/CardBoard/example_card_board/undated.md",
+                "file": "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian_instruction/CardBoard/example_card_board/undated.md"
+                "file": "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md"
               }
             }
           },
@@ -173,7 +182,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -195,12 +204,29 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "53e25388d81988ea",
+  "active": "01e85b3887a7244f",
   "lastOpenFiles": [
-    "example_tasks/recipes.md",
+    "VM/Fix mouse input not captured on Hyper-v.md",
+    "VM/Enhanced Session Mode.md",
+    "management/management_template/template_example/Meeting_Notes.md",
+    "management/management_template/template_example/OKR (Objectives and Key Results).md",
+    "management/Eisenhower_Matrix/article/Eisenhower Matrix concept.md",
+    "management/management index.md",
+    "management/Eisenhower_Matrix/Eisenhower Matrix implement.md",
+    "management/Eisenhower_Matrix/Eisenhower_Matrix index.md",
+    "management/management_template/template_example/Blog Post.md",
+    "management/management_template/management template index.md",
+    "management/management_template/template_example/Book Notes.md",
+    "management/management_template/article/6 Useful Templates for Obsidian.md",
+    "management/management_template/template_example/Cornell Notes.md",
+    "management/management_template/template_example",
     "obsidian_instruction/CardBoard/example_card_board/undated.md",
-    "example_tasks",
+    "management/Eisenhower_Matrix/article",
+    "management/management_template/article",
+    "management/management_template",
     "obsidian_instruction/CardBoard/how to use cardboard.md",
+    "example_tasks/recipes.md",
+    "example_tasks",
     "obsidian_instruction/CardBoard/example_card_board",
     "obsidian_instruction/CardBoard/Untitled.md",
     "obsidian_instruction/step-by-step guide.md",
@@ -209,16 +235,10 @@
     "obsidian_instruction/shortcut.md",
     "obsidian_instruction/Excalidraw/MindMap",
     "how to take note/create checkbox in obsidian.md",
-    "management/Eisenhower_Matrix/Eisenhower Matrix implement.md",
-    "management/Eisenhower_Matrix/Eisenhower Matrix concept.md",
     "obsidian_instruction/Excalidraw/Drawing 2023-12-04 09.24.43.excalidraw.md",
     "Pasted image 20231204081837.png",
     "management/Eisenhower_Matrix",
     "obsidian_instruction/my_community_plugin/todoist-text/manifest.json",
-    "obsidian_instruction/my_community_plugin/todoist-text/styles.css",
-    "obsidian_instruction/my_community_plugin/todoist-text/data.json",
-    "obsidian_instruction/my_community_plugin/todoist-text/main.js",
-    "obsidian_instruction/my_community_plugin/todoist-text",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
@@ -232,17 +252,6 @@
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/CONTRIBUTING.md",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chart/README.md",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/customcontrols/README.md",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/README.md",
-    "obsidian_instruction/my_obsidian_plugin.md",
-    "management/Drawing 2023-12-03 22.54.37.excalidraw.md",
-    "chatgpt/mermaid.js with chatgpt.md",
-    "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
-    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Class_diagram.md",
-    "cheatsheet/cheetsheet index.md",
-    "2023-W49.md",
-    "2023-11-03.md",
-    "Csharp/display_cmd_args.md",
-    "Csharp/escape_Character.md",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]

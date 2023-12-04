@@ -1,7 +1,7 @@
 #undated 
 
 - [ ] run erands @due(2022-12-02)
-  - [x] do shopping #town
+  - [x] do shopping #town ✅ 2023-12-04
   - [ ] wash car #home/outside
   - [ ] cook dinner #home/kitchen
 

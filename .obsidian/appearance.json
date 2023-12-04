@@ -3,6 +3,9 @@
   "theme": "obsidian",
   "cssTheme": "Things",
   "enabledCssSnippets": [
-    "eisenhower_matrix"
-  ]
+    "eisenhower_matrix",
+    "card_board_hightlight"
+  ],
+  "baseFontSize": 17,
+  "translucency": false
 }

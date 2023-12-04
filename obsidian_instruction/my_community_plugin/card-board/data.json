@@ -11,13 +11,13 @@
           "filterScope": "Both",
           "showFilteredTags": true,
           "includeUndated": true,
-          "title": "2023-12-03",
+          "title": "Action Dash",
           "collapsedColumns": []
         }
       }
     ],
     "globalSettings": {
-      "taskCompletionFormat": "ObsidianCardBoard",
+      "taskCompletionFormat": "ObsidianTasks",
       "columnNames": {
         "today": "",
         "tomorrow": "",
@@ -27,7 +27,7 @@
         "untagged": "",
         "completed": ""
       },
-      "ignoreFileNameDates": false
+      "ignoreFileNameDates": true
     }
   }
 }
