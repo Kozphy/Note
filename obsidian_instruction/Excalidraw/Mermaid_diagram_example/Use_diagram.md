@@ -26,7 +26,7 @@ Forgot Password ^nkTj8OyP
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.25",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.4",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -262,8 +262,8 @@ Forgot Password ^nkTj8OyP
 		},
 		{
 			"type": "arrow",
-			"version": 7,
-			"versionNonce": 1843586597,
+			"version": 9,
+			"versionNonce": 1703488350,
 			"isDeleted": false,
 			"id": "HWbmA28QX9zMo0OBSEd8v",
 			"fillStyle": "solid",
@@ -285,7 +285,7 @@ Forgot Password ^nkTj8OyP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1698551076680,
+			"updated": 1702120120605,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -318,8 +318,8 @@ Forgot Password ^nkTj8OyP
 		},
 		{
 			"type": "arrow",
-			"version": 9,
-			"versionNonce": 319826853,
+			"version": 13,
+			"versionNonce": 155290718,
 			"isDeleted": false,
 			"id": "WmAwTdIK6GL3kXBfWIviD",
 			"fillStyle": "solid",
@@ -341,7 +341,7 @@ Forgot Password ^nkTj8OyP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1698551076682,
+			"updated": 1702120120608,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -370,8 +370,8 @@ Forgot Password ^nkTj8OyP
 		},
 		{
 			"type": "arrow",
-			"version": 7,
-			"versionNonce": 968191749,
+			"version": 9,
+			"versionNonce": 5001374,
 			"isDeleted": false,
 			"id": "R_feSzWftM5L1NLPaGfvk",
 			"fillStyle": "solid",
@@ -393,7 +393,7 @@ Forgot Password ^nkTj8OyP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1698551076683,
+			"updated": 1702120120610,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -426,8 +426,8 @@ Forgot Password ^nkTj8OyP
 		},
 		{
 			"type": "arrow",
-			"version": 7,
-			"versionNonce": 362497637,
+			"version": 9,
+			"versionNonce": 167021790,
 			"isDeleted": false,
 			"id": "PhIoBd74VhXWOy1UIZwY8",
 			"fillStyle": "solid",
@@ -449,7 +449,7 @@ Forgot Password ^nkTj8OyP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1698551076685,
+			"updated": 1702120120611,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -482,8 +482,8 @@ Forgot Password ^nkTj8OyP
 		},
 		{
 			"type": "arrow",
-			"version": 7,
-			"versionNonce": 1502556613,
+			"version": 9,
+			"versionNonce": 1674264862,
 			"isDeleted": false,
 			"id": "YOWAJjQwzlVpYm4FoasbI",
 			"fillStyle": "solid",
@@ -505,7 +505,7 @@ Forgot Password ^nkTj8OyP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1698551076686,
+			"updated": 1702120120613,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -760,7 +760,7 @@ Forgot Password ^nkTj8OyP
 		}
 	],
 	"appState": {
-		"theme": "light",
+		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
@@ -774,10 +774,10 @@ Forgot Password ^nkTj8OyP
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 374.1176470588235,
-		"scrollY": 560.891544117647,
+		"scrollX": 439.3103448275861,
+		"scrollY": 328.79849137931024,
 		"zoom": {
-			"value": 0.8500000000000001
+			"value": 1.4500000000000004
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

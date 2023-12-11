@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c0862cc11917054d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "01e85b3887a7244f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "4484d1b6c8e48f64",
         "type": "tabs",
         "children": [
           {
-            "id": "b431b3b65ec8eba1",
+            "id": "49425e0d1e6adad8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "management/Eisenhower_Matrix/Eisenhower Matrix implement.md",
+                "file": "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#town",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md",
+                "file": "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md",
+                "file": "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md"
+                "file": "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md"
               }
             }
           },
@@ -204,54 +186,54 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "01e85b3887a7244f",
+  "active": "f6724f66404ec2c7",
   "lastOpenFiles": [
-    "VM/Fix mouse input not captured on Hyper-v.md",
-    "VM/Enhanced Session Mode.md",
-    "management/management_template/template_example/Meeting_Notes.md",
-    "management/management_template/template_example/OKR (Objectives and Key Results).md",
-    "management/Eisenhower_Matrix/article/Eisenhower Matrix concept.md",
-    "management/management index.md",
-    "management/Eisenhower_Matrix/Eisenhower Matrix implement.md",
-    "management/Eisenhower_Matrix/Eisenhower_Matrix index.md",
-    "management/management_template/template_example/Blog Post.md",
-    "management/management_template/management template index.md",
-    "management/management_template/template_example/Book Notes.md",
-    "management/management_template/article/6 Useful Templates for Obsidian.md",
-    "management/management_template/template_example/Cornell Notes.md",
-    "management/management_template/template_example",
-    "obsidian_instruction/CardBoard/example_card_board/undated.md",
-    "management/Eisenhower_Matrix/article",
-    "management/management_template/article",
-    "management/management_template",
-    "obsidian_instruction/CardBoard/how to use cardboard.md",
-    "example_tasks/recipes.md",
-    "example_tasks",
-    "obsidian_instruction/CardBoard/example_card_board",
-    "obsidian_instruction/CardBoard/Untitled.md",
-    "obsidian_instruction/step-by-step guide.md",
-    "obsidian_instruction/Excalidraw/MindMap/Mind mapping with Excalidraw.md",
-    "obsidian_instruction/CardBoard",
-    "obsidian_instruction/shortcut.md",
-    "obsidian_instruction/Excalidraw/MindMap",
-    "how to take note/create checkbox in obsidian.md",
-    "obsidian_instruction/Excalidraw/Drawing 2023-12-04 09.24.43.excalidraw.md",
-    "Pasted image 20231204081837.png",
-    "management/Eisenhower_Matrix",
-    "obsidian_instruction/my_community_plugin/todoist-text/manifest.json",
+    "obsidian_instruction/my_community_plugin/obsidian-git/styles.css",
+    "obsidian_instruction/my_community_plugin/obsidian-git/data.json",
+    "obsidian_instruction/my_community_plugin/obsidian-git/manifest.json",
+    "obsidian_instruction/my_community_plugin/obsidian-git/main.js",
+    "obsidian_instruction/my_community_plugin/obsidian-git",
+    "obsidian_instruction/my_community_plugin/obsidian-format-code/manifest.json",
+    "obsidian_instruction/my_community_plugin/obsidian-format-code/main.js",
+    "obsidian_instruction/my_community_plugin/obsidian-format-code",
+    "obsidian_instruction/my_community_plugin/obsidian-excalidraw-plugin/styles.css",
+    "obsidian_instruction/my_community_plugin/obsidian-excalidraw-plugin/manifest.json",
+    "obsidian_instruction/my_community_plugin/obsidian-excalidraw-plugin/main.js",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/README.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/CONTRIBUTING.md",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-yellow.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-white.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-purple.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-green.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-blue.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/README.md",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/CONTRIBUTING.md",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chart/README.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/boardmarker-yellow.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/customcontrols/README.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chart/README.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/README.md",
+    "Untitled.md",
+    "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
+    "cheatsheet/cheetsheet index.md",
+    "Csharp/process_of_dev_.netCore6.0/checking which donet sdk is installed.md",
+    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Use_diagram.md",
+    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Class_diagram.md",
+    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Component_diagram.md",
+    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Sequence_diagram.md",
+    "obsidian_instruction/Excalidraw/MindMap/Mind mapping with Excalidraw.md",
+    "obsidian_instruction/CardBoard/example_card_board/undated.md",
+    "obsidian_instruction/CardBoard/how to use cardboard.md",
+    "obsidian_instruction/Excalidraw/Drawing 2023-11-09 18.20.48.excalidraw.md",
+    "Visual_Studio/Csharpier/how to use.md",
+    "management/Eisenhower_Matrix/Eisenhower Matrix implement.md",
+    "Visual_Studio/Find out which process is running an ASP.NET app.md",
+    "Visual_Studio/index.md",
+    "Visual_Studio/tool.md",
+    "database/db design/規劃關聯式資料庫.md",
+    "database/MSSQL/document conventions.md",
+    "program_lan/Python/13_ Using databases and SQL.md",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]

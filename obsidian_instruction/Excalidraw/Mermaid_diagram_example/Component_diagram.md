@@ -22,7 +22,7 @@ Database ^jNJzhi4f
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.25",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.4",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -62,8 +62,8 @@ Database ^jNJzhi4f
 		},
 		{
 			"type": "rectangle",
-			"version": 5,
-			"versionNonce": 506611403,
+			"version": 6,
+			"versionNonce": 1530910466,
 			"isDeleted": false,
 			"id": "Z8h_d-Ro9wvOCDpMId0PS",
 			"fillStyle": "solid",
@@ -72,7 +72,7 @@ Database ^jNJzhi4f
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -211.90625,
+			"x": -211.19196428571428,
 			"y": -23.75,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -98,7 +98,7 @@ Database ^jNJzhi4f
 					"type": "arrow"
 				}
 			],
-			"updated": 1698587258231,
+			"updated": 1702114731189,
 			"link": null,
 			"locked": false
 		},
@@ -184,8 +184,8 @@ Database ^jNJzhi4f
 		},
 		{
 			"type": "arrow",
-			"version": 9,
-			"versionNonce": 1013537445,
+			"version": 15,
+			"versionNonce": 321150530,
 			"isDeleted": false,
 			"id": "domzK2m2ulq6Ib9Wl8ogl",
 			"fillStyle": "solid",
@@ -198,7 +198,7 @@ Database ^jNJzhi4f
 			"y": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 48,
+			"width": 48.71428571428572,
 			"height": 0,
 			"seed": 1105447461,
 			"groupIds": [],
@@ -207,7 +207,7 @@ Database ^jNJzhi4f
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1698587261306,
+			"updated": 1702114731189,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -229,15 +229,15 @@ Database ^jNJzhi4f
 					0
 				],
 				[
-					48,
+					48.71428571428572,
 					0
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 9,
-			"versionNonce": 1249402917,
+			"version": 15,
+			"versionNonce": 1387214274,
 			"isDeleted": false,
 			"id": "5Ni0DcCXiPnL09lX1oBBn",
 			"fillStyle": "solid",
@@ -246,11 +246,11 @@ Database ^jNJzhi4f
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -2.59375,
+			"x": -1.8794642857142776,
 			"y": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 48,
+			"width": 47.28571428571428,
 			"height": 0,
 			"seed": 965819781,
 			"groupIds": [],
@@ -259,7 +259,7 @@ Database ^jNJzhi4f
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1698587261309,
+			"updated": 1702114731189,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -281,15 +281,15 @@ Database ^jNJzhi4f
 					0
 				],
 				[
-					48,
+					47.28571428571428,
 					0
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 9,
-			"versionNonce": 1142465957,
+			"version": 13,
+			"versionNonce": 1737510786,
 			"isDeleted": false,
 			"id": "VRu8AmtfmxXgOPxbtYWY6",
 			"fillStyle": "solid",
@@ -311,7 +311,7 @@ Database ^jNJzhi4f
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1698587261311,
+			"updated": 1702114728788,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -377,8 +377,8 @@ Database ^jNJzhi4f
 		},
 		{
 			"type": "text",
-			"version": 4,
-			"versionNonce": 695658795,
+			"version": 5,
+			"versionNonce": 1223796418,
 			"isDeleted": false,
 			"id": "QSaCb1lk",
 			"fillStyle": "solid",
@@ -387,7 +387,7 @@ Database ^jNJzhi4f
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -195.7899169921875,
+			"x": -195.07563127790178,
 			"y": -12.5,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -398,7 +398,7 @@ Database ^jNJzhi4f
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1698587258231,
+			"updated": 1702114731189,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -502,10 +502,10 @@ Database ^jNJzhi4f
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 637,
-		"scrollY": 476.7578125,
+		"scrollX": 454.99999999999994,
+		"scrollY": 340.5412946428571,
 		"zoom": {
-			"value": 1
+			"value": 1.4000000000000001
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
