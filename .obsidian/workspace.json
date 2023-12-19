@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
+                "file": "Csharp/assembles_and_modules/modules.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
+                "file": "Csharp/assembles_and_modules/modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
+                "file": "Csharp/assembles_and_modules/modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md"
+                "file": "Csharp/assembles_and_modules/modules.md"
               }
             }
           },
@@ -186,8 +186,29 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "f6724f66404ec2c7",
+  "active": "49425e0d1e6adad8",
   "lastOpenFiles": [
+    "Csharp/assembles_and_modules/assemblies.md",
+    "Csharp/assembles_and_modules/modules.md",
+    "Visual_Studio/about_extension/Untitled.md",
+    "Csharp/assembles_and_modules",
+    "Visual_Studio/about_extension/extension_manager_1.md",
+    "Pasted image 20231218083451.png",
+    "linux/distribution/ubuntu/create file.md",
+    "Visual_Studio/about_extension",
+    "network/RFC/How_to_readRFC.md",
+    "web browser extension/extension list.md",
+    "Visual_Studio/index.md",
+    "Visual_Studio/xml comment.md",
+    "Visual_Studio/prop and propfull shortcut in visual studio.md",
+    "Visual_Studio/Find out which process is running an ASP.NET app.md",
+    "Visual_Studio/Csharpier/how to use.md",
+    "database/errMsg.md",
+    "Csharp/asp.net core/appsettings.json and connection string.md",
+    "program_lan/Python/13_ Using databases and SQL.md",
+    "Csharp/Fundamentals/Common Language Runtime (CLR) overview.md",
+    "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
+    "Csharp/Fundamentals",
     "obsidian_instruction/my_community_plugin/obsidian-git/styles.css",
     "obsidian_instruction/my_community_plugin/obsidian-git/data.json",
     "obsidian_instruction/my_community_plugin/obsidian-git/manifest.json",
@@ -195,10 +216,6 @@
     "obsidian_instruction/my_community_plugin/obsidian-git",
     "obsidian_instruction/my_community_plugin/obsidian-format-code/manifest.json",
     "obsidian_instruction/my_community_plugin/obsidian-format-code/main.js",
-    "obsidian_instruction/my_community_plugin/obsidian-format-code",
-    "obsidian_instruction/my_community_plugin/obsidian-excalidraw-plugin/styles.css",
-    "obsidian_instruction/my_community_plugin/obsidian-excalidraw-plugin/manifest.json",
-    "obsidian_instruction/my_community_plugin/obsidian-excalidraw-plugin/main.js",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/README.md",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/CONTRIBUTING.md",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
@@ -210,30 +227,13 @@
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-green.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-blue.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/boardmarker-yellow.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/customcontrols/README.md",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chart/README.md",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/README.md",
     "Untitled.md",
-    "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
     "cheatsheet/cheetsheet index.md",
     "Csharp/process_of_dev_.netCore6.0/checking which donet sdk is installed.md",
     "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Use_diagram.md",
-    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Class_diagram.md",
-    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Component_diagram.md",
-    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Sequence_diagram.md",
-    "obsidian_instruction/Excalidraw/MindMap/Mind mapping with Excalidraw.md",
-    "obsidian_instruction/CardBoard/example_card_board/undated.md",
-    "obsidian_instruction/CardBoard/how to use cardboard.md",
-    "obsidian_instruction/Excalidraw/Drawing 2023-11-09 18.20.48.excalidraw.md",
-    "Visual_Studio/Csharpier/how to use.md",
-    "management/Eisenhower_Matrix/Eisenhower Matrix implement.md",
-    "Visual_Studio/Find out which process is running an ASP.NET app.md",
-    "Visual_Studio/index.md",
-    "Visual_Studio/tool.md",
-    "database/db design/規劃關聯式資料庫.md",
-    "database/MSSQL/document conventions.md",
-    "program_lan/Python/13_ Using databases and SQL.md",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]
