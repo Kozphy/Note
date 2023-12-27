@@ -1,0 +1,19 @@
+.Urgent {
+  background-color: #68c446;
+  color: black;
+}
+
+.Schedule {
+  background-color: #5592e8;
+  color: black;
+}
+
+.delegate {
+  background-color: #eaa133;
+  color: black;
+}
+
+.avoid {
+  background-color: #ef6262;
+  color: black;
+}

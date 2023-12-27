@@ -1,5 +1,11 @@
 {
   "accentColor": "",
   "theme": "obsidian",
-  "cssTheme": "Things"
+  "cssTheme": "Blue Topaz",
+  "enabledCssSnippets": [
+    "eisenhower_matrix",
+    "card_board_hightlight"
+  ],
+  "baseFontSize": 17,
+  "translucency": false
 }

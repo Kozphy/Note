@@ -23,11 +23,10 @@
             "id": "fcb648bc1fd0b4f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Csharp/Type/record.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           },
@@ -153,7 +152,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Csharp/Type/record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +163,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Csharp/Type/record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,9 +189,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Csharp/Type/record.md"
-              }
+              "state": {}
             }
           },
           {
@@ -230,9 +225,17 @@
               "type": "side-panel-control-view",
               "state": {}
             }
+          },
+          {
+            "id": "ba3ed47baca3872a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -255,52 +258,52 @@
   },
   "active": "fcb648bc1fd0b4f0",
   "lastOpenFiles": [
-    "Csharp/Type/struct.md",
+    "Csharp/modifiers_keyword/static_async.md",
     "Csharp/Type/record.md",
-    "Csharp/Type/value equality.md",
-    "Csharp/Type/Value Type and Reference Type.md",
-    "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
-    "Csharp/Type/class and struct.md",
-    "Pasted image 20231227143807.png",
-    "Csharp/modifiers_keyword/static and not static.md",
-    "Csharp/modifiers_keyword/async.md",
-    "Csharp/modifiers_keyword/sealed.md",
-    "Csharp/modifiers_keyword/override_virtual_and_new.md",
-    "Csharp/proper_noun/Drawing 2023-12-27 09.50.28.excalidraw.md",
-    "Csharp/proper_noun",
-    "Csharp/Classes OOP/Fields or Variable vs Properties.md",
-    "Csharp/Classes OOP/Abstraction and interface.md",
-    "Csharp/object/reference equality vs value equality.md",
-    "Csharp/object",
-    "Csharp/basic/var.md",
-    "Csharp/Type",
-    "Csharp/type_convert.md",
-    "Csharp/Solution File (.sln).md",
-    "Csharp/basic/switch.md",
-    "Csharp/stringFormat.md",
-    "Csharp/basic/string.md",
-    "Csharp/regex/regular_expression.md",
-    "Csharp/null-coalescing operators.md",
-    "Csharp/display_cmd_args.md",
-    "Csharp/decompiler, compiler and assembly.md",
-    "Csharp/Core CSharp and .NET Quick Reference.pdf",
-    "Csharp/basic/method.md",
-    "Csharp/basic/math.md",
-    "Csharp/basic",
-    "k8s",
-    "Pasted image 20231201222057.png",
-    "github_action/component_of_github_action.drawio.svg",
-    "note_pic/Pasted image 20231027123846.png",
-    "Csharp/Classes OOP/Untitled",
-    "Csharp/Classes OOP",
-    "Csharp/modifiers_keyword",
-    "TECHNOLOGY EXPLAINED",
-    "Pasted image 20231117221829.png",
-    "Csharp/img/type_convert.png",
-    "Pasted image 20231110201024.png",
-    "Pasted image 20231109180035.png",
-    "Pasted image 20231109175952.png",
-    "unicode/unicode_transform_format.drawio.svg",
+    "obsidian_instruction/Excalidraw/MindMap/Mind mapping with Excalidraw.md",
+    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Use_diagram.md",
+    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Sequence_diagram.md",
+    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Class_diagram.md",
+    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Component_diagram.md",
+    "obsidian_instruction/Excalidraw/McKinsey 7 steps.md",
+    "obsidian_instruction/Excalidraw/MindMap",
+    "obsidian_instruction/Excalidraw/Mermaid_diagram_example",
+    "obsidian_instruction/Excalidraw/Drawing 2023-12-04 09.24.43.excalidraw.md",
+    "obsidian_instruction/Excalidraw/Drawing 2023-11-09 18.20.48.excalidraw.md",
+    "obsidian_instruction/Excalidraw/Drawing 2023-11-09 18.20.49.excalidraw.md",
+    "obsidian_instruction/Excalidraw",
+    "obsidian_instruction/step-by-step guide.md",
+    "obsidian_instruction/my_community_plugin/todoist-text/styles.css",
+    "obsidian_instruction/my_community_plugin/todoist-text/manifest.json",
+    "obsidian_instruction/my_community_plugin/todoist-text/main.js",
+    "obsidian_instruction/my_community_plugin/todoist-text/data.json",
+    "obsidian_instruction/my_community_plugin/todoist-text",
+    "obsidian_instruction/my_community_plugin/table-editor-obsidian/styles.css",
+    "obsidian_instruction/my_community_plugin/table-editor-obsidian/manifest.json",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-yellow.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-white.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-purple.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-green.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-blue.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/boardmarker-yellow.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/README.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/CONTRIBUTING.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/customcontrols/README.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chart/README.md",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/README.md",
+    "management/management_template/template_example/Meeting_Notes.md",
+    "management/management_template/template_example/Book Notes.md",
+    "management/management_template/template_example/OKR (Objectives and Key Results).md",
+    "management/management_template/template_example/Cornell Notes.md",
+    "management/management_template/template_example/Blog Post.md",
+    "management/Eisenhower_Matrix/article/Eisenhower Matrix concept.md",
+    "management/management_template/article/6 Useful Templates for Obsidian.md",
+    "management/management_template/management template index.md",
+    "management/Eisenhower_Matrix/Eisenhower_Matrix index.md",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]
