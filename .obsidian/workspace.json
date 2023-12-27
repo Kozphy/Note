@@ -4,22 +4,90 @@
     "type": "split",
     "children": [
       {
-        "id": "3afc4c521f0cb167",
+        "id": "882c3524aa6a5572",
         "type": "tabs",
         "children": [
           {
-            "id": "5f43609290af06a3",
+            "id": "95ec0d35e0533393",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Csharp/Value Type and Reference Type.md",
+                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fcb648bc1fd0b4f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Csharp/Type/record.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "377dd5982ff8a11b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Csharp/Type/struct.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "6d5e54db748a8e02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26b460cc549cbf09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Csharp/modifiers_keyword/sealed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9044fccf27e2fdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Csharp/Type/class and struct.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "313fa0164c6f5e88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Csharp/Type/record.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Csharp/Value Type and Reference Type.md",
+                "file": "Csharp/Type/record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Csharp/Value Type and Reference Type.md",
+                "file": "Csharp/Type/record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Csharp/Value Type and Reference Type.md"
+                "file": "Csharp/Type/record.md"
               }
             }
           },
@@ -164,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -178,61 +246,61 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "zk-prefixer:Create new unique note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "f6724f66404ec2c7",
+  "active": "fcb648bc1fd0b4f0",
   "lastOpenFiles": [
+    "Csharp/Type/struct.md",
+    "Csharp/Type/record.md",
+    "Csharp/Type/value equality.md",
+    "Csharp/Type/Value Type and Reference Type.md",
+    "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
+    "Csharp/Type/class and struct.md",
+    "Pasted image 20231227143807.png",
+    "Csharp/modifiers_keyword/static and not static.md",
+    "Csharp/modifiers_keyword/async.md",
+    "Csharp/modifiers_keyword/sealed.md",
+    "Csharp/modifiers_keyword/override_virtual_and_new.md",
+    "Csharp/proper_noun/Drawing 2023-12-27 09.50.28.excalidraw.md",
+    "Csharp/proper_noun",
+    "Csharp/Classes OOP/Fields or Variable vs Properties.md",
+    "Csharp/Classes OOP/Abstraction and interface.md",
+    "Csharp/object/reference equality vs value equality.md",
+    "Csharp/object",
+    "Csharp/basic/var.md",
+    "Csharp/Type",
+    "Csharp/type_convert.md",
+    "Csharp/Solution File (.sln).md",
+    "Csharp/basic/switch.md",
+    "Csharp/stringFormat.md",
+    "Csharp/basic/string.md",
+    "Csharp/regex/regular_expression.md",
+    "Csharp/null-coalescing operators.md",
+    "Csharp/display_cmd_args.md",
+    "Csharp/decompiler, compiler and assembly.md",
     "Csharp/Core CSharp and .NET Quick Reference.pdf",
-    "2023-12-03.md",
-    "Csharp/Value Type and Reference Type.md",
+    "Csharp/basic/method.md",
+    "Csharp/basic/math.md",
+    "Csharp/basic",
     "k8s",
     "Pasted image 20231201222057.png",
-    "OS/OS_index.md",
-    "ML/Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras.md",
-    "linux/CS Tools.md",
-    "github_action/Using_workflows.md",
     "github_action/component_of_github_action.drawio.svg",
-    "github_action/understand_github_action.md",
-    "github_action/using_workflows/Reusing_workflows.md",
-    "javascript/Promise.md",
     "note_pic/Pasted image 20231027123846.png",
-    "TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
-    "VM/Enhanced Session Mode.md",
-    "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md",
-    "VM/intro virtual machine.md",
-    "VM/Hyper-V login in enhanced mode not possible.md",
-    "VM/how to copy and transfer files to hyper-v VM.md",
-    "Csharp/Classes OOP/Abstraction and interface.md",
-    "Csharp/Classes OOP/Fields or Variable vs Properties.md",
     "Csharp/Classes OOP/Untitled",
-    "Csharp/modifiers_keyword/override_virtual_and_new.md",
     "Csharp/Classes OOP",
-    "Csharp/modifiers_keyword/static_async.md",
-    "Csharp/Untitled",
     "Csharp/modifiers_keyword",
     "TECHNOLOGY EXPLAINED",
-    "database/Describing Databases with MetaData index.md",
-    "database/db design/規劃關聯式資料庫.md",
-    "database/db design",
-    "database/database learn index.md",
-    "database/MSSQL/Primary Key.md",
-    "database/MSSQL/what is object meaning in database.md",
-    "database/MSSQL/The name convention of foreign key in sql.md",
     "Pasted image 20231117221829.png",
     "Csharp/img/type_convert.png",
-    "backend",
-    "VM",
-    "web browser extension",
     "Pasted image 20231110201024.png",
     "Pasted image 20231109180035.png",
     "Pasted image 20231109175952.png",
     "unicode/unicode_transform_format.drawio.svg",
-    "unicode/order_mark_car.drawio.svg",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]

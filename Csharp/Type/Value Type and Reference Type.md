@@ -1,8 +1,11 @@
 #csharp 
 ## Source
 [Value Type and Reference Type (tutorialsteacher.com)](https://www.tutorialsteacher.com/csharp/csharp-value-type-and-reference-type)
-
-## Value Type
+https://stackoverflow.com/questions/13049/whats-the-difference-between-struct-and-class-in-net
+## Value Type (on stack)
+### Feature of value type
+After the copy, changes to one won't affect the other
+### The following data types are all of value type:
 - bool
 - byte
 - char
@@ -41,7 +44,9 @@ namespace CshAlgo.practice.value_ref_pointer_p
 }
 ```
 
-## Reference Type
+## Reference Type (on heap)
+### Feature of reference type
+After the copy, changing the data in one reference will appear to affect the other as well, but only because you're really just looking at the same data both places
 
 ```csharp
 namespace CshAlgo.practice.value_ref_pointer_p
