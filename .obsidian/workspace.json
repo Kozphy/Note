@@ -20,59 +20,23 @@
             }
           },
           {
-            "id": "fcb648bc1fd0b4f0",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "377dd5982ff8a11b",
+            "id": "7d05157ce603ab02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Csharp/Type/struct.md",
+                "file": "database/MSSQL/The name convention of foreign key in sql.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "6d5e54db748a8e02",
         "type": "tabs",
         "children": [
-          {
-            "id": "26b460cc549cbf09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Csharp/modifiers_keyword/sealed.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9044fccf27e2fdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Csharp/Type/class and struct.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "313fa0164c6f5e88",
             "type": "leaf",
@@ -85,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md"
+              }
             }
           },
           {
@@ -256,30 +223,44 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "fcb648bc1fd0b4f0",
+  "active": "95ec0d35e0533393",
   "lastOpenFiles": [
-    "Csharp/modifiers_keyword/static_async.md",
+    "Excalidraw/Drawing 2023-12-30 20.44.33.excalidraw.md",
+    "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
+    "Excalidraw",
     "Csharp/Type/record.md",
-    "obsidian_instruction/Excalidraw/MindMap/Mind mapping with Excalidraw.md",
-    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Use_diagram.md",
-    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Sequence_diagram.md",
-    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Class_diagram.md",
-    "obsidian_instruction/Excalidraw/Mermaid_diagram_example/Component_diagram.md",
-    "obsidian_instruction/Excalidraw/McKinsey 7 steps.md",
-    "obsidian_instruction/Excalidraw/MindMap",
-    "obsidian_instruction/Excalidraw/Mermaid_diagram_example",
-    "obsidian_instruction/Excalidraw/Drawing 2023-12-04 09.24.43.excalidraw.md",
-    "obsidian_instruction/Excalidraw/Drawing 2023-11-09 18.20.48.excalidraw.md",
-    "obsidian_instruction/Excalidraw/Drawing 2023-11-09 18.20.49.excalidraw.md",
-    "obsidian_instruction/Excalidraw",
-    "obsidian_instruction/step-by-step guide.md",
-    "obsidian_instruction/my_community_plugin/todoist-text/styles.css",
-    "obsidian_instruction/my_community_plugin/todoist-text/manifest.json",
-    "obsidian_instruction/my_community_plugin/todoist-text/main.js",
-    "obsidian_instruction/my_community_plugin/todoist-text/data.json",
-    "obsidian_instruction/my_community_plugin/todoist-text",
-    "obsidian_instruction/my_community_plugin/table-editor-obsidian/styles.css",
-    "obsidian_instruction/my_community_plugin/table-editor-obsidian/manifest.json",
+    "Csharp/Type/class and struct.md",
+    "Csharp/modifiers_keyword/sealed.md",
+    "金融/升降息.excalidraw.md",
+    "database/MSSQL/The name convention of foreign key in sql.md",
+    "Csharp/Type/struct.md",
+    "database/MSSQL/The different between .mdf and .ldf.md",
+    "database/MSSQL/Primary Key.md",
+    "database/errMsg.md",
+    "database/Describing Databases with MetaData index.md",
+    "database/database learn index.md",
+    "database/MSSQL/reversed word.md",
+    "database/MSSQL/FOREIGN key syntax.md",
+    "database/MSSQL/what is object meaning in database.md",
+    "database/MSSQL/double quote and single quote.md",
+    "database/MSSQL/SSMS/SSMS components and configuration.md",
+    "database/MSSQL/document conventions.md",
+    "program_lan/Python/13_ Using databases and SQL.md",
+    "金融/債券.excalidraw.md",
+    "金融",
+    "Csharp/process_of_dev_.netCore6.0/process of dev dotnet 6.0 index.md",
+    "Csharp/process_of_dev_.netCore6.0/creating new project.md",
+    "Csharp/process_of_dev_.netCore6.0/checking which donet sdk is installed.md",
+    "Csharp/process_of_dev_.netCore6.0",
+    "Csharp/assembles_and_modules/modules.md",
+    "Csharp/assembles_and_modules/assemblies.md",
+    "Csharp/assembles_and_modules",
+    "Csharp/Proper Nouns",
+    "Csharp/Fundamentals",
+    "obsidian_instruction/CardBoard/example_card_board",
+    "obsidian_instruction/CardBoard",
+    "Visual_Studio/about_extension",
+    "Visual_Studio/Csharpier",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-yellow.png",
@@ -290,20 +271,6 @@
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-green.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-blue.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/boardmarker-yellow.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/README.md",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/menu/CONTRIBUTING.md",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/customcontrols/README.md",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chart/README.md",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/README.md",
-    "management/management_template/template_example/Meeting_Notes.md",
-    "management/management_template/template_example/Book Notes.md",
-    "management/management_template/template_example/OKR (Objectives and Key Results).md",
-    "management/management_template/template_example/Cornell Notes.md",
-    "management/management_template/template_example/Blog Post.md",
-    "management/Eisenhower_Matrix/article/Eisenhower Matrix concept.md",
-    "management/management_template/article/6 Useful Templates for Obsidian.md",
-    "management/management_template/management template index.md",
-    "management/Eisenhower_Matrix/Eisenhower_Matrix index.md",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]
