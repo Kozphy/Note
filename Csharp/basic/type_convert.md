@@ -7,7 +7,7 @@
 - decimal
 - bool
 
-![](./img/type_convert.png)
+![](type_convert.png)
 
 ## int
 ```csharp
