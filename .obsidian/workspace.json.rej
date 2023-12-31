@@ -1,0 +1,9 @@
+diff a/.obsidian/workspace.json b/.obsidian/workspace.json	(rejected hunks)
+@@ -225,6 +225,7 @@
+   },
+   "active": "95ec0d35e0533393",
+   "lastOpenFiles": [
++    "Excalidraw/instruction/draw straight line.md",
+     "Excalidraw/instruction",
+     "Csharp/disassembly_IL_JIT/dessembly.md",
+     "Csharp/disassembly_IL_JIT/C# Disassembly Intermediate Language and JIT Compilation.md",

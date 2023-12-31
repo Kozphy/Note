@@ -43,14 +43,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web browser extension/extension list.md",
+                "file": "example_tasks/recipes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e748aebf30c9396",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SourceTree/add ssh key to source tree.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "web browser extension/extension list.md",
+                "file": "SourceTree/add ssh key to source tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web browser extension/extension list.md",
+                "file": "SourceTree/add ssh key to source tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "web browser extension/extension list.md"
+                "file": "SourceTree/add ssh key to source tree.md"
               }
             }
           },
@@ -166,7 +178,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -217,8 +231,22 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "f6724f66404ec2c7",
+  "active": "4e748aebf30c9396",
   "lastOpenFiles": [
+    "github/shh_conn.md",
+    "SourceTree/add ssh key to source tree.md",
+    "SourceTree",
+    "Csharp/Proper Nouns/statement and Expression.md",
+    "Excalidraw/instruction/draw straight line.md",
+    "github/github cookie.md",
+    "github/github index.md",
+    "web browser extension/extension list.md",
+    "30-39 Music",
+    "20-29 Home business",
+    "16 Travel",
+    "10-19 Life administration",
+    "2024",
+    "2023",
     "Pasted image 20231227143807.png",
     "Csharp/regex/regular_expression.md",
     "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
@@ -242,20 +270,7 @@
     "Csharp/basic/Value Type and Reference Type.md",
     "Csharp/basic/type_convert.md",
     "Csharp/basic/string.md",
-    "Csharp/basic/null-coalescing operators.md",
-    "Csharp/display_cmd_args.md",
-    "Csharp/escape_Character.md",
-    "Csharp/method.md",
-    "Csharp/basic/list.md",
-    "Csharp/basic/jagged Array.md",
-    "Csharp/basic",
-    "Csharp/Core CSharp and .NET Quick Reference.pdf",
-    "Excalidraw/instruction",
-    "Excalidraw",
-    "Csharp/disassembly_IL_JIT",
     "Csharp/img/escape_Character.png",
-    "Csharp/Proper Nouns",
-    "Csharp/assembles_and_modules",
     "Pasted image 20231218083451.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
@@ -264,7 +279,6 @@
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-purple.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-green.png",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]
