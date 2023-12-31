@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4484d1b6c8e48f64",
+        "id": "882c3524aa6a5572",
         "type": "tabs",
         "children": [
           {
-            "id": "49425e0d1e6adad8",
+            "id": "95ec0d35e0533393",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Csharp/Proper Nouns/statement and Expression.md",
+                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,19 +26,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab59c3d3cefa4a9a",
+            "id": "7d05157ce603ab02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Csharp/assembles_and_modules/modules.md",
+                "file": "database/MSSQL/The name convention of foreign key in sql.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "6d5e54db748a8e02",
+        "type": "tabs",
+        "children": [
           {
-            "id": "d741c02aa02ec072",
+            "id": "313fa0164c6f5e88",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -57,12 +63,15 @@
               "state": {
                 "file": "SourceTree/add ssh key to source tree.md",
                 "mode": "source",
+                "file": "Csharp/Type/record.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
         "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,6 +138,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "SourceTree/add ssh key to source tree.md",
+                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,6 +151,7 @@
               "type": "backlink",
               "state": {
                 "file": "SourceTree/add ssh key to source tree.md",
+                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,6 +180,7 @@
               "type": "outline",
               "state": {
                 "file": "SourceTree/add ssh key to source tree.md"
+                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md"
               }
             }
           },
@@ -207,9 +219,17 @@
               "type": "side-panel-control-view",
               "state": {}
             }
+          },
+          {
+            "id": "ba3ed47baca3872a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -223,16 +243,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "zk-prefixer:Create new unique note": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "card-board:CardBoard": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
   "active": "4e748aebf30c9396",
+  "active": "95ec0d35e0533393",
   "lastOpenFiles": [
+    "金融/升降息.excalidraw.md",
+    "金融/債券.excalidraw.md",
+    "金融",
     "github/shh_conn.md",
     "SourceTree/add ssh key to source tree.md",
     "SourceTree",
@@ -263,13 +286,10 @@
     "Csharp/Type/struct.md",
     "Csharp/Type/record.md",
     "Csharp/Type/class and struct.md",
-    "Csharp/Type",
     "Csharp/disassembly_IL_JIT/C# Disassembly Intermediate Language and JIT Compilation.md",
     "Csharp/disassembly_IL_JIT/dessembly.md",
     "Csharp/Solution File (.sln).md",
     "Csharp/basic/Value Type and Reference Type.md",
-    "Csharp/basic/type_convert.md",
-    "Csharp/basic/string.md",
     "Csharp/img/escape_Character.png",
     "Pasted image 20231218083451.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
