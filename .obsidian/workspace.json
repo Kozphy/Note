@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Csharp/Type/record.md",
+                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Csharp/Type/record.md",
+                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Csharp/Type/record.md"
+                "file": "Csharp/Type/record.md""file": "SourceTree/add ssh key to source tree.md""file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md"
               }
             }
           },
@@ -165,7 +165,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -223,20 +225,42 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "313fa0164c6f5e88",
+  "active": "f6724f66404ec2c7",
   "lastOpenFiles": [
+    "SourceTree/add ssh key to source tree.md",
+    "SourceTree",
     "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
     "Excalidraw/instruction/draw straight line.md",
-    "Excalidraw/instruction",
-    "Csharp/disassembly_IL_JIT/dessembly.md",
+    "github/github cookie.md",
+    "github/github index.md",
+    "web browser extension/extension list.md",
+    "30-39 Music",
+    "20-29 Home business",
+    "16 Travel",
+    "10-19 Life administration",
+    "2024",
+    "2023",
+    "Pasted image 20231227143807.png",
+    "Csharp/regex/regular_expression.md",
+    "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
+    "Csharp/proper_noun",
+    "Csharp/object/reference equality vs value equality.md",
+    "Csharp/object",
+    "Csharp/modifiers_keyword/static and not static.md",
+    "Csharp/modifiers_keyword/sealed.md",
+    "Csharp/modifiers_keyword/async.md",
+    "Csharp/basic/method.md",
+    "Csharp/basic/escape_Character.md",
+    "Csharp/Type/Value Type and Reference Type.md",
+    "Csharp/Type/value equality.md",
+    "Csharp/Type/struct.md",
+    "Csharp/Type/record.md",
+    "Csharp/Type/class and struct.md",
     "Csharp/disassembly_IL_JIT/C# Disassembly Intermediate Language and JIT Compilation.md",
-    "Csharp/disassembly_IL_JIT",
-    "Csharp/basic/type_convert.md",
-    "Csharp/basic/regular_expression.md",
-    "Csharp/basic/null-coalescing operators.md",
+    "Csharp/disassembly_IL_JIT/dessembly.md",
+    "Csharp/Solution File (.sln).md",
     "Csharp/basic/Value Type and Reference Type.md",
-    "Visual_Studio/Find out which process is running an ASP.NET app.md",
-    "VM/Fix mouse input not captured on Hyper-v.md",
+    "Csharp/img/escape_Character.png",
     "Pasted image 20231218083451.png",
     "Pasted image 20231208213026.png",
     "Pasted image 20231208212911.png",
@@ -257,20 +281,19 @@
     "database/MSSQL/reversed word.md",
     "database/MSSQL/FOREIGN key syntax.md",
     "database/MSSQL/what is object meaning in database.md",
-    "database/MSSQL/double quote and single quote.md",
     "金融",
     "Csharp/process_of_dev_.netCore6.0",
     "Csharp/assembles_and_modules",
     "Csharp/Proper Nouns",
     "Csharp/Fundamentals",
     "obsidian_instruction/CardBoard/example_card_board",
-    "obsidian_instruction/CardBoard",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-yellow.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-white.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-purple.png",
+    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]
