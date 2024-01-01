@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
+                "file": "Csharp/Type/record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
+                "file": "Csharp/Type/record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md"
+                "file": "Csharp/Type/record.md"
               }
             }
           },
@@ -223,8 +223,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "95ec0d35e0533393",
+  "active": "313fa0164c6f5e88",
   "lastOpenFiles": [
+    "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
     "Excalidraw/instruction/draw straight line.md",
     "Excalidraw/instruction",
     "Csharp/disassembly_IL_JIT/dessembly.md",
@@ -241,7 +242,6 @@
     "Pasted image 20231208212911.png",
     "Pasted image 20231204081837.png",
     "Excalidraw/Drawing 2023-12-30 20.44.33.excalidraw.md",
-    "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
     "Excalidraw",
     "Csharp/Type/record.md",
     "Csharp/Type/class and struct.md",
