@@ -1,6 +1,9 @@
 # database learn index
 ###### tags: `database learn`
 
+## Common
+[](schema%20diagram.md)
+
 # Postgres 
 [install in wsl](/s0P5DdBQRw2xzqAx3WM3Zw)
 [create database](/EefCoV5sTrCQnnbcyfYAWA)
