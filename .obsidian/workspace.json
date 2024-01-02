@@ -41,11 +41,10 @@
             "id": "313fa0164c6f5e88",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Csharp/Type/record.md",
-                "mode": "preview",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -115,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +125,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Csharp/Type/record.md""file": "SourceTree/add ssh key to source tree.md""file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,9 +160,7 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "sortOrder": "frequency"
               }
             }
           },
@@ -225,49 +218,29 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "f6724f66404ec2c7",
+  "active": "313fa0164c6f5e88",
   "lastOpenFiles": [
+    "Csharp/Type/record.md",
     "SourceTree/add ssh key to source tree.md",
     "SourceTree",
     "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
     "Excalidraw/instruction/draw straight line.md",
-    "github/github cookie.md",
-    "github/github index.md",
-    "web browser extension/extension list.md",
-    "30-39 Music",
-    "20-29 Home business",
-    "16 Travel",
-    "10-19 Life administration",
-    "2024",
-    "2023",
-    "Pasted image 20231227143807.png",
-    "Csharp/regex/regular_expression.md",
-    "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
-    "Csharp/proper_noun",
-    "Csharp/object/reference equality vs value equality.md",
-    "Csharp/object",
-    "Csharp/modifiers_keyword/static and not static.md",
-    "Csharp/modifiers_keyword/sealed.md",
-    "Csharp/modifiers_keyword/async.md",
-    "Csharp/basic/method.md",
-    "Csharp/basic/escape_Character.md",
-    "Csharp/Type/Value Type and Reference Type.md",
-    "Csharp/Type/value equality.md",
-    "Csharp/Type/struct.md",
-    "Csharp/Type/record.md",
-    "Csharp/Type/class and struct.md",
-    "Csharp/disassembly_IL_JIT/C# Disassembly Intermediate Language and JIT Compilation.md",
+    "Excalidraw/instruction",
     "Csharp/disassembly_IL_JIT/dessembly.md",
-    "Csharp/Solution File (.sln).md",
+    "Csharp/disassembly_IL_JIT/C# Disassembly Intermediate Language and JIT Compilation.md",
+    "Csharp/disassembly_IL_JIT",
+    "Csharp/basic/type_convert.md",
+    "Csharp/basic/regular_expression.md",
+    "Csharp/basic/null-coalescing operators.md",
     "Csharp/basic/Value Type and Reference Type.md",
-    "Csharp/img/escape_Character.png",
+    "Visual_Studio/Find out which process is running an ASP.NET app.md",
+    "VM/Fix mouse input not captured on Hyper-v.md",
     "Pasted image 20231218083451.png",
     "Pasted image 20231208213026.png",
     "Pasted image 20231208212911.png",
     "Pasted image 20231204081837.png",
     "Excalidraw/Drawing 2023-12-30 20.44.33.excalidraw.md",
     "Excalidraw",
-    "Csharp/Type/record.md",
     "Csharp/Type/class and struct.md",
     "Csharp/modifiers_keyword/sealed.md",
     "金融/升降息.excalidraw.md",
@@ -293,7 +266,6 @@
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-white.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
     "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-purple.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]
