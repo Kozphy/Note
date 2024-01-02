@@ -4,73 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "882c3524aa6a5572",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "95ec0d35e0533393",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "8676e0b820699f7f",
         "type": "tabs",
         "children": [
           {
-            "id": "7d05157ce603ab02",
+            "id": "4ec458bbf98c5d9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/MSSQL/The name convention of foreign key in sql.md",
+                "file": "130~139 electrical/130 fundamentals/relay.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "6d5e54db748a8e02",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "313fa0164c6f5e88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "example_tasks/recipes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e748aebf30c9396",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SourceTree/add ssh key to source tree.md",
-                "mode": "source",
-                "file": "Csharp/Type/record.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
         ]
       }
     ],
@@ -100,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:obsidian_instruction path:obsidian_instruction  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,8 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SourceTree/add ssh key to source tree.md",
-                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
+                "file": "130~139 electrical/130 fundamentals/relay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,8 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SourceTree/add ssh key to source tree.md",
-                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
+                "file": "130~139 electrical/130 fundamentals/relay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,8 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SourceTree/add ssh key to source tree.md"
-                "file": "Csharp/proper_noun/Boxing and Unboxing in CSharp.md"
+                "file": "130~139 electrical/130 fundamentals/relay.md"
               }
             }
           },
@@ -219,17 +164,9 @@
               "type": "side-panel-control-view",
               "state": {}
             }
-          },
-          {
-            "id": "ba3ed47baca3872a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -243,62 +180,62 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "4e748aebf30c9396",
-  "active": "95ec0d35e0533393",
+  "active": "4ec458bbf98c5d9c",
   "lastOpenFiles": [
-    "金融/升降息.excalidraw.md",
-    "金融/債券.excalidraw.md",
-    "金融",
-    "github/shh_conn.md",
-    "SourceTree/add ssh key to source tree.md",
-    "SourceTree",
-    "Csharp/Proper Nouns/statement and Expression.md",
-    "Excalidraw/instruction/draw straight line.md",
-    "github/github cookie.md",
-    "github/github index.md",
-    "web browser extension/extension list.md",
-    "30-39 Music",
-    "20-29 Home business",
-    "16 Travel",
-    "10-19 Life administration",
-    "2024",
-    "2023",
+    "130~139 electrical/130 fundamentals/diode.md",
+    "130~139 electrical/130 fundamentals/relay.md",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/42_02_Neso_academy/Untitled.md",
+    "130~139 electrical/130 fundamentals",
+    "130~139 electrical/Untitled.md",
+    "130~139 electrical",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/42_02_Neso_academy/Process Management (Processes and Threads).md",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/42_02_Neso_academy/01_intro_Operating_system.md",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/42_02_Neso_academy/02_Basics of OS.md",
+    "Basics of OS (I/O Structure).md",
+    "Basics of OS (I",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/process_thread/Context-switch.md",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/42_02_Neso_academy",
+    "40-49 Program_Computer/42_Computer/42_02 OS/Untitled.md",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/OS_index.md",
+    "40-49 Program_Computer/42_Computer/42_02 OS/process_thread/Drawing 2023-12-31 20.48.38.excalidraw.md",
+    "40-49 Program_Computer/42_Computer/scaling/Horizontal and Vertical scaling.md",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/process_thread",
+    "100~109 finance/101 bond/Non-Callable Bond.md",
+    "40-49 Program_Computer/44_Math/geometry_index.md",
+    "40-49 Program_Computer/44_Math/Euler's_number.md",
+    "40-49 Program_Computer/41_Program/windows/where is windows ssh location.md",
+    "100~109 finance/101 bond",
+    "40-49 Program_Computer/Untitled",
+    "120~129 browser",
+    "50~59 network/50_MIS/TECHNOLOGY EXPLAINED/transfer files between two computer by using LAN or Wi-Fi.md",
+    "40-49 Program_Computer/note_pic/Pasted image 20231027123846.png",
+    "110~119 industry",
+    "50~59 network/50_MIS",
+    "40-49 Program_Computer/44_Math/Irrational_num.md",
+    "40-49 Program_Computer/44_Math/Mathematical Fundamentals.md",
+    "40-49 Program_Computer/42_Computer/42_01 embedded/index.md",
+    "60~69 Obsidian_instructions/create checkbox in obsidian.md",
+    "80~89 drawing/drawio/basic.md",
+    "60~69 Obsidian_instructions/step-by-step guide.md",
+    "50~59 version_control_system/version_control.md",
+    "40-49 Program_Computer/46_cheetsheet/cheetsheet index.md",
+    "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
+    "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
+    "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png",
+    "50~59 version_control_system/50 github/github_action/component_of_github_action.drawio.svg",
     "Pasted image 20231227143807.png",
-    "Csharp/regex/regular_expression.md",
-    "Csharp/proper_noun/Boxing and Unboxing in CSharp.md",
-    "Csharp/proper_noun",
-    "Csharp/object/reference equality vs value equality.md",
-    "Csharp/object",
-    "Csharp/modifiers_keyword/static and not static.md",
-    "Csharp/modifiers_keyword/sealed.md",
-    "Csharp/modifiers_keyword/async.md",
-    "Csharp/basic/method.md",
-    "Csharp/basic/escape_Character.md",
-    "Csharp/Type/Value Type and Reference Type.md",
-    "Csharp/Type/value equality.md",
-    "Csharp/Type/struct.md",
-    "Csharp/Type/record.md",
-    "Csharp/Type/class and struct.md",
-    "Csharp/disassembly_IL_JIT/C# Disassembly Intermediate Language and JIT Compilation.md",
-    "Csharp/disassembly_IL_JIT/dessembly.md",
-    "Csharp/Solution File (.sln).md",
-    "Csharp/basic/Value Type and Reference Type.md",
-    "Csharp/img/escape_Character.png",
+    "40-49 Program_Computer/41_Program/Csharp/img/escape_Character.png",
     "Pasted image 20231218083451.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-yellow.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-white.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-purple.png",
-    "obsidian_instruction/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
+    "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-yellow.png",
+    "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/chalk-white.png",
     "Untitled.canvas",
     "css/Untitled.canvas"
   ]
