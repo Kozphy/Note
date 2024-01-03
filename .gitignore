@@ -57,4 +57,4 @@ Mkfile.old
 dkms.conf
 
 # obsidian
-workspace.json
+.obsidian/workspace.json
