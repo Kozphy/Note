@@ -1,4 +1,3 @@
-# Basics of OS (I/O Structure)
 #OS 
 ![](https://i.imgur.com/uP7Z9Mw.png)
 

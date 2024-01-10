@@ -23,9 +23,11 @@
             "id": "bfa3dfe67f263e0e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png"
+                "file": "40-49 Program_Computer/41_Program/41_02_WSL/can't_mount.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png",
+                "file": "40-49 Program_Computer/41_Program/41_02_WSL/can't_mount.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png",
+                "file": "40-49 Program_Computer/41_Program/41_02_WSL/can't_mount.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png"
+                "file": "40-49 Program_Computer/41_Program/41_02_WSL/can't_mount.md"
               }
             }
           }
@@ -185,6 +187,18 @@
   },
   "active": "c21689aba5afc5be",
   "lastOpenFiles": [
+    "web_security/Authentication vs Authorization.md",
+    "40-49 Program_Computer/41_Program/41_02_WSL",
+    "web_security/About web security.md",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/42_02_Neso_academy/03_Basic of OS Input output Structure.md",
+    "VM/intro virtual machine.md",
+    "VM/how to copy and transfer files to hyper-v VM.md",
+    "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md",
+    "VM/Fix mouse input not captured on Hyper-v.md",
+    "VM/Enhanced Session Mode.md",
+    "40-49 Program_Computer/41_Program/programe lang source.md",
+    "40-49 Program_Computer/41_Program/cheetsheet index.md",
+    "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/styles.css",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/manifest.json",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/main.js",
@@ -194,8 +208,6 @@
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-mind-map/main.js",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-mind-map",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-markdown-formatting-assistant-plugin/styles.css",
-    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-markdown-formatting-assistant-plugin/manifest.json",
-    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-markdown-formatting-assistant-plugin/main.js",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/menu/README.md",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/menu/CONTRIBUTING.md",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/customcontrols/README.md",
@@ -209,7 +221,6 @@
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-green.png",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-blue.png",
-    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/boardmarker-yellow.png",
     "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/README.md",
     "40-49 Program_Computer/46_SAP/SAP consultant career.md",
     "40-49 Program_Computer/46_SAP/SAP index.md",
@@ -221,9 +232,6 @@
     "40-49 Program_Computer/48_DB/48.02 db design/schema diagram.md",
     "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).md",
     "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).excalidraw.md",
-    "40-49 Program_Computer/48_DB/48.02 db design/規劃關聯式資料庫.md",
-    "40-49 Program_Computer/48_DB/database/database learn index.md",
-    "schema diagram.md",
-    "Basics of OS (I/O Structure).md"
+    "40-49 Program_Computer/48_DB/48.02 db design/規劃關聯式資料庫.md"
   ]
 }
