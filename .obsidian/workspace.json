@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f759071e921585b4",
+        "id": "8556a3ce73036cd7",
         "type": "tabs",
         "children": [
           {
@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).md",
+                "file": "40-49 Program_Computer/46_SAP/SAP index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "49fc5f98b1d78e43",
+            "id": "bfa3dfe67f263e0e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "image",
               "state": {
-                "file": "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).excalidraw.md"
+                "file": "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png"
               }
             }
           }
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"60~69 Obsidian_instructions\"  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).excalidraw.md",
+                "file": "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).excalidraw.md",
+                "file": "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).excalidraw.md"
+                "file": "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png"
               }
             }
           }
@@ -169,6 +169,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "card-board:CardBoard": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -177,27 +180,50 @@
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "card-board:CardBoard": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "49fc5f98b1d78e43",
+  "active": "c21689aba5afc5be",
   "lastOpenFiles": [
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/styles.css",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/manifest.json",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/main.js",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/data.json",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-mind-map/manifest.json",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-mind-map/main.js",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-mind-map",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-markdown-formatting-assistant-plugin/styles.css",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-markdown-formatting-assistant-plugin/manifest.json",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-markdown-formatting-assistant-plugin/main.js",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/menu/README.md",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/menu/CONTRIBUTING.md",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/customcontrols/README.md",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chart/README.md",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-yellow.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-white.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-purple.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-green.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-blue.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/boardmarker-yellow.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/README.md",
+    "40-49 Program_Computer/46_SAP/SAP consultant career.md",
+    "40-49 Program_Computer/46_SAP/SAP index.md",
+    "40-49 Program_Computer/48_DB/48.01 basic knowledge/Data Models.md",
+    "40-49 Program_Computer/48_DB/database/MSSQL/Stored Procedures.md",
+    "40-49 Program_Computer/48_DB/48.01 basic knowledge/Database System Architecture - Part 1.md",
+    "40-49 Program_Computer/48_DB/48.01 basic knowledge/Database languages and Software.md",
+    "40-49 Program_Computer/48_DB/48.01 basic knowledge/proper noun.md",
+    "40-49 Program_Computer/48_DB/48.02 db design/schema diagram.md",
     "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).md",
     "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).excalidraw.md",
-    "Basics of OS (I/O Structure).md",
-    "10-19 Life administration/10 Book",
-    "Untitled",
-    "Thumbs.db",
-    "Pasted image 20240102141542.png",
-    "Pasted image 20240102141119.png",
-    "Pasted image 20240102140332.png",
     "40-49 Program_Computer/48_DB/48.02 db design/規劃關聯式資料庫.md",
-    "40-49 Program_Computer/48_DB/48.02 db design/schema diagram.md",
-    "40-49 Program_Computer/48_DB/48.02 db design",
-    "40-49 Program_Computer/48_DB/48.01 basic knowledge/Database languages and Software.md",
-    "40-49 Program_Computer/48_DB/48.01 basic knowledge"
+    "40-49 Program_Computer/48_DB/database/database learn index.md",
+    "schema diagram.md",
+    "Basics of OS (I/O Structure).md"
   ]
 }
