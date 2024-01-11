@@ -133,7 +133,7 @@ So the people were forced to come up with the bizarre convention of storing a FE
 
 Phew. Not every Unicode string in the wild has a byte order mark at the beginning.
 
-![like_order_make](./order_mark_car.drawio.svg)
+![like_order_make](order_mark_car.drawio.svg)
 
 For a while it seemed like that might be good enough, but programmers were complaining. “Look at all those zeros!” they said, since they were Americans and they were looking at English text which rarely used code points above U+00FF.
 
@@ -145,7 +145,7 @@ Thus was [invented](https://www.cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt) the b
 
 Only `code points 128 and above` are stored `using 2, 3`, in fact, `up to 6 bytes`.
 
-![unicode_transform_format](./unicode_transform_format.drawio.svg)
+![unicode_transform_format](unicode_transform_format.drawio.svg)
 
 This has the `neat side effect` that `English text` looks exactly the `same` `in UTF-8 as` it did in `ASCII`, so Americans don’t even notice anything wrong.
 
