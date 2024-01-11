@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f759071e921585b4",
+        "id": "8556a3ce73036cd7",
         "type": "tabs",
         "children": [
           {
@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basics of OS (I/O Structure).md",
+                "file": "40-49 Program_Computer/46_SAP/SAP index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfa3dfe67f263e0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/43_03_Windows/01. Fix Windows 11 File Explorer Not Responding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"60~69 Obsidian_instructions\"  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basics of OS (I/O Structure).md",
+                "file": "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/43_03_Windows/01. Fix Windows 11 File Explorer Not Responding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basics of OS (I/O Structure).md",
+                "file": "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/43_03_Windows/01. Fix Windows 11 File Explorer Not Responding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basics of OS (I/O Structure).md"
+                "file": "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/43_03_Windows/01. Fix Windows 11 File Explorer Not Responding.md"
               }
             }
           }
@@ -158,6 +171,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "card-board:CardBoard": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -166,27 +182,56 @@
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "card-board:CardBoard": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d4303d1315d3575c",
+  "active": "bfa3dfe67f263e0e",
   "lastOpenFiles": [
-    "Basics of OS (I/O Structure).md",
-    "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).excalidraw.md",
-    "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).md",
-    "10-19 Life administration/10 Book",
-    "Untitled",
-    "Thumbs.db",
-    "Pasted image 20240102141542.png",
-    "Pasted image 20240102141119.png",
-    "Pasted image 20240102140332.png",
-    "40-49 Program_Computer/48_DB/48.02 db design/規劃關聯式資料庫.md",
-    "40-49 Program_Computer/48_DB/48.02 db design/schema diagram.md",
-    "40-49 Program_Computer/48_DB/48.02 db design",
+    "40-49 Program_Computer/41_Program/41_02_WSL/can't_mount.md",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/43_03_Windows/01. Fix Windows 11 File Explorer Not Responding.md",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/43_03_Windows",
+    "40-49 Program_Computer/41_Program/41_03_text_editor",
+    "40-49 Program_Computer/43_IDE",
+    "web_security/Authentication vs Authorization.md",
+    "40-49 Program_Computer/41_Program/41_02_WSL",
+    "web_security/About web security.md",
+    "40-49 Program_Computer/42_Computer/42_02 OS (Operating system)/42_02_Neso_academy/03_Basic of OS Input output Structure.md",
+    "VM/intro virtual machine.md",
+    "VM/how to copy and transfer files to hyper-v VM.md",
+    "VM/fix Win10 Pro VM freezes without Login Dialog in Enhanced Session Mode or Hyper-V login in enhanced mode not possible.md",
+    "VM/Fix mouse input not captured on Hyper-v.md",
+    "VM/Enhanced Session Mode.md",
+    "40-49 Program_Computer/41_Program/programe lang source.md",
+    "40-49 Program_Computer/41_Program/cheetsheet index.md",
+    "60~69 Obsidian_instructions/my_community_plugin/obsidian-advanced-slides/plugin/chalkboard/img/blackboard.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/styles.css",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/manifest.json",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/main.js",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings/data.json",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-minimal-settings",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-mind-map/manifest.json",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/menu/README.md",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/menu/CONTRIBUTING.md",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/customcontrols/README.md",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chart/README.md",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/whiteboard.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/sponge.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-yellow.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-white.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-red.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-purple.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-orange.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-green.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/img/chalk-blue.png",
+    "60~69 Obsidian_instructions/my_community_plugin/table-editor-obsidian/obsidian-advanced-slides/plugin/chalkboard/README.md",
+    "40-49 Program_Computer/46_SAP/SAP consultant career.md",
+    "40-49 Program_Computer/46_SAP/SAP index.md",
+    "40-49 Program_Computer/48_DB/48.01 basic knowledge/Data Models.md",
+    "40-49 Program_Computer/48_DB/database/MSSQL/Stored Procedures.md",
+    "40-49 Program_Computer/48_DB/48.01 basic knowledge/Database System Architecture - Part 1.md",
     "40-49 Program_Computer/48_DB/48.01 basic knowledge/Database languages and Software.md",
-    "40-49 Program_Computer/48_DB/48.01 basic knowledge"
+    "40-49 Program_Computer/48_DB/48.01 basic knowledge/proper noun.md",
+    "40-49 Program_Computer/48_DB/48.02 db design/schema diagram.md",
+    "10-19 Life administration/10 Book/目標 (簡單有效的常識管理).md"
   ]
 }
