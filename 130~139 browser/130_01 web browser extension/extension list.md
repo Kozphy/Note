@@ -7,3 +7,4 @@
 - [YouTube NonStop - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/youtube-nonstop/lgakodbaikpcnfpmanpenlgaghdaifbm?hl=en-US)
 - [YouTube Auto HD + FPS (google.com)](https://chromewebstore.google.com/detail/youtube-auto-hd-+-fps/fcphghnknhkimeagdglkljinmpbagone)
 - [React Developer Tools (google.com)](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- [Fleeting Notes](https://my.fleetingnotes.app/)
