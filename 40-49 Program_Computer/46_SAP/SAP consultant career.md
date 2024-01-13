@@ -1,9 +1,9 @@
 #SAP
 
 ## Source
-https://www.glassdoor.co.uk/Career/how-to-become-sap-consultant_KO14,28.htm
+[glassdoor](https://www.glassdoor.co.uk/Career/how-to-become-sap-consultant_KO14,28.htm)
 
-https://www.jobstreet.com.my/career-advice/role/sap-consultant
+[jobstreet](https://www.jobstreet.com.my/career-advice/role/sap-consultant)
 ## How to become a SAP Consultant
 
 ## What is SAP consultant doing?
@@ -23,4 +23,4 @@ SAP consultants assist companies with implementing projects that involve SAP sof
 - Specialized skills = finance, logistics or human resources in SAP.
 - Soft skill = communication, problem-solving and teamwork.
 ## The feature of SAP Consultant
--
+- 
