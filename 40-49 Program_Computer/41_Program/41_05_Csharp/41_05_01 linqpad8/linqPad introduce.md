@@ -44,6 +44,9 @@ LINQ query syntax => LINQ method syntax
 - 只有搜尋 db 才會有用
 
 ## Data context
-- LINQ to SQL (optimized for SQL Server)
-- Entity Framework Core (multi-provider)
+- [LINQ to SQL]([What You Can Do With LINQ to SQL - ADO.NET | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/what-you-can-do-with-linq-to-sql)) (optimized for SQL Server)
+	- 
+- [Entity Framework Core]([Overview of Entity Framework Core - EF Core | Microsoft Learn](https://learn.microsoft.com/en-us/ef/core/)) (multi-provider) => DBFirst
 		- Model
+
+> [entity framework vs LINQ to SQL](https://stackoverflow.com/questions/8676/entity-framework-vs-linq-to-sql)
