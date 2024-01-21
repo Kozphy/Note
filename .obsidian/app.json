@@ -3,5 +3,6 @@
   "trashOption": "local",
   "vimMode": true,
   "useMarkdownLinks": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "showUnsupportedFiles": true
 }
