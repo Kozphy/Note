@@ -44,17 +44,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "0fca5468da15da29",
-      "parent": 0,
-      "droppable": true,
-      "text": "一寫就圈粉！文字力 x AI 最速打造自媒體影響力",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }
