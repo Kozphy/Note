@@ -14,7 +14,7 @@ SAP consultants assist companies with implementing projects that involve SAP sof
 - enabling them to configure systems to meet business needs.
 ### technical SAP Consultant
 -  network administration
-- software programming 
+-  software programming 
 -  development. 
 ## The demand skill for SAP consultant 
 - technical knowledge

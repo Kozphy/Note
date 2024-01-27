@@ -44,5 +44,28 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "7ac53de69475a05f",
+      "parent": 0,
+      "droppable": true,
+      "text": "How to Become a SAP Consultant: Complete Career Path | Glassdoor",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "7c825d1bb46eec37",
+      "parent": 0,
+      "droppable": true,
+      "text": "Approved Clicked",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
