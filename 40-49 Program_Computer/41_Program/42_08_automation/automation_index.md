@@ -1,0 +1,7 @@
+---
+tags:
+  - automation
+---
+[[Automation control]]
+
+https://hackmd.io/@HhEISRGJQTCDoM7tuJ6Tpg/r1W4fwsA3
