@@ -14,5 +14,6 @@
   "nldates-obsidian",
   "todoist-text",
   "card-board",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-plugin-toc"
 ]
