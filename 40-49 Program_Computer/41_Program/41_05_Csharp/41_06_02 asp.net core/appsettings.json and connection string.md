@@ -3,6 +3,7 @@
 https://stackoverflow.com/questions/17615260/the-certificate-chain-was-issued-by-an-authority-that-is-not-trusted-when-conn
 [SQL Server connection strings - ConnectionStrings.com](https://www.connectionstrings.com/sql-server/)
 
+
 ## appsettings.json
 ```json
 {
