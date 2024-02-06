@@ -3,7 +3,9 @@
 https://www.quora.com/What-does-an-object-in-a-database-mean-Is-it-a-record-or-a-table-a-view-What-is-it
 
 ### from gpt
-An object in a database refers to `any item that is stored in a database management system`. This can include `tables, records, views, and other types of data structures` that are used to organize and manage data within the database
+An object in a database refers to `any item that is stored in a database management system`.
+
+This can include `tables, records, views, and other types of data structures` that are used to organize and manage data within the database
 
 ## From Quora
 In an SQL database, when they say object, they mean any thing you can `create, alter, or drop`. 
