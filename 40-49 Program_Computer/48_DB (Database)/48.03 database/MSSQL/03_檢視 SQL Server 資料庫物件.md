@@ -40,3 +40,6 @@
 	- 非對稱金鑰 (Asymmetric key)
 	- 憑證 (Certificate)
 	- 對稱金鑰 (Symmetric key)
+
+
+	
