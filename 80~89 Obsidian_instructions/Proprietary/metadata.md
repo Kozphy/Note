@@ -1,0 +1,1 @@
+[**Metadata** is a set of data that describes and gives information about other data](https://bing.com/search?q=metadata+definition)

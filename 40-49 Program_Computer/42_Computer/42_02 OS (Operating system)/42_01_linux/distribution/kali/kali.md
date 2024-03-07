@@ -1,0 +1,5 @@
+# kali
+
+## change password
+
+- passwd
