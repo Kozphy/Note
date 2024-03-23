@@ -4,7 +4,7 @@
 
 ## install
 [01_install MSSQL Server 2019](01_install%20MSSQL%20Server%202019.md)
-[02_with check option and without check option](02_with%20check%20option%20and%20without%20check%20option.md)
+[03_with check option and without check option](03_with%20check%20option%20and%20without%20check%20option.md)
 [03_檢視 SQL Server 資料庫物件](03_檢視%20SQL%20Server%20資料庫物件.md)
 [04_ DataBase Files (.mdf, .ndf and .ldf) and FileGroups](04_%20DataBase%20Files%20(.mdf,%20.ndf%20and%20.ldf)%20and%20FileGroups.md)
 [05_Sql Server Configuration Manager](05_Sql%20Server%20Configuration%20Manager.md)
