@@ -1,7 +1,10 @@
 # python module index
 ###### tags: `python module`
+
 ## virtual env
 [conda virtual env](/k_QnnWNQQ-2mnupjReSq1A)
+### mamba
+
 
 ## cmd line tool
 [click](/ZtbfitDpR5C95ohvoBtrtg)
