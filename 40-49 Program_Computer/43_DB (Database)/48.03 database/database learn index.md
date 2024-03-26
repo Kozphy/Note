@@ -1,8 +1,9 @@
 # database learn index
 ###### tags: `database learn`
 
-## Common
-[](schema%20diagram.md)
+# connection String
+[Connection Strings Reference](Connection%20Strings%20Reference.md)
+
 
 # Postgres 
 [install in wsl](/s0P5DdBQRw2xzqAx3WM3Zw)
