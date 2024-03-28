@@ -1,5 +1,4 @@
-# python base
-###### tags: `introduction to computer science and programming using python`
+#python 
 
 ## scalar objects
 - int - represent integers, ex. 5
