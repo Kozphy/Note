@@ -23,4 +23,3 @@ SAP consultants assist companies with implementing projects that involve SAP sof
 - Specialized skills = finance, logistics or human resources in SAP.
 - Soft skill = communication, problem-solving and teamwork.
 ## The feature of SAP Consultant
-- 

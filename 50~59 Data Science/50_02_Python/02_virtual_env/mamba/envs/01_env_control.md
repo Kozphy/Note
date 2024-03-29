@@ -1,7 +1,7 @@
 #mamba
 
 ## create env
-```cmd
+```python
 conda create -n myenv python=3.9
 ```
 
@@ -10,11 +10,11 @@ conda create -n myenv python=3.9
 conda activate myenv
 ```
 ## delete virtual env
-```cmd
+```python
 mamba env remove -n <myEnvName>
 ```
 
 ## get env info
-```cmd
+```python
 conda info --envs
 ```
