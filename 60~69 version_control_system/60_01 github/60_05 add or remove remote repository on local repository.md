@@ -3,7 +3,7 @@
 ## add remote repository address on local repository
 ```git
 git remote -v
-git remtoe add <remote_name> <remote_URL>
+git remote add <remote_name> <remote_URL>
 ```
 
 ## remove remote repository address on local repository
