@@ -15,5 +15,7 @@
   "todoist-text",
   "card-board",
   "templater-obsidian",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "obsidian-extract-pdf-highlights",
+  "cm-editor-syntax-highlight-obsidian"
 ]
