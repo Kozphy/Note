@@ -7,6 +7,6 @@
 2. Hugging Face
 3. Nat.dev
 4. [Perplexity AI (Free)]([begin tran insert into 員工 values ('Y123456789', '王安石', '台北',... (perplexity.ai)](https://www.perplexity.ai/search/begin-tran-insert-U.y5xRD3Q5q5TNM2WTj56Q))
-5. Merlin (Free)
+5. [Merlin (Free)]([Merlin AI (getmerlin.in)](https://www.getmerlin.in/chat))
 6. Forefront AI (Free)
 
