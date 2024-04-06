@@ -1,33 +1,86 @@
 {
-  "version": "0.10.0",
+  "version": "0.13.0",
   "data": {
     "boardConfigs": [
       {
-        "tag": "dateBoardConfig",
-        "data": {
-          "completedCount": 10,
-          "filters": [],
-          "filterPolarity": "Allow",
-          "filterScope": "Both",
-          "showFilteredTags": true,
-          "includeUndated": true,
-          "title": "Action Dash",
-          "collapsedColumns": []
-        }
+        "columns": [
+          {
+            "tag": "undated",
+            "data": {
+              "collapsed": false,
+              "name": "Undated"
+            }
+          },
+          {
+            "tag": "dated",
+            "data": {
+              "collapsed": false,
+              "name": "Today",
+              "range": {
+                "tag": "before",
+                "data": 1
+              }
+            }
+          },
+          {
+            "tag": "dated",
+            "data": {
+              "collapsed": false,
+              "name": "Tomorrow",
+              "range": {
+                "tag": "between",
+                "data": {
+                  "from": 1,
+                  "to": 1
+                }
+              }
+            }
+          },
+          {
+            "tag": "dated",
+            "data": {
+              "collapsed": false,
+              "name": "Future",
+              "range": {
+                "tag": "after",
+                "data": 1
+              }
+            }
+          },
+          {
+            "tag": "completed",
+            "data": {
+              "collapsed": false,
+              "index": 4,
+              "limit": 10,
+              "name": "Completed"
+            }
+          }
+        ],
+        "filters": [],
+        "filterPolarity": "Allow",
+        "filterScope": "Both",
+        "name": "Action Dash",
+        "showColumnTags": false,
+        "showFilteredTags": true
       }
     ],
     "globalSettings": {
-      "taskCompletionFormat": "ObsidianTasks",
-      "columnNames": {
+      "defaultColumnNames": {
         "today": "",
         "tomorrow": "",
         "future": "",
         "undated": "",
-        "others": "",
+        "otherTags": "",
         "untagged": "",
         "completed": ""
       },
-      "ignoreFileNameDates": true
+      "filters": [],
+      "firstDayOfWeek": "FromLocale",
+      "ignoreFileNameDates": true,
+      "taskCompletionFormat": "ObsidianTasks",
+      "taskCompletionInLocalTime": false,
+      "taskCompletionShowUtcOffset": false
     }
   }
 }
