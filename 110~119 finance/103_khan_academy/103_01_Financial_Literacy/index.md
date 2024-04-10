@@ -1,4 +1,4 @@
-#personal_finance 
+#financial_literacy 
 
 - [[#Content|Content]]
 
@@ -6,4 +6,4 @@
 https://www.khanacademy.org/college-careers-more/financial-literacy/xa6995ea67a8e9fdd:welcome-to-financial-literacy
 
 ## Content
-[01_Financial_Literacy_intro](01_Financial_Literacy_intro.md)
+[Financial_Literacy_intro](Financial_Literacy_intro.md)

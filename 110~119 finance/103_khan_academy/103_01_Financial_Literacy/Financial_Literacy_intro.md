@@ -1,4 +1,4 @@
-#personal_finance
+#financial_literacy 
 
 ## Source
 https://www.khanacademy.org/college-careers-more/financial-literacy/xa6995ea67a8e9fdd:welcome-to-financial-literacy/xa6995ea67a8e9fdd:intro-to-financial-literacy/a/what-is-financial-literacy
