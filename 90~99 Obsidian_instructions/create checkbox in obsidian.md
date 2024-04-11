@@ -1,4 +1,4 @@
-#how_to_create_note
+#obsidian_instruction 
 ## step
 1. type - (hyphen)
 2. type \[ (left squre bracket).
