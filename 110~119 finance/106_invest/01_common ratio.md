@@ -10,6 +10,7 @@ $$
 $$
 - **Stock Price** represents the current market price of one share of the company’s stock.
 - **EPS** is the company’s earnings per share, which is typically calculated as net income divided by the number of outstanding shares.
+- `outstanding shares`: Outstanding shares are all the shares issued and sold by a company that are not held by the company itself.
 
 ## EPS
 - **Definition**: EPS represents how much money a company makes for each share of its stock. It’s calculated by dividing the company’s **net income** (`after subtracting preferred dividends`) by the **average number of common shares outstanding**.

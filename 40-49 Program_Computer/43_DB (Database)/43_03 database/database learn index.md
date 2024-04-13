@@ -1,8 +1,16 @@
-# database learn index
-###### tags: `database learn`
+- [[#solve problem on unoffical source|solve problem on unoffical source]]
+	- [[#solve problem on unoffical source#Tutorial|Tutorial]]
+	- [[#solve problem on unoffical source#Auto Generating Migrations|Auto Generating Migrations]]
+	- [[#solve problem on unoffical source#Cookbook|Cookbook]]
+	- [[#solve problem on unoffical source#API Detail|API Detail]]
+	- [[#solve problem on unoffical source#Tutorial|Tutorial]]
+	- [[#solve problem on unoffical source#Sqlalchemy orm|Sqlalchemy orm]]
+	- [[#solve problem on unoffical source#Sqlalchemy core|Sqlalchemy core]]
 
 # connection String
 [Connection Strings Reference](Connection%20Strings%20Reference.md)
+
+# MSSQL
 
 
 # Postgres 
