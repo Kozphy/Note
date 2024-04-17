@@ -1,7 +1,10 @@
 #program_Computer 
 
-[軟體生命週期（**Software Development Life Cycle**，簡稱 **SDLC**）是指從邏輯性的系統概念開始，經過設計、實作、測試，最終進入運行維護的整個過程](https://www.cc.ntu.edu.tw/chinese/epaper/0002/20070920_2011.htm)[1](https://www.cc.ntu.edu.tw/chinese/epaper/0002/20070920_2011.htm)。讓我們深入了解一下 SDLC 的各個階段：
+## Source
+[Software Development Life Cycle (SDLC) - GeeksforGeeks](https://www.geeksforgeeks.org/software-development-life-cycle-sdlc/)
 
+## Content
+[軟體生命週期（**Software Development Life Cycle**，簡稱 **SDLC**）是指從邏輯性的系統概念開始，經過設計、實作、測試，最終進入運行維護的整個過程](https://www.cc.ntu.edu.tw/chinese/epaper/0002/20070920_2011.htm)[1](https://www.cc.ntu.edu.tw/chinese/epaper/0002/20070920_2011.htm)。讓我們深入了解一下 SDLC 的各個階段：
 1. **規劃（Planning）**：
     - 這個階段通常包括成本效益分析、排程、資源預估和配置等任務。
     - 開發團隊收集需求，建立軟體需求規範文件，設定期望值，並定義共同目標。
