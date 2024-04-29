@@ -10,7 +10,6 @@
 - `CONVERT()`
 - `GETDATE()`
 - `DATEDIFF()`
-- 聚合函數
 
 ## like
 `%`: 代表 0 或更多任意長度字元的任何字串
@@ -21,11 +20,11 @@
 
 
 ## 聚合函數(aggregate function)
-- `COUNT()`
-- `AVG()`
-- `MAX()`
-- `MIN()`
-- `SUM()`
+- `MIN()` - returns the smallest value within the selected column
+- `MAX()` - returns the largest value within the selected column
+- `COUNT()` - returns the number of rows in a set
+- `SUM()` - returns the total sum of a numerical column
+- `AVG()` - returns the average value of a numerical column
 
 
 
