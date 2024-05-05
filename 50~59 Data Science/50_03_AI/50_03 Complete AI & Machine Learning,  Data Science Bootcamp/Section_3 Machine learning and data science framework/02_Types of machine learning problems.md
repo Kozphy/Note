@@ -1,11 +1,10 @@
 #ai 
 
-
 ## When shouldn't you use machine learning?
 - Will simple hand-coded instruction based system work?
 
 ## Main types of machine learning
-###  Supervised Learning
+###  Supervised Learning (I know my inputs and outputs.)
 -  It's called Supervised learning because you have data and labels.
 - It tries to `use the data to predict a label` If it guesses the label wrong, the algorithm corrects itself and tries again (This act of correction is why it's called supervised).
 - A supervised learning algorithm repeats this process over and over again, trying to get better.
@@ -21,7 +20,7 @@ It involve trying to `predict a number`. You might hear it referred to as a cont
 - How much will this house sell for?
 - How many people will buy this app?
 
-###  Unsupervised Learning
+###  Unsupervised Learning (I'm not sure of the outputs but I have inputs)
 it has data but not labels.
 #### Example
 You might have purchase history of all customers at your store, and your marketing team wants to send out a promotion for next summer, but they know not everyone will be interested in new summer clothes.
@@ -33,7 +32,21 @@ Once it's finished, you notice two groups. One group of customers who purchase o
 Problem like this are also called `clustering` or `putting groups of similar examples together`.
 
 Recommendation problems such as recommending what music someone should listen to `based on their previous music choices`, often start out as unsupervised learning problems.
-###  Transfer Learning
+###  Transfer Learning (I think my problem may be similar to something else)
+It leverages what one machine learning model has learned in another machine learning.
+
+You could find an existing model which is learned to decipher different car types and fine tune it for your task.
+- `fine tuning`: **Fine-tuning** is a technique in machine learning, optimization, and statistics used to tune the parameters of a model by making small adjustments to the initial set of parameters. Fine-tuning is typically performed using a `gradient-based optimization algorithm`, such as `gradient descent`.
+
+![](Pasted%20image%2020240505220450.png)
+#### Why is this valuable?
+Because training a machine learning algorithm, which means letting it find all of the patterns in data, can be a `very expensive task to find patterns in data`.
 
 ###  Reinforcement Learning
+It involves having a computer program perform some actions within a `defined space and rewarding it for doing it well or punishing it for doing poorly`.
+
+![](Pasted%20image%2020240505221728.png)
+
+#### Real word example
+Deepmind's AlphaGo
 
