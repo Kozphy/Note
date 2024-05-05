@@ -24,6 +24,12 @@ Sometimes we have data that `doesn't have labels`, and this is called unsupervis
 Skill acquisition Real time learning.
 It's all about teaching machines through trial and error, through rewards and punishment.
 
+> Machine learning has different categories and different ways to accomplish its goal like:
+> - neural networks
+> - decision trees
+> - support vector machines
+> - k nearest neighbot
+>These simply algorithms that are used with these subfields in order to come to these predictions.
 	
 
 
