@@ -1,5 +1,10 @@
 #dataScience 
 
+- [[#What is machine learning|What is machine learning]]
+- [[#Supervised learning|Supervised learning]]
+- [[#Unsupervised learning|Unsupervised learning]]
+- [[#Reinforcement learning|Reinforcement learning]]
+
 ## What is machine learning
 Machine learning is simply about predicting results based on incoming data and all these subcategories simply do that.
 
