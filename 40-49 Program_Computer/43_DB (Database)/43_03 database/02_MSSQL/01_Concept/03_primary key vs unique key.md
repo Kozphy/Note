@@ -1,8 +1,8 @@
 #mssql 
 
 ## Summary
-- A `primary key` is used to enforce entity integrity and uniquely identify rows.
-- A `unique key` ensures uniqueness but allows NULL values and can be used for columns other than the primary key.
+- A `primary key` is used to enforce entity integrity and `uniquely identify` rows.
+- A `unique key` ensures uniqueness but `allows NULL values` and can be used for columns other than the primary key.
 ## Primary key
 - A **primary key** is a column in a table that **uniquely identifies each tuple (row)** in that table.
 - Key features of a primary key:
