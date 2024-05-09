@@ -49,4 +49,3 @@ It involves having a computer program perform some actions within a `defined spa
 
 #### Real word example
 Deepmind's AlphaGo
-
