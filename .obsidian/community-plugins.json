@@ -18,5 +18,6 @@
   "obsidian-plugin-toc",
   "obsidian-extract-pdf-highlights",
   "cm-editor-syntax-highlight-obsidian",
-  "quick-latex"
+  "quick-latex",
+  "sheets"
 ]
