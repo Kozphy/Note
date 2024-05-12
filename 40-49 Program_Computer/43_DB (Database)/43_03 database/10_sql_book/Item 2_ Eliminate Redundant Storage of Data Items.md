@@ -1,4 +1,3 @@
-# Item 2: Eliminate Redundant Storage of Data Items
 ###### tags: `sql book`
 
 ## what is redundant 
