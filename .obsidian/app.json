@@ -4,5 +4,6 @@
   "vimMode": true,
   "useMarkdownLinks": true,
   "showLineNumber": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "promptDelete": false
 }
