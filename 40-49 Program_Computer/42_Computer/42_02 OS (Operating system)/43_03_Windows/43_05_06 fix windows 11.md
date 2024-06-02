@@ -20,6 +20,8 @@ Tomorrow: 2024-01-28
 ## Source
 [How to repair Windows 11 (xda-developers.com)](https://www.xda-developers.com/how-to-repair-windows-11/)
 
+[(392) How to fix ANY Windows problem with the built-in repair tool - YouTube](https://www.youtube.com/watch?v=i-QHtJGAXgI)
+
 ```cmd
 chkdsk \r
 ```
