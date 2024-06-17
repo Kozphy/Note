@@ -1,5 +1,6 @@
 #invest
 
+> 			update time: 2024-06-04 19:27
 ## all smart profolio from etoro
 https://www.etoro.com/discover/smartportfolios?utm_medium=Affiliate&utm_source=51862&utm_content=0&utm_serial=&utm_campaign=&utm_term=
 
